@@ -1,0 +1,32 @@
+[
+  {
+    "chapter": 1,
+    "questions": [
+      {
+        "question": "<A>が降っている。",
+        "kanji": "雨",
+        "kana": "あめ"
+      },
+      {
+        "question": "<A>を食べる",
+        "kanji": "ご飯",
+        "kana": "ごはん"
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "questions": [
+      {
+        "question": "<A>が降っている。",
+        "kanji": "雨",
+        "kana": "あめ"
+      },
+      {
+        "question": "<A>を食べる",
+        "kanji": "ご飯",
+        "kana": "ごはん"
+      }
+    ]
+  }
+]

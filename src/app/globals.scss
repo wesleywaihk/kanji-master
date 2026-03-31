@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button,
+  input:where([type="button"]),
+  input:where([type="reset"]),
+  input:where([type="submit"]) {
+    background-color: #fff;
+    background-image: revert;
+  }
+
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    padding: revert;
+  }
+}
+
+:root {
+  --sakura-dusk: #505477;
+  --sakura-iris: #616c99;
+  --sakura-bloom: #fcddf2;
+  --sakura-coral: #ffc2c2;
+  --sakura-mist: #ffdede;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: "Noto Sans JP", "Hiragino Sans", sans-serif;
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(252, 221, 242, 0.9),
+      rgba(252, 221, 242, 0) 38%
+    ),
+    linear-gradient(180deg, #fff8fb 0%, #fff3f3 100%);
+  color: var(--sakura-dusk);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.landing-shell {
+  position: relative;
+  overflow: hidden;
+}
+
+.landing-shell::before,
+.landing-shell::after {
+  content: "";
+  position: absolute;
+  border-radius: 999px;
+  pointer-events: none;
+}
+
+.landing-shell::before {
+  top: -4rem;
+  right: -2rem;
+  width: 16rem;
+  height: 16rem;
+  background: rgba(255, 194, 194, 0.33);
+  filter: blur(8px);
+}
+
+.landing-shell::after {
+  bottom: 8%;
+  right: -4rem;
+  width: 20rem;
+  height: 20rem;
+  background: rgba(97, 108, 153, 0.08);
+}
+
+.landing-card {
+  position: relative;
+}
