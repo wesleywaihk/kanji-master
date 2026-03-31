@@ -1,34 +1,23 @@
-"use client";
-
-import { useRouter } from "next/navigation";
 import { useDispatch, useSelector } from "react-redux";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-
 import { setGameType, type GameType } from "@/store/courseSlice";
 import type { RootState, AppDispatch } from "@/store/store";
 
+type StepProps = { onNext: (type: GameType) => void; onBack: () => void };
+
 const options: { type: GameType; label: string; description: string }[] = [
-  {
-    type: "card",
-    label: "Card Game",
-    description: "Flip through cards at your own pace.",
-  },
-  {
-    type: "test",
-    label: "Test Paper",
-    description: "Answer all questions in one session.",
-  },
+  { type: "card", label: "カードゲーム", description: "自分のペースでカードをめくる。" },
+  { type: "test", label: "テスト形式", description: "一度にすべての問題に答える。" },
 ];
 
-export default function GameTypePage() {
-  const router = useRouter();
+export default function GameTypeStep({ onNext, onBack }: StepProps) {
   const dispatch = useDispatch<AppDispatch>();
   const level = useSelector((state: RootState) => state.course.level) ?? "";
 
   function handleSelect(type: GameType) {
     dispatch(setGameType(type));
-    if (type === "test") router.push("/test-paper");
+    onNext(type);
   }
 
   return (
@@ -36,17 +25,17 @@ export default function GameTypePage() {
       <section className="landing-card mx-auto flex min-h-[calc(100vh-5rem)] w-full max-w-6xl flex-col justify-between rounded-[36px] border border-white/60 bg-white/65 p-8 shadow-sakura backdrop-blur md:p-12">
         <div className="max-w-3xl">
           <p className="mb-4 inline-flex rounded-full border border-sakura-coral/70 bg-white/70 px-4 py-2 text-sm font-semibold uppercase tracking-[0.3em] text-sakura-iris">
-            Kanji Master · {level.toUpperCase()}
+            漢字マスター · {level.toUpperCase()}
           </p>
           <Typography
             component="h1"
             variant="h1"
             className="max-w-2xl text-5xl leading-none text-sakura-dusk md:text-7xl"
           >
-            How do you want to study?
+            どのように学習しますか？
           </Typography>
           <Typography className="mt-5 max-w-xl text-base text-sakura-iris md:text-lg">
-            Pick a format and begin your session.
+            形式を選んでセッションを始めてください。
           </Typography>
         </div>
 
@@ -69,26 +58,11 @@ export default function GameTypePage() {
                 color: theme.palette.primary.main,
                 boxShadow: "0 18px 30px rgba(80,84,119,0.13)",
                 textAlign: "left",
-                "&:hover": {
-                  background: `${theme.palette.sakura.coral} !important`,
-                  transform: "translateY(-6px)",
-                },
+                "&:hover": { background: `${theme.palette.sakura.coral} !important`, transform: "translateY(-6px)" },
               })}
             >
-              <span
-                style={{
-                  fontSize: "1.6rem",
-                  fontWeight: 800,
-                  letterSpacing: "-0.02em",
-                }}
-              >
-                {label}
-              </span>
-              <span
-                style={{ fontSize: "0.95rem", fontWeight: 400, opacity: 0.75 }}
-              >
-                {description}
-              </span>
+              <span style={{ fontSize: "1.6rem", fontWeight: 800, letterSpacing: "-0.02em" }}>{label}</span>
+              <span style={{ fontSize: "0.95rem", fontWeight: 400, opacity: 0.75 }}>{description}</span>
             </Button>
           ))}
         </div>
@@ -96,7 +70,7 @@ export default function GameTypePage() {
         <div className="mt-8">
           <Button
             variant="outlined"
-            onClick={() => router.back()}
+            onClick={onBack}
             sx={(theme) => ({
               px: 4,
               color: theme.palette.sakura.iris,
@@ -104,13 +78,10 @@ export default function GameTypePage() {
               borderWidth: 2,
               background: "rgba(255,255,255,0.45) !important",
               boxShadow: "none",
-              "&:hover": {
-                borderColor: theme.palette.primary.main,
-                background: "rgba(255,255,255,0.7) !important",
-              },
+              "&:hover": { borderColor: theme.palette.primary.main, background: "rgba(255,255,255,0.7) !important" },
             })}
           >
-            Back
+            ← 戻る
           </Button>
         </div>
       </section>

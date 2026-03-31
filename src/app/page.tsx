@@ -1,64 +1,74 @@
 "use client";
 
-import { useRouter } from "next/navigation";
-import { useDispatch } from "react-redux";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
-import { jlptLevels } from "@/theme/palette";
-import { setLevel } from "@/store/courseSlice";
-import type { AppDispatch } from "@/store/store";
+import { useState, useMemo } from "react";
+import { useSelector } from "react-redux";
+import LandingStep from "@/components/steps/LandingStep";
+import ScopeStep from "@/components/steps/ScopeStep";
+import QuestionCountStep from "@/components/steps/QuestionCountStep";
+import GameTypeStep from "@/components/steps/GameTypeStep";
+import TestPaperStep from "@/components/steps/TestPaperStep";
+import AnswerPaperStep from "@/components/steps/AnswerPaperStep";
+import CardGameStep from "@/components/steps/CardGameStep";
+import type { GameType } from "@/store/courseSlice";
+import type { RootState } from "@/store/store";
+import { generateTestQuestions } from "@/lib/testUtils";
+
+type Step = "landing" | "scope" | "question-count" | "game-type" | "test-paper" | "answer-paper" | "card-game";
 
 export default function HomePage() {
-  const router = useRouter();
-  const dispatch = useDispatch<AppDispatch>();
+  const [step, setStep] = useState<Step>("landing");
 
-  function handleLevelClick(level: string) {
-    dispatch(setLevel(level.toLowerCase()));
-    router.push("/scope");
+  const level = useSelector((state: RootState) => state.course.level) ?? "";
+  const selectedChapters = useSelector((state: RootState) => state.course.selectedChapters);
+  const speakingCount = useSelector((state: RootState) => state.course.speakingCount);
+  const kanjiCount = useSelector((state: RootState) => state.course.kanjiCount);
+
+  // Generated once per unique set of settings; stable across test↔answer navigation.
+  const { speakingQs, kanjiQs } = useMemo(
+    () => generateTestQuestions(level, selectedChapters, speakingCount, kanjiCount),
+    [level, selectedChapters, speakingCount, kanjiCount],
+  );
+
+  if (step === "landing") return <LandingStep onNext={() => setStep("scope")} />;
+  if (step === "scope") return <ScopeStep onNext={() => setStep("question-count")} onBack={() => setStep("landing")} />;
+  if (step === "question-count") return <QuestionCountStep onNext={() => setStep("game-type")} onBack={() => setStep("scope")} />;
+  if (step === "game-type") {
+    return (
+      <GameTypeStep
+        onNext={(type: GameType) => {
+          if (type === "test") setStep("test-paper");
+          if (type === "card") setStep("card-game");
+        }}
+        onBack={() => setStep("question-count")}
+      />
+    );
   }
-
+  if (step === "test-paper") {
+    return (
+      <TestPaperStep
+        speakingQs={speakingQs}
+        kanjiQs={kanjiQs}
+        onBack={() => setStep("game-type")}
+        onAnswer={() => setStep("answer-paper")}
+      />
+    );
+  }
+  if (step === "card-game") {
+    return (
+      <CardGameStep
+        speakingQs={speakingQs}
+        kanjiQs={kanjiQs}
+        onBack={() => setStep("game-type")}
+        onRestart={() => setStep("landing")}
+      />
+    );
+  }
   return (
-    <main className="landing-shell bg-sakura-glow px-6 py-10 md:px-10 md:py-14">
-      <section className="landing-card mx-auto flex min-h-[calc(100vh-5rem)] w-full max-w-6xl flex-col justify-between rounded-[36px] border border-white/60 bg-white/65 p-8 shadow-sakura backdrop-blur md:p-12">
-        <div className="max-w-3xl">
-          <p className="mb-4 inline-flex rounded-full border border-sakura-coral/70 bg-white/70 px-4 py-2 text-sm font-semibold uppercase tracking-[0.3em] text-sakura-iris">
-            Kanji Master
-          </p>
-          <Typography
-            component="h1"
-            variant="h1"
-            className="max-w-2xl text-5xl leading-none text-sakura-dusk md:text-7xl"
-          >
-            Learn kanji with a soft sakura rhythm.
-          </Typography>
-          <Typography className="mt-5 max-w-xl text-base text-sakura-iris md:text-lg">
-            Start from your JLPT level and grow into daily practice, memory
-            drills, and review sessions designed for steady progress.
-          </Typography>
-        </div>
-
-        <div className="mt-10 grid gap-4 md:mt-12 md:grid-cols-5">
-          {jlptLevels.map((level) => (
-            <Button
-              key={level}
-              variant="contained"
-              fullWidth
-              onClick={() => handleLevelClick(level)}
-              sx={(theme) => ({
-                background: "#fff",
-                color: theme.palette.primary.main,
-                fontSize: { xs: "1.6rem", md: "1.9rem" },
-                "&:hover": {
-                  background: theme.palette.sakura.coral,
-                  transform: "translateY(-4px)",
-                },
-              })}
-            >
-              {level}
-            </Button>
-          ))}
-        </div>
-      </section>
-    </main>
+    <AnswerPaperStep
+      speakingQs={speakingQs}
+      kanjiQs={kanjiQs}
+      onBack={() => setStep("test-paper")}
+      onRestart={() => setStep("landing")}
+    />
   );
 }
