@@ -39,12 +39,17 @@ export default function LandingStep({ onNext }: { onNext: () => void }) {
               variant="contained"
               fullWidth
               onClick={() => handleLevelClick(level)}
+              disabled={level !== "N2"}
               sx={(theme) => ({
                 background: "#fff",
                 color: theme.palette.primary.main,
                 fontSize: { xs: "1.6rem", md: "1.9rem" },
                 "&:hover": {
                   background: theme.palette.sakura.coral,
+                  transform: "translateY(-4px)",
+                },
+                "&:disabled": {
+                  background: "#eee !important",
                   transform: "translateY(-4px)",
                 },
               })}

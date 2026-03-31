@@ -13,8 +13,9 @@ export default function QuestionCountStep({ onNext, onBack }: StepProps) {
   const level = useSelector((state: RootState) => state.course.level) ?? "";
   const max = useSelector((state: RootState) => state.course.totalAvailableQuestions);
 
-  const [speaking, setSpeaking] = useState(0);
-  const [kanji, setKanji] = useState(0);
+  const defaultCount = max < 10 ? max : 10;
+  const [speaking, setSpeaking] = useState(defaultCount);
+  const [kanji, setKanji] = useState(defaultCount);
 
   function handleProceed() {
     dispatch(setQuestionCounts({ speakingCount: speaking, kanjiCount: kanji }));

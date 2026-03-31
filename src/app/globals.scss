@@ -85,6 +85,13 @@ a {
   background: rgba(97, 108, 153, 0.08);
 }
 
+@media print {
+  .landing-shell::before,
+  .landing-shell::after {
+    display: none !important;
+  }
+}
+
 .landing-card {
   position: relative;
 }
