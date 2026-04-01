@@ -11,8 +11,11 @@ type StepProps = { onNext: () => void; onBack: () => void };
 export default function QuestionCountStep({ onNext, onBack }: StepProps) {
   const dispatch = useDispatch<AppDispatch>();
   const level = useSelector((state: RootState) => state.course.level) ?? "";
-  const max = useSelector((state: RootState) => state.course.totalAvailableQuestions);
+  const max = useSelector(
+    (state: RootState) => state.course.totalAvailableQuestions,
+  );
 
+  const sliderMax = Math.min(max, 35);
   const defaultCount = max < 10 ? max : 10;
   const [speaking, setSpeaking] = useState(defaultCount);
   const [kanji, setKanji] = useState(defaultCount);
@@ -38,41 +41,68 @@ export default function QuestionCountStep({ onNext, onBack }: StepProps) {
           </Typography>
           <Typography className="mt-5 max-w-xl text-base text-sakura-iris md:text-lg">
             発音問題と漢字問題の数を選んでください。{" "}
-            <span className="font-semibold text-sakura-dusk">選択した章から{max}問利用可能</span>です。
+            <span className="font-semibold text-sakura-dusk">
+              選択した章から{max}問利用可能
+            </span>
+            です。
           </Typography>
         </div>
 
         <div className="mt-10 flex flex-col gap-10 md:mt-0 md:max-w-lg">
           <div>
             <div className="mb-3 flex items-baseline justify-between">
-              <Typography className="font-semibold text-sakura-dusk">発音</Typography>
-              <span className="text-2xl font-bold text-sakura-iris">{speaking}</span>
+              <Typography className="font-semibold text-sakura-dusk">
+                発音
+              </Typography>
+              <span className="text-2xl font-bold text-sakura-iris">
+                {speaking}
+              </span>
             </div>
             <Slider
-              min={0} max={max} value={speaking}
+              min={0}
+              max={sliderMax}
+              value={speaking}
               onChange={(_, v) => setSpeaking(v as number)}
-              disabled={max === 0}
+              disabled={sliderMax === 0}
               sx={(theme) => ({
                 color: theme.palette.sakura.coral,
-                "& .MuiSlider-thumb": { background: theme.palette.sakura.coral, boxShadow: "0 2px 8px rgba(80,84,119,0.18)" },
-                "& .MuiSlider-track": { background: theme.palette.sakura.coral, border: "none" },
+                "& .MuiSlider-thumb": {
+                  background: theme.palette.sakura.coral,
+                  boxShadow: "0 2px 8px rgba(80,84,119,0.18)",
+                },
+                "& .MuiSlider-track": {
+                  background: theme.palette.sakura.coral,
+                  border: "none",
+                },
                 "& .MuiSlider-rail": { background: theme.palette.sakura.bloom },
               })}
             />
           </div>
           <div>
             <div className="mb-3 flex items-baseline justify-between">
-              <Typography className="font-semibold text-sakura-dusk">漢字</Typography>
-              <span className="text-2xl font-bold text-sakura-iris">{kanji}</span>
+              <Typography className="font-semibold text-sakura-dusk">
+                漢字
+              </Typography>
+              <span className="text-2xl font-bold text-sakura-iris">
+                {kanji}
+              </span>
             </div>
             <Slider
-              min={0} max={max} value={kanji}
+              min={0}
+              max={sliderMax}
+              value={kanji}
               onChange={(_, v) => setKanji(v as number)}
-              disabled={max === 0}
+              disabled={sliderMax === 0}
               sx={(theme) => ({
                 color: theme.palette.sakura.iris,
-                "& .MuiSlider-thumb": { background: theme.palette.sakura.iris, boxShadow: "0 2px 8px rgba(80,84,119,0.18)" },
-                "& .MuiSlider-track": { background: theme.palette.sakura.iris, border: "none" },
+                "& .MuiSlider-thumb": {
+                  background: theme.palette.sakura.iris,
+                  boxShadow: "0 2px 8px rgba(80,84,119,0.18)",
+                },
+                "& .MuiSlider-track": {
+                  background: theme.palette.sakura.iris,
+                  border: "none",
+                },
                 "& .MuiSlider-rail": { background: theme.palette.sakura.bloom },
               })}
             />
@@ -90,7 +120,10 @@ export default function QuestionCountStep({ onNext, onBack }: StepProps) {
               borderWidth: 2,
               background: "rgba(255,255,255,0.45) !important",
               boxShadow: "none",
-              "&:hover": { borderColor: theme.palette.primary.main, background: "rgba(255,255,255,0.7) !important" },
+              "&:hover": {
+                borderColor: theme.palette.primary.main,
+                background: "rgba(255,255,255,0.7) !important",
+              },
             })}
           >
             ← 戻る
@@ -103,8 +136,15 @@ export default function QuestionCountStep({ onNext, onBack }: StepProps) {
               px: 6,
               background: `${theme.palette.sakura.bloom} !important`,
               color: theme.palette.primary.main,
-              "&:hover": { background: `${theme.palette.sakura.coral} !important`, transform: "translateY(-4px)" },
-              "&.Mui-disabled": { background: "rgba(255,194,194,0.3) !important", color: "rgba(80,84,119,0.35)", boxShadow: "none" },
+              "&:hover": {
+                background: `${theme.palette.sakura.coral} !important`,
+                transform: "translateY(-4px)",
+              },
+              "&.Mui-disabled": {
+                background: "rgba(255,194,194,0.3) !important",
+                color: "rgba(80,84,119,0.35)",
+                boxShadow: "none",
+              },
             })}
           >
             次へ

@@ -9,6 +9,7 @@ interface CourseState {
   speakingCount: number;
   kanjiCount: number;
   gameType: GameType;
+  isBookmarkMode: boolean;
 }
 
 const initialState: CourseState = {
@@ -18,6 +19,7 @@ const initialState: CourseState = {
   speakingCount: 0,
   kanjiCount: 0,
   gameType: null,
+  isBookmarkMode: false,
 };
 
 export const courseSlice = createSlice({
@@ -28,6 +30,14 @@ export const courseSlice = createSlice({
       state.level = action.payload;
       state.selectedChapters = [];
       state.totalAvailableQuestions = 0;
+      state.speakingCount = 0;
+      state.kanjiCount = 0;
+      state.isBookmarkMode = false;
+    },
+    setBookmarkMode(state, action: PayloadAction<number>) {
+      state.isBookmarkMode = true;
+      state.selectedChapters = [];
+      state.totalAvailableQuestions = action.payload;
       state.speakingCount = 0;
       state.kanjiCount = 0;
     },
@@ -54,6 +64,6 @@ export const courseSlice = createSlice({
   },
 });
 
-export const { setLevel, setSelectedChapters, setQuestionCounts, setGameType } =
+export const { setLevel, setSelectedChapters, setQuestionCounts, setGameType, setBookmarkMode } =
   courseSlice.actions;
 export default courseSlice.reducer;

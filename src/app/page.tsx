@@ -9,11 +9,13 @@ import GameTypeStep from "@/components/steps/GameTypeStep";
 import TestPaperStep from "@/components/steps/TestPaperStep";
 import AnswerPaperStep from "@/components/steps/AnswerPaperStep";
 import CardGameStep from "@/components/steps/CardGameStep";
+import BookmarkStep from "@/components/steps/BookmarkStep";
 import type { GameType } from "@/store/courseSlice";
 import type { RootState } from "@/store/store";
-import { generateTestQuestions } from "@/lib/testUtils";
+import { generateTestQuestions, shuffle } from "@/lib/testUtils";
+import { getBookmarks } from "@/lib/bookmarks";
 
-type Step = "landing" | "scope" | "question-count" | "game-type" | "test-paper" | "answer-paper" | "card-game";
+type Step = "landing" | "scope" | "question-count" | "game-type" | "test-paper" | "answer-paper" | "card-game" | "bookmarks";
 
 export default function HomePage() {
   const [step, setStep] = useState<Step>("landing");
@@ -22,16 +24,23 @@ export default function HomePage() {
   const selectedChapters = useSelector((state: RootState) => state.course.selectedChapters);
   const speakingCount = useSelector((state: RootState) => state.course.speakingCount);
   const kanjiCount = useSelector((state: RootState) => state.course.kanjiCount);
+  const isBookmarkMode = useSelector((state: RootState) => state.course.isBookmarkMode);
 
-  // Generated once per unique set of settings; stable across test↔answer navigation.
-  const { speakingQs, kanjiQs } = useMemo(
-    () => generateTestQuestions(level, selectedChapters, speakingCount, kanjiCount),
-    [level, selectedChapters, speakingCount, kanjiCount],
-  );
+  const { speakingQs, kanjiQs } = useMemo(() => {
+    if (isBookmarkMode) {
+      const pool = getBookmarks();
+      return {
+        speakingQs: shuffle(pool).slice(0, speakingCount),
+        kanjiQs: shuffle(pool).slice(0, kanjiCount),
+      };
+    }
+    return generateTestQuestions(level, selectedChapters, speakingCount, kanjiCount);
+  }, [isBookmarkMode, level, selectedChapters, speakingCount, kanjiCount]);
 
-  if (step === "landing") return <LandingStep onNext={() => setStep("scope")} />;
+  if (step === "landing") return <LandingStep onNext={() => setStep("scope")} onBookmarks={() => setStep("bookmarks")} />;
+  if (step === "bookmarks") return <BookmarkStep onBack={() => setStep("landing")} onStart={() => setStep("question-count")} />;
   if (step === "scope") return <ScopeStep onNext={() => setStep("question-count")} onBack={() => setStep("landing")} />;
-  if (step === "question-count") return <QuestionCountStep onNext={() => setStep("game-type")} onBack={() => setStep("scope")} />;
+  if (step === "question-count") return <QuestionCountStep onNext={() => setStep("game-type")} onBack={() => setStep(isBookmarkMode ? "bookmarks" : "scope")} />;
   if (step === "game-type") {
     return (
       <GameTypeStep

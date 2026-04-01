@@ -1,12 +1,23 @@
+"use client";
+
+import { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { jlptLevels } from "@/theme/palette";
 import { setLevel } from "@/store/courseSlice";
 import type { AppDispatch } from "@/store/store";
+import { getBookmarks } from "@/lib/bookmarks";
 
-export default function LandingStep({ onNext }: { onNext: () => void }) {
+type Props = { onNext: () => void; onBookmarks: () => void };
+
+export default function LandingStep({ onNext, onBookmarks }: Props) {
   const dispatch = useDispatch<AppDispatch>();
+  const [bookmarkCount, setBookmarkCount] = useState(0);
+
+  useEffect(() => {
+    setBookmarkCount(getBookmarks().length);
+  }, []);
 
   function handleLevelClick(level: string) {
     dispatch(setLevel(level.toLowerCase()));
@@ -32,31 +43,52 @@ export default function LandingStep({ onNext }: { onNext: () => void }) {
           </Typography>
         </div>
 
-        <div className="mt-10 grid gap-4 md:mt-12 md:grid-cols-5">
-          {jlptLevels.map((level) => (
-            <Button
-              key={level}
-              variant="contained"
-              fullWidth
-              onClick={() => handleLevelClick(level)}
-              disabled={level !== "N2"}
-              sx={(theme) => ({
-                background: "#fff",
-                color: theme.palette.primary.main,
-                fontSize: { xs: "1.6rem", md: "1.9rem" },
-                "&:hover": {
-                  background: theme.palette.sakura.coral,
-                  transform: "translateY(-4px)",
-                },
-                "&:disabled": {
-                  background: "#eee !important",
-                  transform: "translateY(-4px)",
-                },
-              })}
-            >
-              {level}
-            </Button>
-          ))}
+        <div className="flex flex-col gap-4">
+          <div className="mt-10 grid gap-4 md:mt-12 md:grid-cols-5">
+            {jlptLevels.map((level) => (
+              <Button
+                key={level}
+                variant="contained"
+                fullWidth
+                onClick={() => handleLevelClick(level)}
+                disabled={level !== "N2"}
+                sx={(theme) => ({
+                  background: "#fff",
+                  color: theme.palette.primary.main,
+                  fontSize: { xs: "1.6rem", md: "1.9rem" },
+                  "&:hover": {
+                    background: theme.palette.sakura.coral,
+                    transform: "translateY(-4px)",
+                  },
+                  "&:disabled": {
+                    background: "#eee !important",
+                    transform: "translateY(-4px)",
+                  },
+                })}
+              >
+                {level}
+              </Button>
+            ))}
+          </div>
+
+          <Button
+            variant="contained"
+            onClick={onBookmarks}
+            sx={(theme) => ({
+              background: "rgba(255,255,255,0.7) !important",
+              color: theme.palette.sakura.iris,
+              fontSize: "1rem",
+              fontWeight: 600,
+              border: `2px solid ${theme.palette.sakura.coral}`,
+              boxShadow: "none",
+              "&:hover": {
+                background: `${theme.palette.sakura.bloom} !important`,
+                transform: "translateY(-4px)",
+              },
+            })}
+          >
+            ★ ブックマーク{bookmarkCount > 0 ? `（${bookmarkCount}問）` : ""}
+          </Button>
         </div>
       </section>
     </main>

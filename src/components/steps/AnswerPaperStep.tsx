@@ -1,8 +1,12 @@
+"use client";
+
+import { useState } from "react";
 import { useSelector } from "react-redux";
 import Button from "@mui/material/Button";
 import type { RootState } from "@/store/store";
 import type { RawQuestion } from "@/lib/courseData";
 import { buildSentence, toFullwidth } from "@/lib/testUtils";
+import { getBookmarks, toggleBookmark } from "@/lib/bookmarks";
 
 type Props = {
   speakingQs: RawQuestion[];
@@ -13,6 +17,31 @@ type Props = {
 
 export default function AnswerPaperStep({ speakingQs, kanjiQs, onBack, onRestart }: Props) {
   const level = useSelector((state: RootState) => state.course.level) ?? "";
+  const selectedChapters = useSelector((state: RootState) => state.course.selectedChapters);
+  const isBookmarkMode = useSelector((state: RootState) => state.course.isBookmarkMode);
+
+  const [bookmarked, setBookmarked] = useState<Set<string>>(() => {
+    const bms = getBookmarks();
+    return new Set(bms.map((b) => `${b.level}::${b.question}::${b.kanji}`));
+  });
+
+  function bKey(q: RawQuestion) {
+    return `${level}::${q.question}::${q.kanji}`;
+  }
+
+  function handleToggle(q: RawQuestion) {
+    const added = toggleBookmark(level, q);
+    setBookmarked((prev) => {
+      const next = new Set(prev);
+      if (added) next.add(bKey(q));
+      else next.delete(bKey(q));
+      return next;
+    });
+  }
+
+  const headerLabel = isBookmarkMode
+    ? "ブックマーク · 解答"
+    : `${level.toUpperCase()} · 解答 · 章 ${selectedChapters.join(", ")}`;
 
   return (
     <>
@@ -99,7 +128,7 @@ export default function AnswerPaperStep({ speakingQs, kanjiQs, onBack, onRestart
           </div>
 
           <p className="print-label mb-8 text-sm font-semibold uppercase tracking-[0.25em] text-sakura-iris">
-            {level.toUpperCase()} · 解答
+            {headerLabel}
           </p>
 
           {speakingQs.length > 0 && (
@@ -114,6 +143,13 @@ export default function AnswerPaperStep({ speakingQs, kanjiQs, onBack, onRestart
                       dangerouslySetInnerHTML={{ __html: buildSentence(q.question, q.kanji) }}
                     />
                     <span className="answer-box font-semibold text-sakura-iris">{q.kana}</span>
+                    <button
+                      onClick={() => handleToggle(q)}
+                      className="no-print shrink-0 text-xl leading-none text-sakura-coral"
+                      title={bookmarked.has(bKey(q)) ? "ブックマーク解除" : "ブックマーク"}
+                    >
+                      {bookmarked.has(bKey(q)) ? "★" : "☆"}
+                    </button>
                   </li>
                 ))}
               </ol>
@@ -132,6 +168,13 @@ export default function AnswerPaperStep({ speakingQs, kanjiQs, onBack, onRestart
                       dangerouslySetInnerHTML={{ __html: buildSentence(q.question, q.kana) }}
                     />
                     <span className="answer-box font-semibold text-sakura-iris">{q.kanji}</span>
+                    <button
+                      onClick={() => handleToggle(q)}
+                      className="no-print shrink-0 text-xl leading-none text-sakura-coral"
+                      title={bookmarked.has(bKey(q)) ? "ブックマーク解除" : "ブックマーク"}
+                    >
+                      {bookmarked.has(bKey(q)) ? "★" : "☆"}
+                    </button>
                   </li>
                 ))}
               </ol>

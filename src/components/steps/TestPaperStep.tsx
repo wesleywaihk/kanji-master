@@ -13,6 +13,8 @@ type Props = {
 
 export default function TestPaperStep({ speakingQs, kanjiQs, onBack, onAnswer }: Props) {
   const level = useSelector((state: RootState) => state.course.level) ?? "";
+  const selectedChapters = useSelector((state: RootState) => state.course.selectedChapters);
+  const isBookmarkMode = useSelector((state: RootState) => state.course.isBookmarkMode);
 
   return (
     <>
@@ -98,7 +100,7 @@ export default function TestPaperStep({ speakingQs, kanjiQs, onBack, onAnswer }:
           </div>
 
           <p className="print-label mb-8 text-sm font-semibold uppercase tracking-[0.25em] text-sakura-iris">
-            {level.toUpperCase()} · テスト
+            {isBookmarkMode ? "ブックマーク · テスト" : `${level.toUpperCase()} · テスト · 章 ${selectedChapters.join(", ")}`}
           </p>
 
           {speakingQs.length > 0 && (
