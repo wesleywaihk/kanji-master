@@ -2738,6 +2738,746 @@
     "chapter": 4,
     "questions": [
       {
+        "question": "子どもが<A>に育つ。",
+        "kanji": "健やか",
+        "kana": "すこやか"
+      },
+      {
+        "question": "<A>室で休む。",
+        "kanji": "保健",
+        "kana": "ほけん"
+      },
+      {
+        "question": "祖父はまだ<A>だ。",
+        "kanji": "健在",
+        "kana": "けんざい"
+      },
+      {
+        "question": "<A>な成長を願う。",
+        "kanji": "健やか",
+        "kana": "すこやか"
+      },
+      {
+        "question": "<A>な考えを持つ。",
+        "kanji": "健全",
+        "kana": "けんぜん"
+      },
+
+      {
+        "question": "毎日<A>に気をつける。",
+        "kanji": "健康",
+        "kana": "けんこう"
+      },
+      {
+        "question": "<A>保険に加入する。",
+        "kanji": "健康",
+        "kana": "けんこう"
+      },
+      {
+        "question": "<A>美を保つ。",
+        "kanji": "健康",
+        "kana": "けんこう"
+      },
+      {
+        "question": "<A>的な生活を送る。",
+        "kanji": "健康",
+        "kana": "けんこうてき"
+      },
+
+      {
+        "question": "医者に<A>てもらう。",
+        "kanji": "診る",
+        "kana": "みる"
+      },
+      {
+        "question": "<A>診断を受ける。",
+        "kanji": "健康診断",
+        "kana": "けんこうしんだん"
+      },
+      {
+        "question": "毎年<A>を受ける。",
+        "kanji": "定期健診",
+        "kana": "ていきけんしん"
+      },
+      {
+        "question": "今日は<A>だ。",
+        "kanji": "初診",
+        "kana": "しょしん"
+      },
+      {
+        "question": "病院が<A>になる。",
+        "kanji": "休診",
+        "kana": "きゅうしん"
+      },
+      {
+        "question": "相手の意向を<A>する。",
+        "kanji": "打診",
+        "kana": "だしん"
+      },
+
+      {
+        "question": "病院の<A>時間を調べる。",
+        "kanji": "診療",
+        "kana": "しんりょう"
+      },
+      {
+        "question": "けがの<A>を受ける。",
+        "kanji": "治療",
+        "kana": "ちりょう"
+      },
+      {
+        "question": "今は<A>中だ。",
+        "kanji": "療養",
+        "kana": "りょうよう"
+      },
+      {
+        "question": "<A>保険制度を見直す。",
+        "kanji": "医療",
+        "kana": "いりょう"
+      },
+      {
+        "question": "<A>機器を導入する。",
+        "kanji": "医療",
+        "kana": "いりょう"
+      },
+
+      {
+        "question": "子どもが命を<A>。",
+        "kanji": "授かる",
+        "kana": "さずかる"
+      },
+      {
+        "question": "事故で命を<A>。",
+        "kanji": "落とす",
+        "kana": "おとす"
+      },
+      {
+        "question": "<A>を大切にする。",
+        "kanji": "生命",
+        "kana": "せいめい"
+      },
+      {
+        "question": "子どもに名前を<A>。",
+        "kanji": "命名",
+        "kana": "めいめい"
+      },
+      {
+        "question": "<A>を感じる。",
+        "kanji": "運命",
+        "kana": "うんめい"
+      },
+      {
+        "question": "的に<A>する。",
+        "kanji": "命中",
+        "kana": "めいちゅう"
+      },
+      {
+        "question": "<A>を出す。",
+        "kanji": "命令",
+        "kana": "めいれい"
+      },
+      {
+        "question": "<A>を迎える。",
+        "kanji": "命日",
+        "kana": "めいにち"
+      },
+
+      {
+        "question": "<A>なる考えを持つ。",
+        "kanji": "異なる",
+        "kana": "ことなる"
+      },
+      {
+        "question": "体に<A>を感じる。",
+        "kanji": "異変",
+        "kana": "いへん"
+      },
+      {
+        "question": "<A>気象が続く。",
+        "kanji": "異常",
+        "kana": "いじょう"
+      },
+      {
+        "question": "<A>の地を旅する。",
+        "kanji": "異国",
+        "kana": "いこく"
+      },
+      {
+        "question": "<A>の人と話す。",
+        "kanji": "異性",
+        "kana": "いせい"
+      },
+      {
+        "question": "体の<A>を調べる。",
+        "kanji": "異状",
+        "kana": "いじょう"
+      },
+
+      {
+        "question": "<A>中を測る。",
+        "kanji": "胸囲",
+        "kana": "きょうい"
+      },
+      {
+        "question": "胸が<A>する。",
+        "kanji": "どきどき",
+        "kana": "どきどき"
+      },
+      {
+        "question": "胸を<A>。",
+        "kanji": "反らす",
+        "kana": "そらす"
+      },
+      {
+        "question": "胸が<A>。",
+        "kanji": "痛む",
+        "kana": "いたむ"
+      },
+      {
+        "question": "<A>がする。",
+        "kanji": "胸焼け",
+        "kana": "むねやけ"
+      },
+      {
+        "question": "<A>がする。",
+        "kanji": "胸騒ぎ",
+        "kana": "むなさわぎ"
+      },
+      {
+        "question": "<A>がある。",
+        "kanji": "度胸",
+        "kana": "どきょう"
+      },
+
+      {
+        "question": "腰を<A>。",
+        "kanji": "曲げる",
+        "kana": "まげる"
+      },
+      {
+        "question": "腰が<A>。",
+        "kanji": "抜ける",
+        "kana": "ぬける"
+      },
+      {
+        "question": "腰が<A>。",
+        "kanji": "低い",
+        "kana": "ひくい"
+      },
+      {
+        "question": "<A>腰で話す。",
+        "kanji": "けんか腰",
+        "kana": "けんかごし"
+      },
+      {
+        "question": "<A>に悩む。",
+        "kanji": "腰痛",
+        "kana": "ようつう"
+      },
+      {
+        "question": "話の腰を<A>。",
+        "kanji": "折る",
+        "kana": "おる"
+      },
+
+      {
+        "question": "脳の働きを<A>。",
+        "kanji": "刻む",
+        "kana": "きざむ"
+      },
+      {
+        "question": "<A>科学を学ぶ。",
+        "kanji": "脳",
+        "kana": "のう"
+      },
+      {
+        "question": "<A>に残る。",
+        "kanji": "脳裏",
+        "kana": "のうり"
+      },
+      {
+        "question": "<A>される。",
+        "kanji": "洗脳",
+        "kana": "せんのう"
+      },
+      {
+        "question": "<A>会談が行われる。",
+        "kanji": "首脳",
+        "kana": "しゅのう"
+      },
+
+      {
+        "question": "<A>を移植する。",
+        "kanji": "臓器",
+        "kana": "ぞうき"
+      },
+      {
+        "question": "<A>が悪い。",
+        "kanji": "心臓",
+        "kana": "しんぞう"
+      },
+      {
+        "question": "<A>の働きを調べる。",
+        "kanji": "内臓",
+        "kana": "ないぞう"
+      },
+
+      {
+        "question": "<A>の検査を受ける。",
+        "kanji": "胃",
+        "kana": "い"
+      },
+      {
+        "question": "<A>がひどい。",
+        "kanji": "胃痛",
+        "kana": "いつう"
+      },
+      {
+        "question": "<A>袋が大きい。",
+        "kanji": "胃",
+        "kana": "い"
+      },
+      {
+        "question": "<A>炎になる。",
+        "kanji": "胃",
+        "kana": "い"
+      },
+      {
+        "question": "<A>薬を飲む。",
+        "kanji": "胃腸",
+        "kana": "いちょう"
+      },
+
+      {
+        "question": "足の<A>を痛める。",
+        "kanji": "筋",
+        "kana": "すじ"
+      },
+      {
+        "question": "背筋を<A>。",
+        "kanji": "伸ばす",
+        "kana": "のばす"
+      },
+      {
+        "question": "<A>道を立てて話す。",
+        "kanji": "筋",
+        "kana": "すじ"
+      },
+      {
+        "question": "<A>をきたえる。",
+        "kanji": "筋肉",
+        "kana": "きんにく"
+      },
+      {
+        "question": "<A>を使う。",
+        "kanji": "鉄筋",
+        "kana": "てっきん"
+      },
+
+      {
+        "question": "<A>を折る。",
+        "kanji": "骨",
+        "kana": "ほね"
+      },
+      {
+        "question": "足を<A>する。",
+        "kanji": "骨折",
+        "kana": "こっせつ"
+      },
+      {
+        "question": "魚の<A>を取る。",
+        "kanji": "骨",
+        "kana": "ほね"
+      },
+      {
+        "question": "<A>院に行く。",
+        "kanji": "接骨",
+        "kana": "せっこつ"
+      },
+
+      {
+        "question": "竹の<A>を見る。",
+        "kanji": "節",
+        "kana": "ふし"
+      },
+      {
+        "question": "関節が<A>。",
+        "kanji": "痛い",
+        "kana": "いたい"
+      },
+      {
+        "question": "人生の<A>を迎える。",
+        "kanji": "節目",
+        "kana": "ふしめ"
+      },
+      {
+        "question": "<A>を節約する。",
+        "kanji": "節",
+        "kana": "せつ"
+      },
+      {
+        "question": "温度を<A>する。",
+        "kanji": "調節",
+        "kana": "ちょうせつ"
+      },
+      {
+        "question": "<A>介を焼く。",
+        "kanji": "お節",
+        "kana": "おせち"
+      },
+
+      {
+        "question": "<A>を起こす。",
+        "kanji": "炎症",
+        "kana": "えんしょう"
+      },
+      {
+        "question": "重い<A>だ。",
+        "kanji": "重症",
+        "kana": "じゅうしょう"
+      },
+      {
+        "question": "軽い<A>で済む。",
+        "kanji": "軽症",
+        "kana": "けいしょう"
+      },
+      {
+        "question": "<A>症状がある。",
+        "kanji": "自覚",
+        "kana": "じかく"
+      },
+      {
+        "question": "<A>症に悩む。",
+        "kanji": "不眠",
+        "kana": "ふみん"
+      },
+
+      {
+        "question": "命に別状は<A>。",
+        "kanji": "ない",
+        "kana": "ない"
+      },
+      {
+        "question": "<A>状をもらう。",
+        "kanji": "賞",
+        "kana": "しょう"
+      },
+      {
+        "question": "贈り物の<A>を出す。",
+        "kanji": "礼状",
+        "kana": "れいじょう"
+      },
+      {
+        "question": "形<A>を調べる。",
+        "kanji": "状",
+        "kana": "じょう"
+      },
+      {
+        "question": "<A>する。",
+        "kanji": "白状",
+        "kana": "はくじょう"
+      },
+
+      {
+        "question": "病気の<A>を調べる。",
+        "kanji": "原因",
+        "kana": "げんいん"
+      },
+      {
+        "question": "事故の<A>を調べる。",
+        "kanji": "要因",
+        "kana": "よういん"
+      },
+      {
+        "question": "死<A>を調べる。",
+        "kanji": "因",
+        "kana": "いん"
+      },
+      {
+        "question": "<A>関係を調べる。",
+        "kanji": "因果",
+        "kana": "いんが"
+      },
+
+      {
+        "question": "状況が<A>する。",
+        "kanji": "一変",
+        "kana": "いっぺん"
+      },
+      {
+        "question": "近況を<A>する。",
+        "kanji": "報告",
+        "kana": "ほうこく"
+      },
+      {
+        "question": "スポーツの<A>中継を見る。",
+        "kanji": "実況",
+        "kana": "じっきょう"
+      },
+      {
+        "question": "<A>に苦しむ。",
+        "kanji": "不況",
+        "kana": "ふきょう"
+      },
+
+      {
+        "question": "健康<A>を確認する。",
+        "kanji": "状態",
+        "kana": "じょうたい"
+      },
+      {
+        "question": "態度が<A>。",
+        "kanji": "悪い",
+        "kana": "わるい"
+      },
+      {
+        "question": "緊急<A>が発生した。",
+        "kanji": "事態",
+        "kana": "じたい"
+      },
+      {
+        "question": "容態が<A>する。",
+        "kanji": "急変",
+        "kana": "きゅうへん"
+      },
+      {
+        "question": "植物の<A>調査を行う。",
+        "kanji": "生態",
+        "kana": "せいたい"
+      },
+      {
+        "question": "受け入れ<A>を整える。",
+        "kanji": "態勢",
+        "kana": "たいせい"
+      },
+
+      {
+        "question": "血<A>を測る。",
+        "kanji": "圧",
+        "kana": "あつ"
+      },
+      {
+        "question": "<A>血圧だ。",
+        "kanji": "低",
+        "kana": "てい"
+      },
+      {
+        "question": "<A>気圧が近づく。",
+        "kanji": "高",
+        "kana": "こう"
+      },
+      {
+        "question": "変<A>器を交換する。",
+        "kanji": "圧",
+        "kana": "あつ"
+      },
+      {
+        "question": "相手に<A>をかける。",
+        "kanji": "圧力",
+        "kana": "あつりょく"
+      },
+      {
+        "question": "<A>的な強さを見せる。",
+        "kanji": "圧倒",
+        "kana": "あっとう"
+      },
+      {
+        "question": "<A>する。",
+        "kanji": "圧勝",
+        "kana": "あっしょう"
+      },
+
+      {
+        "question": "腕に<A>がある。",
+        "kanji": "傷",
+        "kana": "きず"
+      },
+      {
+        "question": "果物が<A>。",
+        "kanji": "傷む",
+        "kana": "いたむ"
+      },
+      {
+        "question": "屋根を<A>。",
+        "kanji": "傷める",
+        "kana": "いためる"
+      },
+      {
+        "question": "事故で<A>する。",
+        "kanji": "負傷",
+        "kana": "ふしょう"
+      },
+      {
+        "question": "重<A>を負う。",
+        "kanji": "傷",
+        "kana": "しょう"
+      },
+      {
+        "question": "他人を<A>する。",
+        "kanji": "中傷",
+        "kana": "ちゅうしょう"
+      },
+
+      {
+        "question": "応急<A>をとる。",
+        "kanji": "処置",
+        "kana": "しょち"
+      },
+      {
+        "question": "薬を<A>する。",
+        "kanji": "処方",
+        "kana": "しょほう"
+      },
+      {
+        "question": "古い家具を<A>する。",
+        "kanji": "処分",
+        "kana": "しょぶん"
+      },
+      {
+        "question": "苦情を<A>する。",
+        "kanji": "処理",
+        "kana": "しょり"
+      },
+      {
+        "question": "状況に<A>する。",
+        "kanji": "対処",
+        "kana": "たいしょ"
+      },
+
+      {
+        "question": "医者がおなかに<A>。",
+        "kanji": "触る",
+        "kana": "さわる"
+      },
+      {
+        "question": "隣の人と肩が<A>。",
+        "kanji": "触れる",
+        "kana": "ふれる"
+      },
+      {
+        "question": "日本文化に<A>。",
+        "kanji": "触れる",
+        "kana": "ふれる"
+      },
+      {
+        "question": "目に<A>。",
+        "kanji": "触れる",
+        "kana": "ふれる"
+      },
+      {
+        "question": "<A>を確かめる。",
+        "kanji": "感触",
+        "kana": "かんしょく"
+      },
+      {
+        "question": "<A>を使って調べる。",
+        "kanji": "触覚",
+        "kana": "しょっかく"
+      },
+
+      {
+        "question": "<A>と糸を用意する。",
+        "kanji": "針",
+        "kana": "はり"
+      },
+      {
+        "question": "時計の<A>が止まる。",
+        "kanji": "針",
+        "kana": "はり"
+      },
+      {
+        "question": "注射<A>を捨てる。",
+        "kanji": "針",
+        "kana": "はり"
+      },
+      {
+        "question": "<A>と短針を読み取る。",
+        "kanji": "長針",
+        "kana": "ちょうしん"
+      },
+      {
+        "question": "時計の<A>を見る。",
+        "kanji": "短針",
+        "kana": "たんしん"
+      },
+      {
+        "question": "会社の<A>を決める。",
+        "kanji": "方針",
+        "kana": "ほうしん"
+      },
+      {
+        "question": "行動の<A>を示す。",
+        "kanji": "指針",
+        "kana": "ししん"
+      },
+
+      {
+        "question": "空気が<A>。",
+        "kanji": "抜ける",
+        "kana": "ぬける"
+      },
+      {
+        "question": "針を<A>。",
+        "kanji": "抜く",
+        "kana": "ぬく"
+      },
+      {
+        "question": "手を<A>。",
+        "kanji": "抜く",
+        "kana": "ぬく"
+      },
+      {
+        "question": "<A>テストをする。",
+        "kanji": "抜き打ち",
+        "kana": "ぬきうち"
+      },
+      {
+        "question": "驚いて腰を<A>。",
+        "kanji": "抜かす",
+        "kana": "ぬかす"
+      },
+      {
+        "question": "運動神経が<A>だ。",
+        "kanji": "抜群",
+        "kana": "ばつぐん"
+      },
+      {
+        "question": "手術を<A>なく進める。",
+        "kanji": "抜かり",
+        "kana": "ぬかり"
+      },
+
+      {
+        "question": "手の<A>がむける。",
+        "kanji": "皮",
+        "kana": "かわ"
+      },
+      {
+        "question": "動物の<A>を使う。",
+        "kanji": "毛皮",
+        "kana": "けがわ"
+      },
+      {
+        "question": "<A>する。",
+        "kanji": "脱皮",
+        "kana": "だっぴ"
+      },
+      {
+        "question": "<A>科に行く。",
+        "kanji": "皮ふ",
+        "kana": "ひふ"
+      },
+      {
+        "question": "<A>を言う。",
+        "kanji": "皮肉",
+        "kana": "ひにく"
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "questions": [
+      {
         "question": "毎日仕事で<A>。",
         "kanji": "忙しい",
         "kana": "いそがしい"
@@ -2748,17 +3488,23 @@
         "kana": "ぼうさつ"
       },
       {
-        "question": "<A>な毎日。",
+        "question": "<A>な毎日を送っている。",
         "kanji": "多忙",
         "kana": "たぼう"
       },
+      {
+        "question": "<A>ところすみません。",
+        "kanji": "お忙しい",
+        "kana": "おいそがしい"
+      },
+
       {
         "question": "歩きすぎて足が<A>。",
         "kanji": "疲れる",
         "kana": "つかれる"
       },
       {
-        "question": "頭が<A>。",
+        "question": "仕事で頭が<A>。",
         "kanji": "疲れる",
         "kana": "つかれる"
       },
@@ -2773,10 +3519,11 @@
         "kana": "ひろう"
       },
       {
-        "question": "<A>する。",
-        "kanji": "疲労回復",
-        "kana": "ひろうかいふく"
+        "question": "<A>回復を心がける。",
+        "kanji": "疲労",
+        "kana": "ひろう"
       },
+
       {
         "question": "新しい生活に<A>。",
         "kanji": "慣れる",
@@ -2788,20 +3535,26 @@
         "kana": "なれる"
       },
       {
+        "question": "住み<A>た町だ。",
+        "kanji": "慣れ",
+        "kana": "なれ"
+      },
+      {
         "question": "外国語に耳を<A>。",
         "kanji": "慣らす",
         "kana": "ならす"
       },
       {
-        "question": "<A>を守る。",
-        "kanji": "生活習慣",
-        "kana": "せいかつしゅうかん"
+        "question": "生活<A>を見直す。",
+        "kanji": "習慣",
+        "kana": "しゅうかん"
       },
       {
-        "question": "<A>に従う。",
-        "kanji": "慣用句",
-        "kana": "かんようく"
+        "question": "<A>句を覚える。",
+        "kanji": "慣用",
+        "kana": "かんよう"
       },
+
       {
         "question": "ライバルと成績を<A>。",
         "kanji": "競う",
@@ -2809,46 +3562,52 @@
       },
       {
         "question": "ゴール直前まで<A>。",
-        "kanji": "競う",
-        "kana": "きそう"
-      },
-      {
-        "question": "オークションで名画を<A>。",
         "kanji": "競る",
         "kana": "せる"
       },
       {
-        "question": "<A>が激しい。",
+        "question": "名画をオークションで<A>。",
+        "kanji": "競る",
+        "kana": "せる"
+      },
+      {
+        "question": "<A>に勝つために努力する。",
         "kanji": "競争",
         "kana": "きょうそう"
       },
       {
-        "question": "<A>を見る。",
+        "question": "<A>に参加する。",
         "kanji": "競技",
         "kana": "きょうぎ"
       },
       {
-        "question": "<A>をする。",
+        "question": "<A>を見に行く。",
         "kanji": "競馬",
         "kana": "けいば"
       },
+
       {
         "question": "働いて家族を<A>。",
         "kanji": "養う",
         "kana": "やしなう"
       },
       {
-        "question": "<A>がかかる。",
-        "kanji": "養育費",
-        "kana": "よういくひ"
+        "question": "<A>費を払う。",
+        "kanji": "養育",
+        "kana": "よういく"
       },
       {
-        "question": "教師を<A>。",
-        "kanji": "養成する",
-        "kana": "ようせいする"
+        "question": "教師を<A>する。",
+        "kanji": "養成",
+        "kana": "ようせい"
       },
       {
-        "question": "<A>をとる。",
+        "question": "<A>を身につける。",
+        "kanji": "教養",
+        "kana": "きょうよう"
+      },
+      {
+        "question": "<A>を取って休む。",
         "kanji": "休養",
         "kana": "きゅうよう"
       },
@@ -2863,10 +3622,11 @@
         "kana": "えいよう"
       },
       {
-        "question": "<A>を育てる。",
+        "question": "<A>として育てられた。",
         "kanji": "養子",
         "kana": "ようし"
       },
+
       {
         "question": "選手とコーチを<A>。",
         "kanji": "兼ねる",
@@ -2878,170 +3638,14 @@
         "kana": "けんぎょう"
       },
       {
-        "question": "<A>を負う。",
+        "question": "二つの役職を<A>している。",
         "kanji": "兼任",
         "kana": "けんにん"
       },
       {
-        "question": "<A>募集。",
-        "kanji": "男女兼用",
-        "kana": "だんじょけんよう"
-      },
-      {
-        "question": "販売の仕事に<A>。",
-        "kanji": "就く",
-        "kana": "つく"
-      },
-      {
-        "question": "<A>する。",
-        "kanji": "就職",
-        "kana": "しゅうしょく"
-      },
-      {
-        "question": "<A>活動をする。",
-        "kanji": "就職活動",
-        "kana": "しゅうしょくかつどう"
-      },
-      {
-        "question": "<A>を守る。",
-        "kanji": "就業規則",
-        "kana": "しゅうぎょうきそく"
-      },
-      {
-        "question": "社長に<A>。",
-        "kanji": "就任する",
-        "kana": "しゅうにんする"
-      },
-      {
-        "question": "コーチに<A>。",
-        "kanji": "就ける",
-        "kana": "つける"
-      },
-      {
-        "question": "<A>が長い。",
-        "kanji": "就寝時間",
-        "kana": "しゅうしんじかん"
-      },
-      {
-        "question": "上司の指示に<A>。",
-        "kanji": "従う",
-        "kana": "したがう"
-      },
-      {
-        "question": "<A>な態度。",
-        "kanji": "従順",
-        "kana": "じゅうじゅん"
-      },
-      {
-        "question": "医療に<A>。",
-        "kanji": "従事する",
-        "kana": "じゅうじする"
-      },
-      {
-        "question": "部下を<A>。",
-        "kanji": "従える",
-        "kana": "したがえる"
-      },
-      {
-        "question": "<A>する。",
-        "kanji": "従属",
-        "kana": "じゅうぞく"
-      },
-      {
-        "question": "<A>関係。",
-        "kanji": "主従関係",
-        "kana": "しゅじゅうかんけい"
-      },
-      {
-        "question": "期待に<A>。",
-        "kanji": "応える",
-        "kana": "こたえる"
-      },
-      {
-        "question": "呼びかけに<A>。",
-        "kanji": "応答する",
-        "kana": "おうとうする"
-      },
-      {
-        "question": "来客に<A>。",
-        "kanji": "応対する",
-        "kana": "おうたいする"
-      },
-      {
-        "question": "<A>がある。",
-        "kanji": "応援",
-        "kana": "おうえん"
-      },
-      {
-        "question": "<A>問題。",
-        "kanji": "応用問題",
-        "kana": "おうようもんだい"
-      },
-      {
-        "question": "京都を<A>。",
-        "kanji": "訪れる",
-        "kana": "おとずれる"
-      },
-      {
-        "question": "先生の家を<A>。",
-        "kanji": "訪ねる",
-        "kana": "たずねる"
-      },
-      {
-        "question": "他社を<A>。",
-        "kanji": "訪問する",
-        "kana": "ほうもんする"
-      },
-      {
-        "question": "春が<A>。",
-        "kanji": "訪れる",
-        "kana": "おとずれる"
-      },
-      {
-        "question": "責任を<A>。",
-        "kanji": "課す",
-        "kana": "かす"
-      },
-      {
-        "question": "ノルマが<A>。",
-        "kanji": "課される",
-        "kana": "かされる"
-      },
-      {
-        "question": "<A>に取り組む。",
-        "kanji": "課題",
-        "kana": "かだい"
-      },
-      {
-        "question": "<A>に所属する。",
-        "kanji": "営業課",
-        "kana": "えいぎょうか"
-      },
-      {
-        "question": "<A>になる。",
-        "kanji": "課長",
-        "kana": "かちょう"
-      },
-
-      {
-        "question": "議論を<A>。",
-        "kanji": "続ける",
-        "kana": "つづける"
-      },
-      {
-        "question": "<A>をはっきりさせる。",
-        "kanji": "論点",
-        "kana": "ろんてん"
-      },
-      {
-        "question": "<A>に説明する。",
-        "kanji": "論理的に",
-        "kana": "ろんりてきに"
-      },
-      {
-        "question": "<A>を書く。",
-        "kanji": "小論文",
-        "kana": "しょうろんぶん"
+        "question": "男女<A>のトイレ。",
+        "kanji": "兼用",
+        "kana": "けんよう"
       }
     ]
   }
