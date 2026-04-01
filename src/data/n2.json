@@ -3,32 +3,32 @@
     "chapter": 1,
     "questions": [
       {
-        "question": "プレゼントを<A>。",
+        "question": "友達にプレゼントを<A>。",
         "kanji": "贈る",
         "kana": "おくる"
       },
       {
-        "question": "誕生日の<A>を買った。",
+        "question": "<A>を買う。",
         "kanji": "贈り物",
         "kana": "おくりもの"
       },
       {
-        "question": "デパートの<A>売り場へ行く。",
+        "question": "<A>売り場に行く。",
         "kanji": "贈答品",
         "kana": "ぞうとうひん"
       },
       {
-        "question": "図書館に本を<A>した。",
+        "question": "本を学校に<A>する。",
         "kanji": "寄贈",
         "kana": "きぞう"
       },
       {
-        "question": "橋を<A>向こう岸へ行く。",
-        "kanji": "渡って",
-        "kana": "わたって"
+        "question": "川を泳いで<A>。",
+        "kanji": "渡る",
+        "kana": "わたる"
       },
       {
-        "question": "道路を<A>ときは車に気をつける。",
+        "question": "道路を<A>。",
         "kanji": "渡る",
         "kana": "わたる"
       },
@@ -38,42 +38,42 @@
         "kana": "わたす"
       },
       {
-        "question": "春になると<A>が北へ飛んでいく。",
+        "question": "<A>が空を飛ぶ季節だ。",
         "kanji": "渡り鳥",
         "kana": "わたりどり"
       },
       {
-        "question": "<A>の手続きをする。",
+        "question": "海外<A>の手続きをする。",
         "kanji": "渡航",
         "kana": "とこう"
       },
       {
-        "question": "お菓子をみんなに<A>。",
+        "question": "子どもたちにお菓子を<A>。",
         "kanji": "配る",
         "kana": "くばる"
       },
       {
-        "question": "子どもの健康に<A>。",
-        "kanji": "気を配る",
-        "kana": "きをくばる"
+        "question": "周りに気を<A>。",
+        "kanji": "配る",
+        "kana": "くばる"
       },
       {
-        "question": "荷物の<A>が遅れた。",
+        "question": "荷物を<A>してもらう。",
         "kanji": "配達",
         "kana": "はいたつ"
       },
       {
-        "question": "試験の問題用紙を<A>する。",
+        "question": "問題用紙を<A>する。",
         "kanji": "配付",
         "kana": "はいふ"
       },
       {
-        "question": "将来のことが<A>だ。",
+        "question": "将来のことを<A>する。",
         "kanji": "心配",
         "kana": "しんぱい"
       },
       {
-        "question": "<A>で荷物を送る。",
+        "question": "荷物を<A>で受け取る。",
         "kanji": "宅配",
         "kana": "たくはい"
       },
@@ -83,42 +83,42 @@
         "kana": "とどく"
       },
       {
-        "question": "荷物を家まで<A>。",
+        "question": "荷物を家に<A>。",
         "kanji": "届ける",
         "kana": "とどける"
       },
       {
-        "question": "幼稚園に子どもを<A>。",
-        "kanji": "送り届ける",
-        "kana": "おくりとどける"
+        "question": "子どもを幼稚園に送り<A>。",
+        "kanji": "届ける",
+        "kana": "とどける"
       },
       {
-        "question": "声が遠くまで<A>。",
+        "question": "声がよく<A>。",
         "kanji": "届く",
         "kana": "とどく"
       },
       {
-        "question": "先生に欠席の<A>を出した。",
+        "question": "学校に<A>を出す。",
         "kanji": "欠席届",
         "kana": "けっせきとどけ"
       },
       {
-        "question": "誕生パーティーに友人を<A>。",
+        "question": "友達をパーティーに<A>。",
         "kanji": "招く",
         "kana": "まねく"
       },
       {
-        "question": "遠くから<A>をする。",
+        "question": "手で<A>をする。",
         "kanji": "手招き",
         "kana": "てまねき"
       },
       {
-        "question": "結婚式に<A>された。",
+        "question": "結婚式に<A>される。",
         "kanji": "招待",
         "kana": "しょうたい"
       },
       {
-        "question": "<A>が届いた。",
+        "question": "式の<A>を受け取る。",
         "kanji": "招待状",
         "kana": "しょうたいじょう"
       },
@@ -128,59 +128,59 @@
         "kana": "しょうしゅう"
       },
       {
-        "question": "電車に乗るとき<A>を買う。",
+        "question": "電車の<A>を買う。",
         "kanji": "乗車券",
         "kana": "じょうしゃけん"
       },
       {
-        "question": "コンサートの<A>を手に入れた。",
-        "kanji": "入場券",
-        "kana": "にゅうじょうけん"
-      },
-      {
-        "question": "毎日同じ路線を使うので<A>を買った。",
+        "question": "毎日<A>で通学する。",
         "kanji": "定期券",
         "kana": "ていきけん"
       },
       {
-        "question": "お祝いに一万円分の<A>を贈った。",
+        "question": "映画の<A>を買う。",
+        "kanji": "入場券",
+        "kana": "にゅうじょうけん"
+      },
+      {
+        "question": "1万円分の<A>をもらった。",
         "kanji": "商品券",
         "kana": "しょうひんけん"
       },
       {
-        "question": "海外旅行に行くため<A>を申請した。",
+        "question": "海外旅行の<A>を申請する。",
         "kanji": "旅券",
         "kana": "りょけん"
       },
       {
-        "question": "<A>に就職した。",
-        "kanji": "証券会社",
-        "kana": "しょうけんがいしゃ"
+        "question": "父は<A>会社で働いている。",
+        "kanji": "証券",
+        "kana": "しょうけん"
       },
       {
-        "question": "<A>でごはんを食べる。",
+        "question": "どんぶり<A>でごはんを食べる。",
         "kanji": "丼",
         "kana": "どんぶり"
       },
       {
-        "question": "<A>を注文した。",
+        "question": "昼ごはんに<A>を食べた。",
         "kanji": "天丼",
         "kana": "てんどん"
       },
       {
-        "question": "<A>が好きだ。",
+        "question": "夕食に<A>を注文した。",
         "kanji": "カツ丼",
         "kana": "かつどん"
       },
       {
-        "question": "<A>をランチに食べた。",
+        "question": "今日は<A>にしよう。",
         "kanji": "うな丼",
         "kana": "うなどん"
       },
       {
-        "question": "朝食に<A>を飲む。",
-        "kanji": "みそ汁",
-        "kana": "みそしる"
+        "question": "朝食にみそ<A>を飲む。",
+        "kanji": "汁",
+        "kana": "しる"
       },
       {
         "question": "服にラーメンの<A>がついた。",
@@ -188,7 +188,7 @@
         "kana": "しる"
       },
       {
-        "question": "<A>100%のジュースを飲んだ。",
+        "question": "このジュースは<A>100%だ。",
         "kanji": "果汁",
         "kana": "かじゅう"
       },
@@ -198,19 +198,14 @@
         "kana": "もる"
       },
       {
-        "question": "ラーメンを<A>にした。",
+        "question": "ラーメンを<A>で注文する。",
         "kanji": "大盛り",
         "kana": "おおもり"
       },
       {
-        "question": "炎が<A>いる。",
-        "kanji": "燃え盛って",
-        "kana": "もえさかって"
-      },
-      {
-        "question": "スポーツが<A>な学校だ。",
-        "kanji": "盛ん",
-        "kana": "さかん"
+        "question": "炎が<A>。",
+        "kanji": "燃え盛る",
+        "kana": "もえさかる"
       },
       {
         "question": "観客が<A>に手を振る。",
@@ -218,44 +213,19 @@
         "kana": "さかん"
       },
       {
-        "question": "<A>な結婚式だった。",
+        "question": "この学校はスポーツが<A>だ。",
+        "kanji": "盛ん",
+        "kana": "さかん"
+      },
+      {
+        "question": "結婚式は<A>だった。",
         "kanji": "盛大",
         "kana": "せいだい"
       },
       {
-        "question": "この店は<A>している。",
+        "question": "この店は昼時に<A>している。",
         "kanji": "繁盛",
         "kana": "はんじょう"
-      },
-      {
-        "question": "米の中に麦が<A>いる。",
-        "kanji": "混じって",
-        "kana": "まじって"
-      },
-      {
-        "question": "よく<A>ようにかきまわす。",
-        "kanji": "混ざる",
-        "kana": "まざる"
-      },
-      {
-        "question": "小麦粉と卵を<A>。",
-        "kanji": "混ぜる",
-        "kana": "まぜる"
-      },
-      {
-        "question": "電車が<A>。",
-        "kanji": "混んでいる",
-        "kana": "こんでいる"
-      },
-      {
-        "question": "駅が<A>した。",
-        "kanji": "混雑",
-        "kana": "こんざつ"
-      },
-      {
-        "question": "社会が<A>した。",
-        "kanji": "混乱",
-        "kana": "こんらん"
       },
       {
         "question": "塩が水に<A>。",
@@ -263,7 +233,7 @@
         "kana": "とける"
       },
       {
-        "question": "氷が<A>。",
+        "question": "氷がゆっくり<A>。",
         "kanji": "溶ける",
         "kana": "とける"
       },
@@ -273,20 +243,51 @@
         "kana": "とかす"
       },
       {
-        "question": "絵具を<A>。",
+        "question": "絵具を水で<A>。",
         "kanji": "溶く",
         "kana": "とく"
       },
       {
-        "question": "新しいクラスに<A>。",
-        "kanji": "溶け込む",
+        "question": "新しいクラスにすぐ<A>。",
+        "kanji": "溶けこむ",
         "kana": "とけこむ"
       },
       {
-        "question": "<A>が流れ出た。",
+        "question": "火山から<A>が流れ出す。",
         "kanji": "溶岩",
         "kana": "ようがん"
       },
+      {
+        "question": "米の中に麦が<A>。",
+        "kanji": "混じる",
+        "kana": "まじる"
+      },
+      {
+        "question": "材料がよく<A>ように混ぜる。",
+        "kanji": "混ざる",
+        "kana": "まざる"
+      },
+      {
+        "question": "小麦粉と卵を<A>。",
+        "kanji": "混ぜる",
+        "kana": "まぜる"
+      },
+      {
+        "question": "朝の電車が<A>している。",
+        "kanji": "混んでいる",
+        "kana": "こんでいる"
+      },
+      {
+        "question": "駅前は<A>している。",
+        "kanji": "混雑",
+        "kana": "こんざつ"
+      },
+      {
+        "question": "会議が<A>してきた。",
+        "kanji": "混乱",
+        "kana": "こんらん"
+      },
+
       {
         "question": "口に水を<A>。",
         "kanji": "含む",
@@ -298,12 +299,12 @@
         "kana": "ふくめて"
       },
       {
-        "question": "牛乳にはカルシウムが<A>いる。",
-        "kanji": "含まれて",
-        "kana": "ふくまれて"
+        "question": "牛乳にはカルシウムが<A>。",
+        "kanji": "含まれている",
+        "kana": "ふくまれている"
       },
       {
-        "question": "この食品の<A>を確認した。",
+        "question": "この食品の<A>を確認する。",
         "kanji": "含有量",
         "kana": "がんゆうりょう"
       },
@@ -320,7 +321,7 @@
       {
         "question": "<A>そばを食べる。",
         "kanji": "年越し",
-        "kana": "としこし"
+        "kana": "とこし"
       },
       {
         "question": "<A>をする。",
@@ -328,7 +329,7 @@
         "kana": "ひっこし"
       },
       {
-        "question": "前の車を<A>。",
+         "question": "前の車を<A>。",
         "kanji": "追い越す",
         "kana": "おいこす"
       },
@@ -338,22 +339,28 @@
         "kana": "ゆうえつかん"
       },
       {
-        "question": "<A>をする。",
+        "question": "会社と<A>する。",
         "kanji": "契約",
         "kana": "けいやく"
       },
       {
-        "question": "<A>書にサインをする。",
+        "question": "契約書にサインを<A>。",
         "kanji": "契約",
         "kana": "けいやく"
       },
       {
-        "question": "進学を<A>にテニス部に入った。",
+        "question": "進学を<A>にテニス部に入る。",
         "kanji": "契機",
         "kana": "けいき"
       },
       {
-        "question": "<A>を払う。",
+        "question": "二人は<A>を交わした。",
+        "kanji": "契り",
+        "kana": "ちぎり"
+      },
+
+      {
+        "question": "毎月の<A>を払う。",
         "kanji": "家賃",
         "kana": "やちん"
       },
@@ -363,42 +370,48 @@
         "kana": "うんちん"
       },
       {
-        "question": "<A>を支払う。",
+        "question": "社員に<A>を支払う。",
         "kanji": "賃金",
         "kana": "ちんぎん"
       },
       {
-        "question": "<A>マンションに住む。",
+        "question": "新しい<A>マンションに住む。",
         "kanji": "賃貸",
         "kana": "ちんたい"
       },
       {
-        "question": "工事中は<A>の住まいで生活する。",
+        "question": "<A>の住まいで暮らす。",
         "kanji": "仮",
         "kana": "かり"
       },
       {
-        "question": "<A>を取った。",
+        "question": "<A>免許を取得する。",
         "kanji": "仮免許",
         "kana": "かりめんきょ"
       },
       {
-        "question": "あると<A>して考える。",
+        "question": "結果を<A>する。",
         "kanji": "仮定",
         "kana": "かてい"
       },
       {
-        "question": "<A>をたてる。",
+        "question": "自分の考えを<A>として立てる。",
         "kanji": "仮説",
         "kana": "かせつ"
       },
       {
-        "question": "<A>で学校を休んだ。",
+        "question": "学校を休むため<A>を使った。",
         "kanji": "仮病",
         "kana": "けびょう"
       },
+
       {
         "question": "無実を<A>する。",
+        "kanji": "証明",
+        "kana": "しょうめい"
+      },
+      {
+        "question": "身分<A>書を提示する。",
         "kanji": "証明",
         "kana": "しょうめい"
       },
@@ -408,32 +421,28 @@
         "kana": "しょうげん"
       },
       {
-        "question": "<A>を持参する。",
-        "kanji": "身分証明書",
-        "kana": "みぶんしょうめいしょ"
-      },
-      {
-        "question": "<A>を更新する。",
-        "kanji": "免許証",
-        "kana": "めんきょしょう"
-      },
-      {
-        "question": "<A>をもらった。",
-        "kanji": "卒業証書",
-        "kana": "そつぎょうしょうしょ"
-      },
-      {
-        "question": "<A>人を立てる。",
+        "question": "友人の<A>人になる。",
         "kanji": "保証",
         "kana": "ほしょう"
       },
       {
-        "question": "<A>住民が集まった。",
+        "question": "運転<A>を更新する。",
+        "kanji": "免許証",
+        "kana": "めんきょしょう"
+      },
+      {
+        "question": "<A>を受け取る。",
+         "kanji": "卒業証書",
+        "kana": "そつぎょうしょうしょ"
+      },
+
+      {
+        "question": "この<A>に住んでいる。",
         "kanji": "地域",
         "kana": "ちいき"
       },
       {
-        "question": "立ち入り禁止<A>に入った。",
+        "question": "ここは立ち入り禁止<A>だ。",
         "kanji": "区域",
         "kana": "くいき"
       },
@@ -443,9 +452,24 @@
         "kana": "りょういき"
       },
       {
-        "question": "川の<A>を調査する。",
+        "question": "川の<A>を調べる。",
         "kanji": "流域",
         "kana": "りゅういき"
+      },
+      {
+        "question": "この問題はとても<A>だ。",
+        "kanji": "雑",
+        "kana": "ざつ"
+      },
+      {
+        "question": "説明が<A>でよく聞こえない。",
+        "kanji": "雑音",
+        "kana": "ざつおん"
+      },
+      {
+        "question": "友達と<A>する。",
+        "kanji": "雑談",
+        "kana": "ざつだん"
       },
       {
         "question": "部屋が<A>としている。",
@@ -453,47 +477,33 @@
         "kana": "ざつぜん"
       },
       {
-        "question": "<A>な計算が得意だ。",
-        "kanji": "複雑",
-        "kana": "ふくざつ"
-      },
-      {
-        "question": "工事の<A>がうるさい。",
-        "kanji": "雑音",
-        "kana": "ざつおん"
-      },
-      {
-        "question": "友達と<A>をした。",
-        "kanji": "雑談",
-        "kana": "ざつだん"
-      },
-      {
-        "question": "<A>な仕事はやりたくない。",
+        "question": "彼は<A>な仕事をする。",
         "kanji": "雑",
         "kana": "ざつ"
       },
       {
-        "question": "<A>で床を拭く。",
+        "question": "床を<A>で拭く。",
         "kanji": "雑巾",
         "kana": "ぞうきん"
       },
       {
-        "question": "お正月に<A>を食べる。",
+        "question": "正月に<A>を食べる。",
         "kanji": "雑煮",
         "kana": "ぞうに"
       },
+
       {
-        "question": "<A>を読む。",
+        "question": "毎月<A>を買って読む。",
         "kanji": "雑誌",
         "kana": "ざっし"
       },
       {
-        "question": "<A>をよく読む。",
+        "question": "最新の<A>を読む。",
         "kanji": "ファッション誌",
         "kana": "ふぁっしょんし"
       },
       {
-        "question": "<A>をつける。",
+        "question": "毎日<A>をつける。",
         "kanji": "日誌",
         "kana": "にっし"
       },
@@ -502,8 +512,9 @@
         "kanji": "文芸誌",
         "kana": "ぶんげいし"
       },
+
       {
-        "question": "本が<A>される。",
+        "question": "この本は来月<A>される。",
         "kanji": "刊行",
         "kana": "かんこう"
       },
@@ -513,92 +524,98 @@
         "kana": "ちょうかん"
       },
       {
-        "question": "<A>を買った。",
+        "question": "夕方に<A>が届く。",
         "kanji": "夕刊",
         "kana": "ゆうかん"
       },
       {
-        "question": "<A>紙に広告を出す。",
+        "question": "これは<A>紙だ。",
         "kanji": "日刊",
         "kana": "にっかん"
       },
       {
-        "question": "<A>誌を毎週買う。",
-        "kanji": "週刊",
-        "kana": "しゅうかん"
+        "question": "毎週<A>を買う。",
+        "kanji": "週刊誌",
+        "kana": "しゅうかんし"
       },
       {
-        "question": "<A>号が発売された。",
-        "kanji": "創刊",
-        "kana": "そうかん"
+        "question": "<A>を保存している。",
+        "kanji": "創刊号",
+        "kana": "そうかんごう"
       },
       {
-        "question": "本を<A>。",
+        "question": "自分の体験を本に<A>。",
         "kanji": "著す",
         "kana": "あらわす"
       },
       {
-        "question": "<A>を出版した。",
+        "question": "この<A>は有名だ。",
         "kanji": "著書",
         "kana": "ちょしょ"
       },
       {
-        "question": "<A>になった。",
+        "question": "この<A>は歴史学者だ。",
         "kanji": "著者",
         "kana": "ちょしゃ"
       },
       {
-        "question": "<A>を侵害する。",
+        "question": "作品の<A>を守る。",
         "kanji": "著作権",
         "kana": "ちょさくけん"
       },
       {
-        "question": "<A>い進歩を遂げた。",
-        "kanji": "著し",
-        "kana": "いちじるし"
+        "question": "今年は<A>進歩が見られた。",
+        "kanji": "著しい",
+        "kana": "いちじるしい"
       },
       {
-        "question": "<A>な作家の作品を読む。",
+        "question": "彼は<A>な作家だ。",
         "kanji": "著名",
         "kana": "ちょめい"
       },
       {
-        "question": "古典文学の<A>を読んだ。",
+        "question": "これは古典文学の<A>だ。",
         "kanji": "名著",
         "kana": "めいちょ"
       },
       {
-        "question": "包帯を<A>。",
+        "question": "包帯を腕に<A>。",
         "kanji": "巻く",
         "kana": "まく"
       },
       {
-        "question": "<A>を食べる。",
+        "question": "マフラーを首に<A>。",
+        "kanji": "巻く",
+        "kana": "まく"
+      },
+      {
+        "question": "昼食に<A>を食べた。",
         "kanji": "のり巻き",
         "kana": "のりまき"
       },
       {
-        "question": "シリーズの<A>を読んだ。",
+        "question": "この本は<A>だ。",
         "kanji": "上巻",
         "kana": "じょうかん"
       },
       {
-        "question": "シリーズの<A>を読んだ。",
+        "question": "続きは<A>に載っている。",
         "kanji": "下巻",
         "kana": "げかん"
       },
       {
-        "question": "全<A>を揃えた。",
+        "question": "シリーズ<A>をそろえる。",
         "kanji": "全巻",
         "kana": "ぜんかん"
       },
       {
-        "question": "<A>を読んだ。",
+        "question": "これは<A>だ。",
         "kanji": "とらの巻",
         "kana": "とらのまき"
       },
+
       {
-        "question": "教室に机といすを<A>。",
+        "question": "机といすを教室に<A>。",
         "kanji": "並べる",
         "kana": "ならべる"
       },
@@ -608,22 +625,27 @@
         "kana": "ならんで"
       },
       {
-        "question": "二つの事業を<A>して進める。",
+        "question": "この二つは<A>して進む。",
         "kanji": "並行",
         "kana": "へいこう"
       },
       {
-        "question": "直列と<A>の違いを説明する。",
+        "question": "電池を<A>につなぐ。",
+        "kanji": "直列",
+        "kana": "ちょくれつ"
+      },
+      {
+        "question": "回路を<A>につなぐ。",
         "kanji": "並列",
         "kana": "へいれつ"
       },
       {
-        "question": "牛丼の<A>を食べる。",
+        "question": "牛丼の<A>を注文する。",
         "kanji": "並",
         "kana": "なみ"
       },
       {
-        "question": "<A>が続く道を歩く。",
+        "question": "公園の<A>を歩く。",
         "kanji": "並木道",
         "kana": "なみきみち"
       },
@@ -633,59 +655,34 @@
         "kana": "ならびに"
       },
       {
-        "question": "心が<A>。",
+        "question": "彼は<A>い心を持っている。",
         "kanji": "清い",
         "kana": "きよい"
       },
       {
-        "question": "滝のそばで心が<A>。",
+        "question": "気持ちが<A>。",
         "kanji": "清まる",
         "kana": "きよまる"
       },
       {
-        "question": "神社で体を<A>。",
+        "question": "滝で心身を<A>。",
         "kanji": "清める",
         "kana": "きよめる"
       },
       {
-        "question": "論文の<A>をする。",
+        "question": "論文を<A>する。",
         "kanji": "清書",
         "kana": "せいしょ"
       },
       {
-        "question": "<A>飲料水を飲む。",
+        "question": "暑い日に<A>飲料水を飲む。",
         "kanji": "清涼",
         "kana": "せいりょう"
       },
       {
-        "question": "<A>なハンカチを使う。",
+        "question": "このハンカチはとても<A>だ。",
         "kanji": "清潔",
         "kana": "せいけつ"
-      },
-      {
-        "question": "ほうきでごみを<A>。",
-        "kanji": "掃く",
-        "kana": "はく"
-      },
-      {
-        "question": "部屋を<A>する。",
-        "kanji": "掃除",
-        "kana": "そうじ"
-      },
-      {
-        "question": "<A>をかける。",
-        "kanji": "掃除機",
-        "kana": "そうじき"
-      },
-      {
-        "question": "教室を<A>する。",
-        "kanji": "清掃",
-        "kana": "せいそう"
-      },
-      {
-        "question": "害虫を<A>する。",
-        "kanji": "一掃",
-        "kana": "いっそう"
       },
       {
         "question": "本棚をきれいに<A>。",
@@ -693,9 +690,9 @@
         "kana": "ととのえる"
       },
       {
-        "question": "彼女は顔立ちが<A>。",
-        "kanji": "整っている",
-        "kana": "ととのっている"
+        "question": "彼は<A>た顔立ちをしている。",
+        "kanji": "整った",
+        "kana": "ととのった"
       },
       {
         "question": "引き出しの中を<A>する。",
@@ -707,33 +704,59 @@
         "kanji": "調整",
         "kana": "ちょうせい"
       },
+
+      {
+        "question": "ほうきでごみを<A>。",
+        "kanji": "掃く",
+        "kana": "はく"
+      },
+      {
+        "question": "部屋を<A>する。",
+        "kanji": "掃除",
+        "kana": "そうじ"
+      },
+      {
+        "question": "毎日<A>をかける。",
+        "kanji": "掃除機",
+        "kana": "そうじき"
+      },
+      {
+        "question": "教室を隅々まで<A>する。",
+        "kanji": "清掃",
+        "kana": "せいそう"
+      },
+      {
+        "question": "暴力団を<A>する。",
+        "kanji": "一掃",
+        "kana": "いっそう"
+      },
       {
         "question": "部屋を<A>。",
         "kanji": "汚す",
         "kana": "よごす"
       },
       {
-        "question": "服が<A>。",
-        "kanji": "汚れた",
-        "kana": "よごれた"
+        "question": "汚れた服を<A>。",
+        "kanji": "汚れる",
+        "kana": "よごれる"
       },
       {
-        "question": "<A>手で食べないで。",
+        "question": "泥で手が<A>。",
         "kanji": "汚い",
         "kana": "きたない"
       },
       {
-        "question": "<A>を処理する。",
+        "question": "工場から<A>水が流れる。",
         "kanji": "汚水",
         "kana": "おすい"
       },
       {
-        "question": "川が<A>された。",
+        "question": "川が<A>されている。",
         "kanji": "汚染",
         "kana": "おせん"
       },
       {
-        "question": "名誉を<A>。",
+        "question": "名前を<A>行為だ。",
         "kanji": "汚す",
         "kana": "けがす"
       },
@@ -743,14 +766,15 @@
         "kana": "けがれる"
       },
       {
-        "question": "聞くのも<A>い話だ。",
-        "kanji": "汚らわし",
-        "kana": "けがらわし"
+        "question": "聞くのも<A>話だ。",
+        "kanji": "汚らわしい",
+        "kana": "けがらわしい"
       },
+
       {
-        "question": "<A>に花を植える。",
-        "kanji": "庭",
-        "kana": "にわ"
+        "question": "庭に花を<A>。",
+        "kanji": "植える",
+        "kana": "うえる"
       },
       {
         "question": "学校の<A>で遊ぶ。",
@@ -758,9 +782,9 @@
         "kana": "こうてい"
       },
       {
-        "question": "<A>を散歩する。",
-        "kanji": "日本庭園",
-        "kana": "にほんていえん"
+        "question": "日本<A>を散歩する。",
+        "kanji": "庭園",
+        "kana": "ていえん"
       },
       {
         "question": "明るい<A>を築く。",
@@ -768,139 +792,39 @@
         "kana": "かてい"
       },
       {
-        "question": "<A>でテレビを見る。",
+        "question": "家の<A>でテレビを見る。",
         "kanji": "居間",
         "kana": "いま"
       },
       {
-        "question": "<A>を使う。",
+        "question": "電話に出ず<A>を使う。",
         "kanji": "居留守",
         "kana": "いるす"
       },
       {
-        "question": "<A>で飲む。",
+        "question": "友達と<A>に行く。",
         "kanji": "居酒屋",
         "kana": "いざかや"
       },
       {
-        "question": "<A>を決める。",
+        "question": "新しい<A>に引っ越す。",
         "kanji": "住居",
         "kana": "じゅうきょ"
       },
       {
-        "question": "<A>する。",
+        "question": "来月<A>する予定だ。",
         "kanji": "転居",
         "kana": "てんきょ"
       },
       {
-        "question": "親と<A>する。",
+        "question": "親と<A>して暮らす。",
         "kanji": "同居",
         "kana": "どうきょ"
       },
       {
-        "question": "<A>を登録する。",
-        "kanji": "居住地",
-        "kana": "きょじゅうち"
-      },
-      {
-        "question": "土曜日の<A>時間は午後1時から3時だ。",
-        "kanji": "配達",
-        "kana": "はいたつ"
-      },
-      {
-        "question": "駅の窓口で<A>を買った。",
-        "kanji": "定期券",
-        "kana": "ていきけん"
-      },
-      {
-        "question": "50周年を記念して<A>なパーティーが開かれた。",
-        "kanji": "盛大",
-        "kana": "せいだい"
-      },
-      {
-        "question": "毎週月曜日に<A>を買って読む。",
-        "kanji": "週刊誌",
-        "kana": "しゅうかんし"
-      },
-      {
-        "question": "昨日、クラスメートと<A>でお酒を飲んだ。",
-        "kanji": "居酒屋",
-        "kana": "いざかや"
-      },
-      {
-        "question": "電車を待つときは2列に<A>お待ちください。",
-        "kanji": "並んで",
-        "kana": "ならんで"
-      },
-      {
-        "question": "結婚式の<A>をもらった。",
-        "kanji": "招待状",
-        "kana": "しょうたいじょう"
-      },
-      {
-        "question": "小学校の<A>でサッカーをした。",
-        "kanji": "校庭",
-        "kana": "こうてい"
-      },
-      {
-        "question": "今週の<A>は田中さんと山田さんです。",
-        "kanji": "清掃当番",
-        "kana": "せいそうとうばん"
-      },
-      {
-        "question": "アパートの<A>にサインする。",
-        "kanji": "契約書",
-        "kana": "けいやくしょ"
-      },
-      {
-        "question": "結婚祝いに<A>をもらった。",
-        "kanji": "商品券",
-        "kana": "しょうひんけん"
-      },
-      {
-        "question": "友人の誕生日パーティーに<A>。",
-        "kanji": "招かれた",
-        "kana": "まねかれた"
-      },
-      {
-        "question": "大学から受験票が<A>。",
-        "kanji": "届いた",
-        "kana": "とどいた"
-      },
-      {
-        "question": "道路を<A>ときは車に気をつけてください。",
-        "kanji": "渡る",
-        "kana": "わたる"
-      },
-      {
-        "question": "メッセージを書いたカードを一人ひとりに<A>。",
-        "kanji": "配る",
-        "kana": "くばる"
-      },
-      {
-        "question": "<A>とカツどんとどちらが好きですか。",
-        "kanji": "天丼",
-        "kana": "てんどん"
-      },
-      {
-        "question": "この辺りは禁煙<A>に指定されている。",
-        "kanji": "区域",
-        "kana": "くいき"
-      },
-      {
-        "question": "インターネットで<A>の最新号を読む。",
-        "kanji": "雑誌",
-        "kana": "ざっし"
-      },
-      {
-        "question": "結婚のお祝いにペアカップを<A>。",
-        "kanji": "贈った",
-        "kana": "おくった"
-      },
-      {
-        "question": "本がきれいに<A>されて並んでいる。",
-        "kanji": "整理",
-        "kana": "せいり"
+        "question": "この<A>地はとても静かだ。",
+        "kanji": "居住",
+        "kana": "きょじゅう"
       }
     ]
   },
