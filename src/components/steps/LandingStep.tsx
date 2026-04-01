@@ -1,13 +1,13 @@
-"use client";
+'use client';
 
-import { useState, useEffect } from "react";
-import { useDispatch } from "react-redux";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
-import { jlptLevels } from "@/theme/palette";
-import { setLevel } from "@/store/courseSlice";
-import type { AppDispatch } from "@/store/store";
-import { getBookmarks } from "@/lib/bookmarks";
+import { useState, useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+import { jlptLevels } from '@/theme/palette';
+import { setLevel } from '@/store/courseSlice';
+import type { AppDispatch } from '@/store/store';
+import { getBookmarks } from '@/lib/bookmarks';
 
 type Props = { onNext: () => void; onBookmarks: () => void };
 
@@ -51,18 +51,18 @@ export default function LandingStep({ onNext, onBookmarks }: Props) {
                 variant="contained"
                 fullWidth
                 onClick={() => handleLevelClick(level)}
-                disabled={level !== "N2"}
+                disabled={level !== 'N2'}
                 sx={(theme) => ({
-                  background: "#fff",
+                  background: '#fff',
                   color: theme.palette.primary.main,
-                  fontSize: { xs: "1.6rem", md: "1.9rem" },
-                  "&:hover": {
+                  fontSize: { xs: '1.6rem', md: '1.9rem' },
+                  '&:hover': {
                     background: theme.palette.sakura.coral,
-                    transform: "translateY(-4px)",
+                    transform: 'translateY(-4px)',
                   },
-                  "&:disabled": {
-                    background: "#eee !important",
-                    transform: "translateY(-4px)",
+                  '&:disabled': {
+                    background: '#eee !important',
+                    transform: 'translateY(-4px)',
                   },
                 })}
               >
@@ -75,19 +75,19 @@ export default function LandingStep({ onNext, onBookmarks }: Props) {
             variant="contained"
             onClick={onBookmarks}
             sx={(theme) => ({
-              background: "rgba(255,255,255,0.7) !important",
+              background: 'rgba(255,255,255,0.7) !important',
               color: theme.palette.sakura.iris,
-              fontSize: "1rem",
+              fontSize: '1rem',
               fontWeight: 600,
               border: `2px solid ${theme.palette.sakura.coral}`,
-              boxShadow: "none",
-              "&:hover": {
+              boxShadow: 'none',
+              '&:hover': {
                 background: `${theme.palette.sakura.bloom} !important`,
-                transform: "translateY(-4px)",
+                transform: 'translateY(-4px)',
               },
             })}
           >
-            ★ ブックマーク{bookmarkCount > 0 ? `（${bookmarkCount}問）` : ""}
+            ★ ブックマーク{bookmarkCount > 0 ? `（${bookmarkCount}問）` : ''}
           </Button>
         </div>
       </section>

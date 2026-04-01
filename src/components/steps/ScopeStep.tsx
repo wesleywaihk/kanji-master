@@ -1,16 +1,16 @@
-import { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
-import { setSelectedChapters } from "@/store/courseSlice";
-import type { RootState, AppDispatch } from "@/store/store";
-import { dataMap } from "@/lib/courseData";
+import { useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+import { setSelectedChapters } from '@/store/courseSlice';
+import type { RootState, AppDispatch } from '@/store/store';
+import { dataMap } from '@/lib/courseData';
 
 type StepProps = { onNext: () => void; onBack: () => void };
 
 export default function ScopeStep({ onNext, onBack }: StepProps) {
   const dispatch = useDispatch<AppDispatch>();
-  const level = useSelector((state: RootState) => state.course.level) ?? "";
+  const level = useSelector((state: RootState) => state.course.level) ?? '';
   const chapters = dataMap[level] ?? [];
 
   const [selected, setSelected] = useState<Set<number>>(new Set());
@@ -54,45 +54,47 @@ export default function ScopeStep({ onNext, onBack }: StepProps) {
 
         <div
           className="mt-10 grid gap-3 md:mt-0"
-          style={{ gridTemplateColumns: "repeat(auto-fill, minmax(7rem, 1fr))" }}
+          style={{
+            gridTemplateColumns: 'repeat(auto-fill, minmax(7rem, 1fr))',
+          }}
         >
           {chapters.map((c) => {
             const isSelected = selected.has(c.chapter);
             return (
               <Button
                 key={c.chapter}
-                variant={isSelected ? "contained" : "outlined"}
+                variant={isSelected ? 'contained' : 'outlined'}
                 fullWidth
                 onClick={() => toggle(c.chapter)}
                 sx={(theme) => ({
-                  fontSize: "0.95rem",
+                  fontSize: '0.95rem',
                   minHeight: 48,
-                  py: "0.5rem",
-                  px: "0.75rem",
-                  borderRadius: "14px",
+                  py: '0.5rem',
+                  px: '0.75rem',
+                  borderRadius: '14px',
                   ...(isSelected
                     ? {
                         background: `${theme.palette.sakura.mist} !important`,
                         color: theme.palette.sakura.iris,
                         borderColor: theme.palette.sakura.coral,
                         borderWidth: 2,
-                        boxShadow: "none",
-                        "&:hover": {
+                        boxShadow: 'none',
+                        '&:hover': {
                           background: `${theme.palette.sakura.mist} !important`,
-                          transform: "translateY(-4px)",
-                          borderColor: "transparent",
+                          transform: 'translateY(-4px)',
+                          borderColor: 'transparent',
                           color: theme.palette.primary.main,
                         },
                       }
                     : {
-                        background: "rgba(255,255,255,0.45) !important",
+                        background: 'rgba(255,255,255,0.45) !important',
                         color: theme.palette.primary.main,
-                        border: "none",
-                        boxShadow: "0 4px 10px rgba(80,84,119,0.10)",
-                        "&:hover": {
+                        border: 'none',
+                        boxShadow: '0 4px 10px rgba(80,84,119,0.10)',
+                        '&:hover': {
                           background: `${theme.palette.sakura.coral} !important`,
-                          transform: "translateY(-4px)",
-                          border: "none",
+                          transform: 'translateY(-4px)',
+                          border: 'none',
                         },
                       }),
                 })}
@@ -112,9 +114,12 @@ export default function ScopeStep({ onNext, onBack }: StepProps) {
               color: theme.palette.sakura.iris,
               borderColor: theme.palette.sakura.coral,
               borderWidth: 2,
-              background: "rgba(255,255,255,0.45) !important",
-              boxShadow: "none",
-              "&:hover": { borderColor: theme.palette.primary.main, background: "rgba(255,255,255,0.7) !important" },
+              background: 'rgba(255,255,255,0.45) !important',
+              boxShadow: 'none',
+              '&:hover': {
+                borderColor: theme.palette.primary.main,
+                background: 'rgba(255,255,255,0.7) !important',
+              },
             })}
           >
             ← 戻る
@@ -127,8 +132,15 @@ export default function ScopeStep({ onNext, onBack }: StepProps) {
               px: 6,
               background: `${theme.palette.sakura.bloom} !important`,
               color: theme.palette.primary.main,
-              "&:hover": { background: `${theme.palette.sakura.coral} !important`, transform: "translateY(-4px)" },
-              "&.Mui-disabled": { background: "rgba(255,194,194,0.3) !important", color: "rgba(80,84,119,0.35)", boxShadow: "none" },
+              '&:hover': {
+                background: `${theme.palette.sakura.coral} !important`,
+                transform: 'translateY(-4px)',
+              },
+              '&.Mui-disabled': {
+                background: 'rgba(255,194,194,0.3) !important',
+                color: 'rgba(80,84,119,0.35)',
+                boxShadow: 'none',
+              },
             })}
           >
             次へ

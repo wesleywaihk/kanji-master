@@ -1,12 +1,12 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import { useSelector } from "react-redux";
-import Button from "@mui/material/Button";
-import type { RootState } from "@/store/store";
-import type { RawQuestion } from "@/lib/courseData";
-import { buildSentence, toFullwidth } from "@/lib/testUtils";
-import { getBookmarks, toggleBookmark } from "@/lib/bookmarks";
+import { useState } from 'react';
+import { useSelector } from 'react-redux';
+import Button from '@mui/material/Button';
+import type { RootState } from '@/store/store';
+import type { RawQuestion } from '@/lib/courseData';
+import { buildSentence, toFullwidth } from '@/lib/testUtils';
+import { getBookmarks, toggleBookmark } from '@/lib/bookmarks';
 
 type Props = {
   speakingQs: RawQuestion[];
@@ -15,10 +15,19 @@ type Props = {
   onRestart: () => void;
 };
 
-export default function AnswerPaperStep({ speakingQs, kanjiQs, onBack, onRestart }: Props) {
-  const level = useSelector((state: RootState) => state.course.level) ?? "";
-  const selectedChapters = useSelector((state: RootState) => state.course.selectedChapters);
-  const isBookmarkMode = useSelector((state: RootState) => state.course.isBookmarkMode);
+export default function AnswerPaperStep({
+  speakingQs,
+  kanjiQs,
+  onBack,
+  onRestart,
+}: Props) {
+  const level = useSelector((state: RootState) => state.course.level) ?? '';
+  const selectedChapters = useSelector(
+    (state: RootState) => state.course.selectedChapters,
+  );
+  const isBookmarkMode = useSelector(
+    (state: RootState) => state.course.isBookmarkMode,
+  );
 
   const [bookmarked, setBookmarked] = useState<Set<string>>(() => {
     const bms = getBookmarks();
@@ -40,8 +49,8 @@ export default function AnswerPaperStep({ speakingQs, kanjiQs, onBack, onRestart
   }
 
   const headerLabel = isBookmarkMode
-    ? "ブックマーク · 解答"
-    : `${level.toUpperCase()} · 解答 · 章 ${selectedChapters.join(", ")}`;
+    ? 'ブックマーク · 解答'
+    : `${level.toUpperCase()} · 解答 · 章 ${selectedChapters.join(', ')}`;
 
   return (
     <>
@@ -76,13 +85,16 @@ export default function AnswerPaperStep({ speakingQs, kanjiQs, onBack, onRestart
                 color: theme.palette.sakura.iris,
                 borderColor: theme.palette.sakura.coral,
                 borderWidth: 2,
-                background: "rgba(255,255,255,0.45) !important",
-                boxShadow: "none",
-                minHeight: "unset",
-                px: "0.6rem !important",
-                py: "0.4rem !important",
-                fontSize: "0.875rem",
-                "&:hover": { borderColor: theme.palette.primary.main, background: "rgba(255,255,255,0.7) !important" },
+                background: 'rgba(255,255,255,0.45) !important',
+                boxShadow: 'none',
+                minHeight: 'unset',
+                px: '0.6rem !important',
+                py: '0.4rem !important',
+                fontSize: '0.875rem',
+                '&:hover': {
+                  borderColor: theme.palette.primary.main,
+                  background: 'rgba(255,255,255,0.7) !important',
+                },
               })}
             >
               ← 戻る
@@ -94,13 +106,15 @@ export default function AnswerPaperStep({ speakingQs, kanjiQs, onBack, onRestart
                 sx={(theme) => ({
                   background: `${theme.palette.sakura.bloom} !important`,
                   color: theme.palette.primary.main,
-                  boxShadow: "none",
-                  minHeight: "unset",
-                  fontSize: "1.2rem",
+                  boxShadow: 'none',
+                  minHeight: 'unset',
+                  fontSize: '1.2rem',
                   lineHeight: 1,
-                  px: "0.6rem !important",
-                  py: "0.4rem !important",
-                  "&:hover": { background: `${theme.palette.sakura.coral} !important` },
+                  px: '0.6rem !important',
+                  py: '0.4rem !important',
+                  '&:hover': {
+                    background: `${theme.palette.sakura.coral} !important`,
+                  },
                 })}
                 title="Restart"
               >
@@ -112,13 +126,15 @@ export default function AnswerPaperStep({ speakingQs, kanjiQs, onBack, onRestart
                 sx={(theme) => ({
                   background: `${theme.palette.sakura.bloom} !important`,
                   color: theme.palette.primary.main,
-                  boxShadow: "none",
-                  minHeight: "unset",
-                  fontSize: "1.2rem",
+                  boxShadow: 'none',
+                  minHeight: 'unset',
+                  fontSize: '1.2rem',
                   lineHeight: 1,
-                  px: "0.6rem !important",
-                  py: "0.4rem !important",
-                  "&:hover": { background: `${theme.palette.sakura.coral} !important` },
+                  px: '0.6rem !important',
+                  py: '0.4rem !important',
+                  '&:hover': {
+                    background: `${theme.palette.sakura.coral} !important`,
+                  },
                 })}
                 title="Print"
               >
@@ -133,22 +149,37 @@ export default function AnswerPaperStep({ speakingQs, kanjiQs, onBack, onRestart
 
           {speakingQs.length > 0 && (
             <section className="print-section-gap mb-10">
-              <h2 className="print-heading mb-4 text-xl font-bold text-sakura-dusk">発音</h2>
+              <h2 className="print-heading mb-4 text-xl font-bold text-sakura-dusk">
+                発音
+              </h2>
               <ol className="print-list space-y-3">
                 {speakingQs.map((q, i) => (
-                  <li key={i} className="flex items-baseline gap-2 text-base text-sakura-dusk">
-                    <span className="w-12 shrink-0 font-medium">{toFullwidth(i + 1)}．</span>
+                  <li
+                    key={i}
+                    className="flex items-baseline gap-2 text-base text-sakura-dusk"
+                  >
+                    <span className="w-8 shrink-0 font-medium">
+                      {toFullwidth(i + 1)}．
+                    </span>
                     <span
                       className="min-w-0 flex-1 break-words"
-                      dangerouslySetInnerHTML={{ __html: buildSentence(q.question, q.kanji) }}
+                      dangerouslySetInnerHTML={{
+                        __html: buildSentence(q.question, q.kanji),
+                      }}
                     />
-                    <span className="answer-box font-semibold text-sakura-iris">{q.kana}</span>
+                    <span className="answer-box font-semibold text-sakura-iris">
+                      {q.kana}
+                    </span>
                     <button
                       onClick={() => handleToggle(q)}
                       className="no-print shrink-0 text-xl leading-none text-sakura-coral"
-                      title={bookmarked.has(bKey(q)) ? "ブックマーク解除" : "ブックマーク"}
+                      title={
+                        bookmarked.has(bKey(q))
+                          ? 'ブックマーク解除'
+                          : 'ブックマーク'
+                      }
                     >
-                      {bookmarked.has(bKey(q)) ? "★" : "☆"}
+                      {bookmarked.has(bKey(q)) ? '★' : '☆'}
                     </button>
                   </li>
                 ))}
@@ -158,22 +189,37 @@ export default function AnswerPaperStep({ speakingQs, kanjiQs, onBack, onRestart
 
           {kanjiQs.length > 0 && (
             <section>
-              <h2 className="print-heading mb-4 text-xl font-bold text-sakura-dusk">漢字</h2>
+              <h2 className="print-heading mb-4 text-xl font-bold text-sakura-dusk">
+                漢字
+              </h2>
               <ol className="print-list space-y-3">
                 {kanjiQs.map((q, i) => (
-                  <li key={i} className="flex items-baseline gap-2 text-base text-sakura-dusk">
-                    <span className="w-12 shrink-0 font-medium">{toFullwidth(i + 1)}．</span>
+                  <li
+                    key={i}
+                    className="flex items-baseline gap-2 text-base text-sakura-dusk"
+                  >
+                    <span className="w-8 shrink-0 font-medium">
+                      {toFullwidth(i + 1)}．
+                    </span>
                     <span
                       className="min-w-0 flex-1 break-words"
-                      dangerouslySetInnerHTML={{ __html: buildSentence(q.question, q.kana) }}
+                      dangerouslySetInnerHTML={{
+                        __html: buildSentence(q.question, q.kana),
+                      }}
                     />
-                    <span className="answer-box font-semibold text-sakura-iris">{q.kanji}</span>
+                    <span className="answer-box font-semibold text-sakura-iris">
+                      {q.kanji}
+                    </span>
                     <button
                       onClick={() => handleToggle(q)}
                       className="no-print shrink-0 text-xl leading-none text-sakura-coral"
-                      title={bookmarked.has(bKey(q)) ? "ブックマーク解除" : "ブックマーク"}
+                      title={
+                        bookmarked.has(bKey(q))
+                          ? 'ブックマーク解除'
+                          : 'ブックマーク'
+                      }
                     >
-                      {bookmarked.has(bKey(q)) ? "★" : "☆"}
+                      {bookmarked.has(bKey(q)) ? '★' : '☆'}
                     </button>
                   </li>
                 ))}

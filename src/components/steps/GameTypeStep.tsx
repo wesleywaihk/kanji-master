@@ -1,19 +1,27 @@
-import { useDispatch, useSelector } from "react-redux";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
-import { setGameType, type GameType } from "@/store/courseSlice";
-import type { RootState, AppDispatch } from "@/store/store";
+import { useDispatch, useSelector } from 'react-redux';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+import { setGameType, type GameType } from '@/store/courseSlice';
+import type { RootState, AppDispatch } from '@/store/store';
 
 type StepProps = { onNext: (type: GameType) => void; onBack: () => void };
 
 const options: { type: GameType; label: string; description: string }[] = [
-  { type: "card", label: "カードゲーム", description: "自分のペースでカードをめくる。" },
-  { type: "test", label: "テスト形式", description: "一度にすべての問題に答える。" },
+  {
+    type: 'card',
+    label: 'カードゲーム',
+    description: '自分のペースでカードをめくる。',
+  },
+  {
+    type: 'test',
+    label: 'テスト形式',
+    description: '一度にすべての問題に答える。',
+  },
 ];
 
 export default function GameTypeStep({ onNext, onBack }: StepProps) {
   const dispatch = useDispatch<AppDispatch>();
-  const level = useSelector((state: RootState) => state.course.level) ?? "";
+  const level = useSelector((state: RootState) => state.course.level) ?? '';
 
   function handleSelect(type: GameType) {
     dispatch(setGameType(type));
@@ -47,22 +55,37 @@ export default function GameTypeStep({ onNext, onBack }: StepProps) {
               fullWidth
               onClick={() => handleSelect(type)}
               sx={(theme) => ({
-                flexDirection: "column",
-                alignItems: "flex-start",
-                gap: "0.5rem",
+                flexDirection: 'column',
+                alignItems: 'flex-start',
+                gap: '0.5rem',
                 minHeight: 160,
-                px: "1rem !important",
-                py: "2rem",
-                borderRadius: "28px",
+                px: '1rem !important',
+                py: '2rem',
+                borderRadius: '28px',
                 background: `${theme.palette.sakura.bloom} !important`,
                 color: theme.palette.primary.main,
-                boxShadow: "0 18px 30px rgba(80,84,119,0.13)",
-                textAlign: "left",
-                "&:hover": { background: `${theme.palette.sakura.coral} !important`, transform: "translateY(-6px)" },
+                boxShadow: '0 18px 30px rgba(80,84,119,0.13)',
+                textAlign: 'left',
+                '&:hover': {
+                  background: `${theme.palette.sakura.coral} !important`,
+                  transform: 'translateY(-6px)',
+                },
               })}
             >
-              <span style={{ fontSize: "1.6rem", fontWeight: 800, letterSpacing: "-0.02em" }}>{label}</span>
-              <span style={{ fontSize: "0.95rem", fontWeight: 400, opacity: 0.75 }}>{description}</span>
+              <span
+                style={{
+                  fontSize: '1.6rem',
+                  fontWeight: 800,
+                  letterSpacing: '-0.02em',
+                }}
+              >
+                {label}
+              </span>
+              <span
+                style={{ fontSize: '0.95rem', fontWeight: 400, opacity: 0.75 }}
+              >
+                {description}
+              </span>
             </Button>
           ))}
         </div>
@@ -76,9 +99,12 @@ export default function GameTypeStep({ onNext, onBack }: StepProps) {
               color: theme.palette.sakura.iris,
               borderColor: theme.palette.sakura.coral,
               borderWidth: 2,
-              background: "rgba(255,255,255,0.45) !important",
-              boxShadow: "none",
-              "&:hover": { borderColor: theme.palette.primary.main, background: "rgba(255,255,255,0.7) !important" },
+              background: 'rgba(255,255,255,0.45) !important',
+              boxShadow: 'none',
+              '&:hover': {
+                borderColor: theme.palette.primary.main,
+                background: 'rgba(255,255,255,0.7) !important',
+              },
             })}
           >
             ← 戻る

@@ -1,21 +1,21 @@
-import { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import Button from "@mui/material/Button";
-import Slider from "@mui/material/Slider";
-import Typography from "@mui/material/Typography";
-import { setQuestionCounts } from "@/store/courseSlice";
-import type { RootState, AppDispatch } from "@/store/store";
+import { useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import Button from '@mui/material/Button';
+import Slider from '@mui/material/Slider';
+import Typography from '@mui/material/Typography';
+import { setQuestionCounts } from '@/store/courseSlice';
+import type { RootState, AppDispatch } from '@/store/store';
 
 type StepProps = { onNext: () => void; onBack: () => void };
 
 export default function QuestionCountStep({ onNext, onBack }: StepProps) {
   const dispatch = useDispatch<AppDispatch>();
-  const level = useSelector((state: RootState) => state.course.level) ?? "";
+  const level = useSelector((state: RootState) => state.course.level) ?? '';
   const max = useSelector(
     (state: RootState) => state.course.totalAvailableQuestions,
   );
 
-  const sliderMax = Math.min(max, 35);
+  const sliderMax = Math.min(max, 50);
   const defaultCount = max < 10 ? max : 10;
   const [speaking, setSpeaking] = useState(defaultCount);
   const [kanji, setKanji] = useState(defaultCount);
@@ -40,7 +40,7 @@ export default function QuestionCountStep({ onNext, onBack }: StepProps) {
             問題数を設定してください。
           </Typography>
           <Typography className="mt-5 max-w-xl text-base text-sakura-iris md:text-lg">
-            発音問題と漢字問題の数を選んでください。{" "}
+            発音問題と漢字問題の数を選んでください。{' '}
             <span className="font-semibold text-sakura-dusk">
               選択した章から{max}問利用可能
             </span>
@@ -66,15 +66,15 @@ export default function QuestionCountStep({ onNext, onBack }: StepProps) {
               disabled={sliderMax === 0}
               sx={(theme) => ({
                 color: theme.palette.sakura.coral,
-                "& .MuiSlider-thumb": {
+                '& .MuiSlider-thumb': {
                   background: theme.palette.sakura.coral,
-                  boxShadow: "0 2px 8px rgba(80,84,119,0.18)",
+                  boxShadow: '0 2px 8px rgba(80,84,119,0.18)',
                 },
-                "& .MuiSlider-track": {
+                '& .MuiSlider-track': {
                   background: theme.palette.sakura.coral,
-                  border: "none",
+                  border: 'none',
                 },
-                "& .MuiSlider-rail": { background: theme.palette.sakura.bloom },
+                '& .MuiSlider-rail': { background: theme.palette.sakura.bloom },
               })}
             />
           </div>
@@ -95,15 +95,15 @@ export default function QuestionCountStep({ onNext, onBack }: StepProps) {
               disabled={sliderMax === 0}
               sx={(theme) => ({
                 color: theme.palette.sakura.iris,
-                "& .MuiSlider-thumb": {
+                '& .MuiSlider-thumb': {
                   background: theme.palette.sakura.iris,
-                  boxShadow: "0 2px 8px rgba(80,84,119,0.18)",
+                  boxShadow: '0 2px 8px rgba(80,84,119,0.18)',
                 },
-                "& .MuiSlider-track": {
+                '& .MuiSlider-track': {
                   background: theme.palette.sakura.iris,
-                  border: "none",
+                  border: 'none',
                 },
-                "& .MuiSlider-rail": { background: theme.palette.sakura.bloom },
+                '& .MuiSlider-rail': { background: theme.palette.sakura.bloom },
               })}
             />
           </div>
@@ -118,11 +118,11 @@ export default function QuestionCountStep({ onNext, onBack }: StepProps) {
               color: theme.palette.sakura.iris,
               borderColor: theme.palette.sakura.coral,
               borderWidth: 2,
-              background: "rgba(255,255,255,0.45) !important",
-              boxShadow: "none",
-              "&:hover": {
+              background: 'rgba(255,255,255,0.45) !important',
+              boxShadow: 'none',
+              '&:hover': {
                 borderColor: theme.palette.primary.main,
-                background: "rgba(255,255,255,0.7) !important",
+                background: 'rgba(255,255,255,0.7) !important',
               },
             })}
           >
@@ -136,14 +136,14 @@ export default function QuestionCountStep({ onNext, onBack }: StepProps) {
               px: 6,
               background: `${theme.palette.sakura.bloom} !important`,
               color: theme.palette.primary.main,
-              "&:hover": {
+              '&:hover': {
                 background: `${theme.palette.sakura.coral} !important`,
-                transform: "translateY(-4px)",
+                transform: 'translateY(-4px)',
               },
-              "&.Mui-disabled": {
-                background: "rgba(255,194,194,0.3) !important",
-                color: "rgba(80,84,119,0.35)",
-                boxShadow: "none",
+              '&.Mui-disabled': {
+                background: 'rgba(255,194,194,0.3) !important',
+                color: 'rgba(80,84,119,0.35)',
+                boxShadow: 'none',
               },
             })}
           >

@@ -4,9 +4,9 @@
 
 @layer base {
   button,
-  input:where([type="button"]),
-  input:where([type="reset"]),
-  input:where([type="submit"]) {
+  input:where([type='button']),
+  input:where([type='reset']),
+  input:where([type='submit']) {
     background-color: #fff;
     background-image: revert;
   }
@@ -39,7 +39,7 @@ html {
 body {
   margin: 0;
   min-width: 320px;
-  font-family: "Noto Sans JP", "Hiragino Sans", sans-serif;
+  font-family: 'Noto Sans JP', 'Hiragino Sans', sans-serif;
   background:
     radial-gradient(
       circle at top left,
@@ -62,7 +62,7 @@ a {
 
 .landing-shell::before,
 .landing-shell::after {
-  content: "";
+  content: '';
   position: absolute;
   border-radius: 999px;
   pointer-events: none;

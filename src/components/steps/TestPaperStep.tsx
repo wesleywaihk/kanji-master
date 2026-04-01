@@ -1,8 +1,8 @@
-import { useSelector } from "react-redux";
-import Button from "@mui/material/Button";
-import type { RootState } from "@/store/store";
-import type { RawQuestion } from "@/lib/courseData";
-import { buildSentence, toFullwidth } from "@/lib/testUtils";
+import { useSelector } from 'react-redux';
+import Button from '@mui/material/Button';
+import type { RootState } from '@/store/store';
+import type { RawQuestion } from '@/lib/courseData';
+import { buildSentence, toFullwidth } from '@/lib/testUtils';
 
 type Props = {
   speakingQs: RawQuestion[];
@@ -11,10 +11,19 @@ type Props = {
   onAnswer: () => void;
 };
 
-export default function TestPaperStep({ speakingQs, kanjiQs, onBack, onAnswer }: Props) {
-  const level = useSelector((state: RootState) => state.course.level) ?? "";
-  const selectedChapters = useSelector((state: RootState) => state.course.selectedChapters);
-  const isBookmarkMode = useSelector((state: RootState) => state.course.isBookmarkMode);
+export default function TestPaperStep({
+  speakingQs,
+  kanjiQs,
+  onBack,
+  onAnswer,
+}: Props) {
+  const level = useSelector((state: RootState) => state.course.level) ?? '';
+  const selectedChapters = useSelector(
+    (state: RootState) => state.course.selectedChapters,
+  );
+  const isBookmarkMode = useSelector(
+    (state: RootState) => state.course.isBookmarkMode,
+  );
 
   return (
     <>
@@ -48,13 +57,16 @@ export default function TestPaperStep({ speakingQs, kanjiQs, onBack, onAnswer }:
                 color: theme.palette.sakura.iris,
                 borderColor: theme.palette.sakura.coral,
                 borderWidth: 2,
-                background: "rgba(255,255,255,0.45) !important",
-                boxShadow: "none",
-                minHeight: "unset",
-                px: "0.6rem !important",
-                py: "0.4rem !important",
-                fontSize: "0.875rem",
-                "&:hover": { borderColor: theme.palette.primary.main, background: "rgba(255,255,255,0.7) !important" },
+                background: 'rgba(255,255,255,0.45) !important',
+                boxShadow: 'none',
+                minHeight: 'unset',
+                px: '0.6rem !important',
+                py: '0.4rem !important',
+                fontSize: '0.875rem',
+                '&:hover': {
+                  borderColor: theme.palette.primary.main,
+                  background: 'rgba(255,255,255,0.7) !important',
+                },
               })}
             >
               ← 戻る
@@ -66,31 +78,35 @@ export default function TestPaperStep({ speakingQs, kanjiQs, onBack, onAnswer }:
                 sx={(theme) => ({
                   background: `${theme.palette.sakura.bloom} !important`,
                   color: theme.palette.primary.main,
-                  boxShadow: "none",
-                  minHeight: "unset",
-                  fontSize: "1.2rem",
+                  boxShadow: 'none',
+                  minHeight: 'unset',
+                  fontSize: '1.2rem',
                   lineHeight: 1,
-                  px: "0.6rem !important",
-                  py: "0.4rem !important",
-                  "&:hover": { background: `${theme.palette.sakura.coral} !important` },
+                  px: '0.6rem !important',
+                  py: '0.4rem !important',
+                  '&:hover': {
+                    background: `${theme.palette.sakura.coral} !important`,
+                  },
                 })}
                 title="Answers"
               >
                 📋 解答
-</Button>
+              </Button>
               <Button
                 variant="contained"
                 onClick={() => window.print()}
                 sx={(theme) => ({
                   background: `${theme.palette.sakura.bloom} !important`,
                   color: theme.palette.primary.main,
-                  boxShadow: "none",
-                  minHeight: "unset",
-                  fontSize: "1.2rem",
+                  boxShadow: 'none',
+                  minHeight: 'unset',
+                  fontSize: '1.2rem',
                   lineHeight: 1,
-                  px: "0.6rem !important",
-                  py: "0.4rem !important",
-                  "&:hover": { background: `${theme.palette.sakura.coral} !important` },
+                  px: '0.6rem !important',
+                  py: '0.4rem !important',
+                  '&:hover': {
+                    background: `${theme.palette.sakura.coral} !important`,
+                  },
                 })}
                 title="Print"
               >
@@ -100,19 +116,30 @@ export default function TestPaperStep({ speakingQs, kanjiQs, onBack, onAnswer }:
           </div>
 
           <p className="print-label mb-8 text-sm font-semibold uppercase tracking-[0.25em] text-sakura-iris">
-            {isBookmarkMode ? "ブックマーク · テスト" : `${level.toUpperCase()} · テスト · 章 ${selectedChapters.join(", ")}`}
+            {isBookmarkMode
+              ? 'ブックマーク · テスト'
+              : `${level.toUpperCase()} · テスト · 章 ${selectedChapters.join(', ')}`}
           </p>
 
           {speakingQs.length > 0 && (
             <section className="print-section-gap mb-10">
-              <h2 className="print-heading mb-4 text-xl font-bold text-sakura-dusk">発音</h2>
+              <h2 className="print-heading mb-4 text-xl font-bold text-sakura-dusk">
+                発音
+              </h2>
               <ol className="print-list space-y-3">
                 {speakingQs.map((q, i) => (
-                  <li key={i} className="flex items-baseline gap-2 text-base text-sakura-dusk">
-                    <span className="w-12 shrink-0 font-medium">{toFullwidth(i + 1)}．</span>
+                  <li
+                    key={i}
+                    className="flex items-baseline gap-2 text-base text-sakura-dusk"
+                  >
+                    <span className="w-8 shrink-0 font-medium">
+                      {toFullwidth(i + 1)}．
+                    </span>
                     <span
                       className="min-w-0 flex-1 break-words"
-                      dangerouslySetInnerHTML={{ __html: buildSentence(q.question, q.kanji) }}
+                      dangerouslySetInnerHTML={{
+                        __html: buildSentence(q.question, q.kanji),
+                      }}
                     />
                     <span className="answer-box">&nbsp;</span>
                   </li>
@@ -123,14 +150,23 @@ export default function TestPaperStep({ speakingQs, kanjiQs, onBack, onAnswer }:
 
           {kanjiQs.length > 0 && (
             <section>
-              <h2 className="print-heading mb-4 text-xl font-bold text-sakura-dusk">漢字</h2>
+              <h2 className="print-heading mb-4 text-xl font-bold text-sakura-dusk">
+                漢字
+              </h2>
               <ol className="print-list space-y-3">
                 {kanjiQs.map((q, i) => (
-                  <li key={i} className="flex items-baseline gap-2 text-base text-sakura-dusk">
-                    <span className="w-12 shrink-0 font-medium">{toFullwidth(i + 1)}．</span>
+                  <li
+                    key={i}
+                    className="flex items-baseline gap-2 text-base text-sakura-dusk"
+                  >
+                    <span className="w-8 shrink-0 font-medium">
+                      {toFullwidth(i + 1)}．
+                    </span>
                     <span
                       className="min-w-0 flex-1 break-words"
-                      dangerouslySetInnerHTML={{ __html: buildSentence(q.question, q.kana) }}
+                      dangerouslySetInnerHTML={{
+                        __html: buildSentence(q.question, q.kana),
+                      }}
                     />
                     <span className="answer-box">&nbsp;</span>
                   </li>

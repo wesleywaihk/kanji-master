@@ -1,13 +1,13 @@
-import type { RawQuestion } from "./courseData";
+import type { RawQuestion } from './courseData';
 
 export type BookmarkedQuestion = RawQuestion & { level: string };
 
-const STORAGE_KEY = "kanji-master-bookmarks";
+const STORAGE_KEY = 'kanji-master-bookmarks';
 
 export function getBookmarks(): BookmarkedQuestion[] {
-  if (typeof window === "undefined") return [];
+  if (typeof window === 'undefined') return [];
   try {
-    return JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "[]");
+    return JSON.parse(localStorage.getItem(STORAGE_KEY) ?? '[]');
   } catch {
     return [];
   }
@@ -20,7 +20,8 @@ function saveBookmarks(list: BookmarkedQuestion[]): void {
 export function toggleBookmark(level: string, q: RawQuestion): boolean {
   const list = getBookmarks();
   const idx = list.findIndex(
-    (b) => b.level === level && b.question === q.question && b.kanji === q.kanji,
+    (b) =>
+      b.level === level && b.question === q.question && b.kanji === q.kanji,
   );
   if (idx >= 0) {
     list.splice(idx, 1);
@@ -41,6 +42,7 @@ export function removeBookmarkAt(index: number): BookmarkedQuestion[] {
 
 export function checkIsBookmarked(level: string, q: RawQuestion): boolean {
   return getBookmarks().some(
-    (b) => b.level === level && b.question === q.question && b.kanji === q.kanji,
+    (b) =>
+      b.level === level && b.question === q.question && b.kanji === q.kanji,
   );
 }

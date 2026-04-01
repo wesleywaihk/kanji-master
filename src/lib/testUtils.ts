@@ -1,5 +1,5 @@
-import type { RawQuestion } from "./courseData";
-import { dataMap } from "./courseData";
+import type { RawQuestion } from './courseData';
+import { dataMap } from './courseData';
 
 export function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -12,14 +12,17 @@ export function shuffle<T>(arr: T[]): T[] {
 
 export function buildSentence(template: string, word: string): string {
   return template.replace(
-    "<A>",
-    `<strong style="font-weight: 700; font-size: 1.2rem;"> ${word} </strong>`,
+    '<A>',
+    `<strong style="font-weight: 600; font-size: 1.rem; text-decoration: underline; color: #ad4e4e"> ${word} </strong>`,
   );
 }
 
-export const FULLWIDTH = ["０","１","２","３","４","５","６","７","８","９"];
+export const FULLWIDTH = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 export function toFullwidth(n: number): string {
-  return String(n).split("").map((d) => FULLWIDTH[Number(d)]).join("");
+  return String(n)
+    .split('')
+    .map((d) => FULLWIDTH[Number(d)])
+    .join('');
 }
 
 export function generateTestQuestions(

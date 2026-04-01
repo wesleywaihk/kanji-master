@@ -1,6 +1,6 @@
-import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
-export type GameType = "card" | "test" | null;
+export type GameType = 'card' | 'test' | null;
 
 interface CourseState {
   level: string | null;
@@ -23,7 +23,7 @@ const initialState: CourseState = {
 };
 
 export const courseSlice = createSlice({
-  name: "course",
+  name: 'course',
   initialState,
   reducers: {
     setLevel(state, action: PayloadAction<string>) {
@@ -43,7 +43,7 @@ export const courseSlice = createSlice({
     },
     setSelectedChapters(
       state,
-      action: PayloadAction<{ chapters: number[]; totalQuestions: number }>
+      action: PayloadAction<{ chapters: number[]; totalQuestions: number }>,
     ) {
       state.selectedChapters = action.payload.chapters;
       state.totalAvailableQuestions = action.payload.totalQuestions;
@@ -52,7 +52,7 @@ export const courseSlice = createSlice({
     },
     setQuestionCounts(
       state,
-      action: PayloadAction<{ speakingCount: number; kanjiCount: number }>
+      action: PayloadAction<{ speakingCount: number; kanjiCount: number }>,
     ) {
       state.speakingCount = action.payload.speakingCount;
       state.kanjiCount = action.payload.kanjiCount;
@@ -64,6 +64,11 @@ export const courseSlice = createSlice({
   },
 });
 
-export const { setLevel, setSelectedChapters, setQuestionCounts, setGameType, setBookmarkMode } =
-  courseSlice.actions;
+export const {
+  setLevel,
+  setSelectedChapters,
+  setQuestionCounts,
+  setGameType,
+  setBookmarkMode,
+} = courseSlice.actions;
 export default courseSlice.reducer;

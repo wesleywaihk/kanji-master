@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3002",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -28,6 +30,7 @@
     "eslint": "^9.23.0",
     "eslint-config-next": "^15.3.0",
     "postcss": "^8.5.3",
+    "prettier": "^3.8.1",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.8.3"
   }

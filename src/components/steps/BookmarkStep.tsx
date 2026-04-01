@@ -1,20 +1,22 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import { useDispatch } from "react-redux";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
-import { setBookmarkMode } from "@/store/courseSlice";
-import type { AppDispatch } from "@/store/store";
-import { getBookmarks, removeBookmarkAt } from "@/lib/bookmarks";
-import type { BookmarkedQuestion } from "@/lib/bookmarks";
-import { buildSentence } from "@/lib/testUtils";
+import { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+import { setBookmarkMode } from '@/store/courseSlice';
+import type { AppDispatch } from '@/store/store';
+import { getBookmarks, removeBookmarkAt } from '@/lib/bookmarks';
+import type { BookmarkedQuestion } from '@/lib/bookmarks';
+import { buildSentence } from '@/lib/testUtils';
 
 type Props = { onBack: () => void; onStart: () => void };
 
 export default function BookmarkStep({ onBack, onStart }: Props) {
   const dispatch = useDispatch<AppDispatch>();
-  const [bookmarks, setBookmarks] = useState<BookmarkedQuestion[]>(() => getBookmarks());
+  const [bookmarks, setBookmarks] = useState<BookmarkedQuestion[]>(() =>
+    getBookmarks(),
+  );
 
   function handleRemove(index: number) {
     setBookmarks(removeBookmarkAt(index));
@@ -45,7 +47,8 @@ export default function BookmarkStep({ onBack, onStart }: Props) {
 
           {bookmarks.length === 0 ? (
             <p className="mt-10 text-base text-sakura-iris">
-              まだブックマークがありません。解答ページで ☆ をタップして問題を保存してください。
+              まだブックマークがありません。解答ページで ☆
+              をタップして問題を保存してください。
             </p>
           ) : (
             <ol className="mt-8 space-y-3">
@@ -59,9 +62,13 @@ export default function BookmarkStep({ onBack, onStart }: Props) {
                   </span>
                   <span
                     className="min-w-0 flex-1 break-words"
-                    dangerouslySetInnerHTML={{ __html: buildSentence(b.question, b.kanji) }}
+                    dangerouslySetInnerHTML={{
+                      __html: buildSentence(b.question, b.kanji),
+                    }}
                   />
-                  <span className="shrink-0 font-semibold text-sakura-iris">{b.kana}</span>
+                  <span className="shrink-0 font-semibold text-sakura-iris">
+                    {b.kana}
+                  </span>
                   <button
                     onClick={() => handleRemove(i)}
                     className="shrink-0 text-base leading-none text-sakura-coral hover:text-red-500"
@@ -84,9 +91,12 @@ export default function BookmarkStep({ onBack, onStart }: Props) {
               color: theme.palette.sakura.iris,
               borderColor: theme.palette.sakura.coral,
               borderWidth: 2,
-              background: "rgba(255,255,255,0.45) !important",
-              boxShadow: "none",
-              "&:hover": { borderColor: theme.palette.primary.main, background: "rgba(255,255,255,0.7) !important" },
+              background: 'rgba(255,255,255,0.45) !important',
+              boxShadow: 'none',
+              '&:hover': {
+                borderColor: theme.palette.primary.main,
+                background: 'rgba(255,255,255,0.7) !important',
+              },
             })}
           >
             ← 戻る
@@ -99,8 +109,15 @@ export default function BookmarkStep({ onBack, onStart }: Props) {
               px: 6,
               background: `${theme.palette.sakura.bloom} !important`,
               color: theme.palette.primary.main,
-              "&:hover": { background: `${theme.palette.sakura.coral} !important`, transform: "translateY(-4px)" },
-              "&.Mui-disabled": { background: "rgba(255,194,194,0.3) !important", color: "rgba(80,84,119,0.35)", boxShadow: "none" },
+              '&:hover': {
+                background: `${theme.palette.sakura.coral} !important`,
+                transform: 'translateY(-4px)',
+              },
+              '&.Mui-disabled': {
+                background: 'rgba(255,194,194,0.3) !important',
+                color: 'rgba(80,84,119,0.35)',
+                boxShadow: 'none',
+              },
             })}
           >
             練習開始 →

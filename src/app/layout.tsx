@@ -1,14 +1,14 @@
-import type { Metadata } from "next";
-import { Providers } from "@/components/providers";
-import "@/app/globals.scss";
+import type { Metadata } from 'next';
+import { Providers } from '@/components/providers';
+import '@/app/globals.scss';
 
 export const metadata: Metadata = {
-  title: "Kanji Master",
-  description: "Sakura-themed JLPT kanji study hub."
+  title: 'Kanji Master',
+  description: 'Sakura-themed JLPT kanji study hub.',
 };
 
 export default function RootLayout({
-  children
+  children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
