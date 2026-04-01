@@ -3373,14 +3373,14 @@
         "kana": "ぼうさつ"
       },
       {
-        "question": "<A>な毎日を送っている。",
+        "question": "彼は<A>な毎日を送っている。",
         "kanji": "多忙",
         "kana": "たぼう"
       },
       {
         "question": "<A>ところすみません。",
-        "kanji": "お忙しい",
-        "kana": "おいそがしい"
+        "kanji": "忙しい",
+        "kana": "いそがしい"
       },
       {
         "question": "歩きすぎて足が<A>。",
@@ -3403,7 +3403,7 @@
         "kana": "ひろう"
       },
       {
-        "question": "<A>回復を心がける。",
+        "question": "<A>回復を目指す。",
         "kanji": "疲労",
         "kana": "ひろう"
       },
@@ -3418,9 +3418,9 @@
         "kana": "なれる"
       },
       {
-        "question": "住み<A>た町だ。",
-        "kanji": "慣れ",
-        "kana": "なれ"
+        "question": "住み<A>町を離れる。",
+        "kanji": "慣れた",
+        "kana": "なれた"
       },
       {
         "question": "外国語に耳を<A>。",
@@ -3448,22 +3448,22 @@
         "kana": "せる"
       },
       {
-        "question": "名画をオークションで<A>。",
+        "question": "オークションで名画を<A>。",
         "kanji": "競る",
         "kana": "せる"
       },
       {
-        "question": "<A>に勝つために努力する。",
+        "question": "<A>が激しい。",
         "kanji": "競争",
         "kana": "きょうそう"
       },
       {
-        "question": "<A>に参加する。",
+        "question": "彼は<A>の選手だ。",
         "kanji": "競技",
         "kana": "きょうぎ"
       },
       {
-        "question": "<A>を見に行く。",
+        "question": "<A>馬を見に行く。",
         "kanji": "競馬",
         "kana": "けいば"
       },
@@ -3473,9 +3473,9 @@
         "kana": "やしなう"
       },
       {
-        "question": "<A>費を払う。",
-        "kanji": "養育",
-        "kana": "よういく"
+        "question": "<A>を払う。",
+        "kanji": "養育費",
+        "kana": "よういくひ"
       },
       {
         "question": "教師を<A>する。",
@@ -3483,12 +3483,12 @@
         "kana": "ようせい"
       },
       {
-        "question": "<A>を身につける。",
+        "question": "教<A>を身につける。",
         "kanji": "教養",
         "kana": "きょうよう"
       },
       {
-        "question": "<A>を取って休む。",
+        "question": "<A>で温泉に行く。",
         "kanji": "休養",
         "kana": "きゅうよう"
       },
@@ -3498,14 +3498,14 @@
         "kana": "やしなう"
       },
       {
-        "question": "<A>をとる。",
-        "kanji": "栄養",
-        "kana": "えいよう"
-      },
-      {
-        "question": "<A>として育てられた。",
+        "question": "子どもを<A>として迎える。",
         "kanji": "養子",
         "kana": "ようし"
+      },
+      {
+        "question": "<A>を考える。",
+        "kanji": "栄養",
+        "kana": "えいよう"
       },
       {
         "question": "選手とコーチを<A>。",
@@ -3513,19 +3513,654 @@
         "kana": "かねる"
       },
       {
-        "question": "<A>で働く。",
+        "question": "<A>として副収入を得る。",
         "kanji": "兼業",
         "kana": "けんぎょう"
       },
       {
-        "question": "二つの役職を<A>している。",
+        "question": "彼は部長を<A>している。",
         "kanji": "兼任",
         "kana": "けんにん"
       },
       {
-        "question": "男女<A>のトイレ。",
+        "question": "このトイレは男女<A>だ。",
         "kanji": "兼用",
         "kana": "けんよう"
+      },
+      {
+        "question": "販売の仕事に<A>。",
+        "kanji": "就く",
+        "kana": "つく"
+      },
+      {
+        "question": "彼は<A>をしている。",
+        "kanji": "就職活動",
+        "kana": "しゅうしょくかつどう"
+      },
+      {
+        "question": "会社の<A>規則を守る。",
+        "kanji": "就業",
+        "kana": "しゅうぎょう"
+      },
+      {
+        "question": "社長に<A>する。",
+        "kanji": "就任",
+        "kana": "しゅうにん"
+      },
+      {
+        "question": "子どもを有名なコーチに<A>。",
+        "kanji": "就ける",
+        "kana": "つける"
+      },
+      {
+        "question": "毎日の<A>時間を決める。",
+        "kanji": "就寝",
+        "kana": "しゅうしん"
+      },
+      {
+        "question": "上司の指示に<A>。",
+        "kanji": "従う",
+        "kana": "したがう"
+      },
+      {
+        "question": "彼女はとても<A>な性格だ。",
+        "kanji": "従順",
+        "kana": "じゅうじゅん"
+      },
+      {
+        "question": "長年医療に<A>してきた。",
+        "kanji": "従事",
+        "kana": "じゅうじ"
+      },
+      {
+        "question": "部下を<A>出張する。",
+        "kanji": "従えて",
+        "kana": "したがえて"
+      },
+      {
+        "question": "二人の関係は<A>だ。",
+        "kanji": "主従関係",
+        "kana": "しゅうじゅうかんけい"
+      },
+      {
+        "question": "期待に<A>。",
+        "kanji": "応える",
+        "kana": "こたえる"
+      },
+      {
+        "question": "呼びかけに<A>する。",
+        "kanji": "応答",
+        "kana": "おうとう"
+      },
+      {
+        "question": "来客に<A>する。",
+        "kanji": "応対",
+        "kana": "おうたい"
+      },
+      {
+        "question": "チームを<A>する。",
+        "kanji": "応援",
+        "kana": "おうえん"
+      },
+      {
+        "question": "<A>が鈍い。",
+        "kanji": "反応",
+        "kana": "はんのう"
+      },
+      {
+        "question": "これは<A>問題だ。",
+        "kanji": "応用",
+        "kana": "おうよう"
+      },
+      {
+        "question": "取材の<A>をする。",
+        "kanji": "応対",
+        "kana": "おうたい"
+      },
+      {
+        "question": "京都を<A>。",
+        "kanji": "訪れる",
+        "kana": "おとずれる"
+      },
+      {
+        "question": "先生の家を<A>。",
+        "kanji": "訪ねる",
+        "kana": "たずねる"
+      },
+      {
+        "question": "他社を<A>する。",
+        "kanji": "訪問",
+        "kana": "ほうもん"
+      },
+      {
+        "question": "まもなく春が<A>。",
+        "kanji": "訪れる",
+        "kana": "おとずれる"
+      },
+      {
+        "question": "責任を<A>。",
+        "kanji": "課す",
+        "kana": "かす"
+      },
+      {
+        "question": "ノルマが<A>。",
+        "kanji": "課される",
+        "kana": "かされる"
+      },
+      {
+        "question": "この<A>に取り組む。",
+        "kanji": "課題",
+        "kana": "かだい"
+      },
+      {
+        "question": "政府は新たに<A>した。",
+        "kanji": "課税",
+        "kana": "かぜい"
+      },
+      {
+        "question": "彼は<A>の社員だ。",
+        "kanji": "営業課",
+        "kana": "えいぎょうか"
+      },
+      {
+        "question": "彼は<A>に昇進した。",
+        "kanji": "課長",
+        "kana": "かちょう"
+      },
+      {
+        "question": "二人は<A>を続けている。",
+        "kanji": "議論",
+        "kana": "ぎろん"
+      },
+      {
+        "question": "これは重要な<A>だ。",
+        "kanji": "論点",
+        "kana": "ろんてん"
+      },
+      {
+        "question": "彼は<A>的に説明する力がある。",
+        "kanji": "論理",
+        "kana": "ろんり"
+      },
+      {
+        "question": "大学で小<A>を書く。",
+        "kanji": "論文",
+        "kana": "ろんぶん"
+      },
+      {
+        "question": "新入社員を<A>。",
+        "kanji": "採る",
+        "kana": "とる"
+      },
+      {
+        "question": "<A>を受ける。",
+        "kanji": "採用試験",
+        "kana": "さいようしけん"
+      },
+      {
+        "question": "A案を<A>。",
+        "kanji": "採る",
+        "kana": "とる"
+      },
+      {
+        "question": "国会で法案を<A>する。",
+        "kanji": "採決",
+        "kana": "さいけつ"
+      },
+      {
+        "question": "植物<A>を行う。",
+        "kanji": "採集",
+        "kana": "さいしゅう"
+      },
+      {
+        "question": "病院で<A>を受ける。",
+        "kanji": "採血",
+        "kana": "さいけつ"
+      },
+      {
+        "question": "参加者を<A>。",
+        "kanji": "募る",
+        "kana": "つのる"
+      },
+      {
+        "question": "寄付を<A>。",
+        "kanji": "募る",
+        "kana": "つのる"
+      },
+      {
+        "question": "<A>を集める。",
+        "kanji": "募金",
+        "kana": "ぼきん"
+      },
+      {
+        "question": "学生を<A>する。",
+        "kanji": "募集",
+        "kana": "ぼしゅう"
+      },
+      {
+        "question": "採用試験に<A>する。",
+        "kanji": "応募",
+        "kana": "おうぼ"
+      },
+      {
+        "question": "この求人は<A>だ。",
+        "kanji": "急募",
+        "kana": "きゅうぼ"
+      },
+      {
+        "question": "運転手を<A>。",
+        "kanji": "雇う",
+        "kana": "やとう"
+      },
+      {
+        "question": "アルバイトを<A>。",
+        "kanji": "雇う",
+        "kana": "やとう"
+      },
+      {
+        "question": "会社を<A>される。",
+        "kanji": "解雇",
+        "kana": "かいこ"
+      },
+      {
+        "question": "国の<A>問題が深刻だ。",
+        "kanji": "雇用問題",
+        "kana": "こようもんだい"
+      },
+      {
+        "question": "この土地は米作りに<A>。",
+        "kanji": "適している",
+        "kana": "てきしている"
+      },
+      {
+        "question": "彼の<A>を調べる。",
+        "kanji": "適性",
+        "kana": "てきせい"
+      },
+      {
+        "question": "環境に<A>する。",
+        "kanji": "適応",
+        "kana": "てきおう"
+      },
+      {
+        "question": "これは<A>な判断だ。",
+        "kanji": "適切",
+        "kana": "てきせつ"
+      },
+      {
+        "question": "彼はこの仕事に<A>だ。",
+        "kanji": "適任",
+        "kana": "てきにん"
+      },
+      {
+        "question": "毎日<A>な運動をする。",
+        "kanji": "適度",
+        "kana": "てきど"
+      },
+      {
+        "question": "この部屋はとても<A>だ。",
+        "kanji": "快適",
+        "kana": "かいてき"
+      },
+      {
+        "question": "<A>的な意見を述べる。",
+        "kanji": "一般",
+        "kana": "いっぱん"
+      },
+      {
+        "question": "これは<A>でも理解できる。",
+        "kanji": "一般人",
+        "kana": "いっぱんじん"
+      },
+      {
+        "question": "仕事の<A>般を任される。",
+        "kanji": "全般",
+        "kana": "ぜんぱん"
+      },
+      {
+        "question": "意見を<A>する。",
+        "kanji": "総合",
+        "kana": "そうごう"
+      },
+      {
+        "question": "彼は<A>合職に就いた。",
+        "kanji": "総合",
+        "kana": "そうごう"
+      },
+      {
+        "question": "彼は<A>理大臣だ。",
+        "kanji": "総理",
+        "kana": "そうり"
+      },
+      {
+        "question": "会社の<A>を上げて取り組む。",
+        "kanji": "総力",
+        "kana": "そうりょく"
+      },
+      {
+        "question": "この言葉の<A>を調べる。",
+        "kanji": "総称",
+        "kana": "そうしょう"
+      },
+      {
+        "question": "彼は<A>に所属している。",
+        "kanji": "総務部",
+        "kana": "そうむぶ"
+      },
+      {
+        "question": "A社の乗っ取りを<A>。",
+        "kanji": "企てる",
+        "kana": "くわだてる"
+      },
+      {
+        "question": "新しい<A>を考える。",
+        "kanji": "企画",
+        "kana": "きかく"
+      },
+      {
+        "question": "有名<A>に就職したい。",
+        "kanji": "企業",
+        "kana": "きぎょう"
+      },
+      {
+        "question": "新しい仕組みを<A>する。",
+        "kanji": "考案",
+        "kana": "こうあん"
+      },
+      {
+        "question": "これは素晴らしい<A>だ。",
+        "kanji": "名案",
+        "kana": "めいあん"
+      },
+      {
+        "question": "彼はこの企画の<A>だ。",
+        "kanji": "発案者",
+        "kana": "はつあんしゃ"
+      },
+      {
+        "question": "新規プランを<A>する。",
+        "kanji": "提案",
+        "kana": "ていあん"
+      },
+      {
+        "question": "具体的な<A>を考える。",
+        "kanji": "案",
+        "kana": "あん"
+      },
+      {
+        "question": "店内を<A>する。",
+        "kanji": "案内",
+        "kana": "あんない"
+      },
+      {
+        "question": "この<A>は重要だ。",
+        "kanji": "案件",
+        "kana": "あんけん"
+      },
+      {
+        "question": "彼は親に強く<A>している。",
+        "kanji": "依存",
+        "kana": "いぞん"
+      },
+      {
+        "question": "石油資源に<A>する国。",
+        "kanji": "依存",
+        "kana": "いぞん"
+      },
+      {
+        "question": "大雨が<A>然として続く。",
+        "kanji": "依然",
+        "kana": "いぜん"
+      },
+      {
+        "question": "部下に仕事を<A>。",
+        "kanji": "頼む",
+        "kana": "たのむ"
+      },
+      {
+        "question": "先輩を<A>。",
+        "kanji": "頼る",
+        "kana": "たよる"
+      },
+      {
+        "question": "この案件を<A>する。",
+        "kanji": "依頼",
+        "kana": "いらい"
+      },
+      {
+        "question": "二人の<A>関係は強い。",
+        "kanji": "信頼",
+        "kana": "しんらい"
+      },
+      {
+        "question": "彼はとても<A>若者だ。",
+        "kanji": "頼もしい",
+        "kana": "たのもしい"
+      },
+      {
+        "question": "背の高さを<A>。",
+        "kanji": "比べる",
+        "kana": "くらべる"
+      },
+      {
+        "question": "二つの料理を食べ<A>。",
+        "kanji": "比べる",
+        "kana": "くらべる"
+      },
+      {
+        "question": "これは<A>にならない。",
+        "kanji": "比べもの",
+        "kana": "くらべもの"
+      },
+      {
+        "question": "二つのデータを対<A>。",
+        "kanji": "比する",
+        "kana": "ひする"
+      },
+      {
+        "question": "前年度と売り上げを<A>する。",
+        "kanji": "比較",
+        "kana": "ひかく"
+      },
+      {
+        "question": "プロジェクトは<A>的順調だ。",
+        "kanji": "比較",
+        "kana": "ひかく"
+      },
+      {
+        "question": "このレストランは<A>がいい。",
+        "kanji": "評判",
+        "kana": "ひょうばん"
+      },
+      {
+        "question": "新作映画について<A>する。",
+        "kanji": "評論",
+        "kana": "ひょうろん"
+      },
+      {
+        "question": "雑誌に<A>を書く。",
+        "kanji": "書評",
+        "kana": "しょひょう"
+      },
+      {
+        "question": "会議で<A>Wを述べる。",
+        "kanji": "総評",
+        "kana": "そうひょう"
+      },
+      {
+        "question": "この商品は<A>が高い。",
+        "kanji": "好評",
+        "kana": "こうひょう"
+      },
+      {
+        "question": "ネットで<A>が立つ。",
+        "kanji": "風評",
+        "kana": "ふうひょう"
+      },
+      {
+        "question": "商品に適正な<A>をつける。",
+        "kanji": "価",
+        "kana": "あたい"
+      },
+      {
+        "question": "この商品の<A>は高い。",
+        "kanji": "価格",
+        "kana": "かかく"
+      },
+      {
+        "question": "この店は<A>が上がっている。",
+        "kanji": "物価",
+        "kana": "ぶっか"
+      },
+      {
+        "question": "この絵には高い<A>がある。",
+        "kanji": "価値",
+        "kana": "かち"
+      },
+      {
+        "question": "勉強の成果を<A>する。",
+        "kanji": "評価",
+        "kana": "ひょうか"
+      },
+      {
+        "question": "乱れた生活を<A>。",
+        "kanji": "改める",
+        "kana": "あらためる"
+      },
+      {
+        "question": "彼は<A>してやり直した。",
+        "kanji": "改心",
+        "kana": "かいしん"
+      },
+      {
+        "question": "古い家を<A>する。",
+        "kanji": "改造",
+        "kana": "かいぞう"
+      },
+      {
+        "question": "店を<A>工事する。",
+        "kanji": "改装",
+        "kana": "かいそう"
+      },
+      {
+        "question": "政治<A>が必要だ。",
+        "kanji": "改革",
+        "kana": "かいかく"
+      },
+      {
+        "question": "彼は<A>態度で話す。",
+        "kanji": "改まった",
+        "kana": "あらたまった"
+      },
+      {
+        "question": "彼は<A>行いをした。",
+        "kanji": "善い",
+        "kana": "よい"
+      },
+      {
+        "question": "人間の<A>悪ついて考える。",
+        "kanji": "善悪",
+        "kana": "ぜんあく"
+      },
+      {
+        "question": "彼は<A>だと言われている。",
+        "kanji": "偽善者",
+        "kana": "ぎぜんしゃ"
+      },
+      {
+        "question": "両国の<A>が行われた。",
+        "kanji": "親善試合",
+        "kana": "しんぜんじあい"
+      },
+      {
+        "question": "彼は<A>な市民だ。",
+        "kanji": "善良",
+        "kana": "ぜんりょう"
+      },
+      {
+        "question": "彼は<A>意で協力した。",
+        "kanji": "善意",
+        "kana": "ぜんい"
+      },
+      {
+        "question": "水質を<A>善する。",
+        "kanji": "改善",
+        "kana": "かいぜん"
+      },
+      {
+        "question": "彼はデパートに<A>。",
+        "kanji": "勤めている",
+        "kana": "つとめている"
+      },
+      {
+        "question": "今日は<A>だ。",
+        "kanji": "勤労感謝の日",
+        "kana": "きんろうかんしゃのひ"
+      },
+      {
+        "question": "毎日電車で<A>する。",
+        "kanji": "通勤",
+        "kana": "つうきん"
+      },
+      {
+        "question": "彼は20年<A>している。",
+        "kanji": "勤続",
+        "kana": "きんぞく"
+      },
+      {
+        "question": "大阪に<A>することになった。",
+        "kanji": "転勤",
+        "kana": "てんきん"
+      },
+      {
+        "question": "彼は夜<A>の仕事だ。",
+        "kanji": "夜勤",
+        "kana": "やきん"
+      },
+      {
+        "question": "無断<A>はよくない。",
+        "kanji": "欠勤",
+        "kana": "けっきん"
+      },
+      {
+        "question": "彼なら課長が<A>Wだろう。",
+        "kanji": "勤まる",
+        "kana": "つとまる"
+      },
+      {
+        "question": "彼は司会を<A>。",
+        "kanji": "務める",
+        "kana": "つとめる"
+      },
+      {
+        "question": "リーダーが<A>か心配だ。",
+        "kanji": "務まる",
+        "kana": "つとまる"
+      },
+      {
+        "question": "病院に<A>する。",
+        "kanji": "勤務",
+        "kana": "きんむ"
+      },
+      {
+        "question": "義務を<A>。",
+        "kanji": "果たす",
+        "kana": "はたす"
+      },
+      {
+        "question": "これは国民の<A>だ。",
+        "kanji": "義務教育",
+        "kana": "ぎむきょういく"
+      },
+      {
+        "question": "<A>で働く。",
+        "kanji": "外務省",
+        "kana": "がいむしょう"
+      },
+      {
+        "question": "会社の<A>に行く。",
+        "kanji": "事務所",
+        "kana": "じむしょ"
       }
     ]
   },
