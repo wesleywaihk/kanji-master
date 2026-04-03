@@ -5124,7 +5124,6 @@
         "kana": "しょうどく"
       },
       { "question": "飲みすぎは体に<A>だ。", "kanji": "毒", "kana": "どく" },
-
       { "question": "犯人が人を<A>。", "kanji": "殺す", "kana": "ころす" },
       {
         "question": "昨夜、<A>が起きた。",
@@ -5161,7 +5160,6 @@
         "kanji": "殺生",
         "kana": "せっしょう"
       },
-
       { "question": "相手のミスを<A>。", "kanji": "責める", "kana": "せめる" },
       {
         "question": "リーダーとして<A>をとる。",
@@ -5184,7 +5182,6 @@
         "kana": "せきむ"
       },
       { "question": "上司に<A>された。", "kanji": "叱責", "kana": "しっせき" },
-
       {
         "question": "犯人が現場から<A>。",
         "kanji": "逃げた",
@@ -5216,7 +5213,6 @@
         "kanji": "逃亡",
         "kana": "とうぼう"
       },
-
       {
         "question": "酔った男が店で<A>。",
         "kanji": "暴れる",
@@ -5239,7 +5235,6 @@
       },
       { "question": "不正を<A>。", "kanji": "暴く", "kana": "あばく" },
       { "question": "汚職を<A>する。", "kanji": "暴露", "kana": "ばくろ" },
-
       {
         "question": "失敗を<A>あまり何もできない。",
         "kanji": "恐れる",
@@ -5270,7 +5265,6 @@
         "kanji": "恐縮ですが",
         "kana": "きょうしゅくですが"
       },
-
       {
         "question": "<A>の用事で呼び出された。",
         "kanji": "緊急",
@@ -5286,7 +5280,6 @@
         "kanji": "緊迫",
         "kana": "きんぱく"
       },
-
       { "question": "公園でテントを<A>。", "kanji": "張る", "kana": "はる" },
       { "question": "天井にくもの巣が<A>。", "kanji": "張る", "kana": "はる" },
       {
@@ -5309,7 +5302,6 @@
         "kanji": "主張",
         "kana": "しゅちょう"
       },
-
       {
         "question": "洗濯したらシャツが<A>。",
         "kanji": "破れた",
@@ -5337,7 +5329,6 @@
       },
       { "question": "不要な書類を<A>する。", "kanji": "破棄", "kana": "はき" },
       { "question": "会社が<A>した。", "kanji": "破産", "kana": "はさん" },
-
       {
         "question": "落としてコップが<A>。",
         "kanji": "割れる",
@@ -5371,7 +5362,6 @@
         "kanji": "割り算",
         "kana": "わりざん"
       },
-
       { "question": "駅で友人と<A>。", "kanji": "別れる", "kana": "わかれる" },
       {
         "question": "空港で恋人と<A>。",
@@ -5418,7 +5408,6 @@
         "kanji": "特別",
         "kana": "とくべつ"
       },
-
       {
         "question": "大人になって故郷を<A>。",
         "kanji": "離れる",
@@ -5445,7 +5434,6 @@
         "kanji": "分離",
         "kana": "ぶんり"
       },
-
       { "question": "棒で<A>。", "kanji": "殴る", "kana": "なぐる" },
       {
         "question": "酔った男が駅員を<A>。",
@@ -5454,7 +5442,6 @@
       },
       { "question": "喧嘩で<A>する。", "kanji": "殴打", "kana": "おうだ" },
       { "question": "路上で<A>された。", "kanji": "殴殺", "kana": "おうさつ" },
-
       { "question": "「助けて」と<A>。", "kanji": "叫ぶ", "kana": "さけぶ" },
       { "question": "<A>をあげる。", "kanji": "叫び声", "kana": "さけびごえ" },
       {
@@ -5462,7 +5449,6 @@
         "kanji": "絶叫",
         "kana": "ぜっきょう"
       },
-
       { "question": "<A>話を聞いた。", "kanji": "怖い", "kana": "こわい" },
       { "question": "犬を<A>。", "kanji": "怖がる", "kana": "こわがる" },
       {
@@ -5475,7 +5461,6 @@
         "kanji": "高所恐怖症",
         "kana": "こうしょきょうふしょう"
       },
-
       { "question": "彼女は人混みを<A>。", "kanji": "嫌う", "kana": "きらう" },
       {
         "question": "彼は負けず<A>な性格だ。",
@@ -5494,7 +5479,6 @@
         "kanji": "自己嫌悪",
         "kana": "じこけんお"
       },
-
       { "question": "不正を<A>。", "kanji": "憎む", "kana": "にくむ" },
       { "question": "犯人が<A>。", "kanji": "憎い", "kana": "にくい" },
       {
@@ -5513,7 +5497,6 @@
         "kanji": "憎悪",
         "kana": "ぞうお"
       },
-
       {
         "question": "皆の前で転んで<A>。",
         "kanji": "恥ずかしい",
@@ -5531,7 +5514,6 @@
         "kanji": "厚顔無恥",
         "kana": "こうがんむち"
       },
-
       { "question": "ミスを<A>。", "kanji": "犯す", "kana": "おかす" },
       { "question": "規則を<A>。", "kanji": "犯す", "kana": "おかす" },
       { "question": "<A>におよぶ。", "kanji": "犯行", "kana": "はんこう" },
@@ -5550,7 +5532,6 @@
         "kanji": "犯人",
         "kana": "はんにん"
       },
-
       { "question": "を<A>犯す。", "kanji": "罪", "kana": "つみ" },
       {
         "question": "重大な<A>を犯した。",
@@ -5568,7 +5549,6 @@
         "kanji": "死罪",
         "kana": "しざい"
       },
-
       {
         "question": "食べ物を<A>に入れる。",
         "kanji": "容器",
@@ -5604,7 +5584,6 @@
         "kanji": "容易",
         "kana": "ようい"
       },
-
       {
         "question": "刑事が<A>を投げかけた。",
         "kanji": "疑問",
@@ -5630,7 +5609,6 @@
         "kanji": "半信半疑",
         "kana": "はんしんはんぎ"
       },
-
       { "question": "難しい<A>が起きた。", "kanji": "事件", "kana": "じけん" },
       {
         "question": "契約の<A>を確認する。",
@@ -5652,7 +5630,6 @@
         "kanji": "犯罪件数",
         "kana": "はんざいけんすう"
       },
-
       {
         "question": "知らない町で道に<A>。",
         "kanji": "迷う",
@@ -5680,7 +5657,6 @@
         "kanji": "迷信",
         "kana": "めいしん"
       },
-
       { "question": "地図に<A>をつける。", "kanji": "印", "kana": "しるし" },
       {
         "question": "書類に<A>を押す。",
@@ -5703,7 +5679,6 @@
         "kana": "こめじるし"
       },
       { "question": "資料を<A>する。", "kanji": "印刷", "kana": "いんさつ" },
-
       { "question": "<A>は鼻が長い。", "kanji": "象", "kana": "ぞう" },
       {
         "question": "不思議な<A>が起きた。",
@@ -5727,7 +5702,6 @@
         "kanji": "気象情報",
         "kana": "きしょうじょうほう"
       },
-
       {
         "question": "仲間を<A>出かける。",
         "kanji": "誘って",
@@ -5746,7 +5720,6 @@
         "kanji": "誘かいされた",
         "kana": "ゆうかいされた"
       },
-
       {
         "question": "友人に入会を<A>。",
         "kanji": "勧める",
@@ -5763,7 +5736,6 @@
         "kanji": "勧告",
         "kana": "かんこく"
       },
-
       { "question": "包丁の<A>が鋭い。", "kanji": "刃", "kana": "は" },
       { "question": "かみそりの<A>を替える。", "kanji": "刃", "kana": "は" },
       {
@@ -5776,7 +5748,6 @@
         "kanji": "凶刃",
         "kana": "きょうじん"
       },
-
       {
         "question": "美術館から宝石を<A>。",
         "kanji": "盗む",
@@ -5803,6 +5774,489 @@
         "kanji": "盗聴",
         "kana": "とうちょう"
       }
+    ]
+  },
+  {
+    "chapter": 8,
+    "questions": [
+      { "question": "池の<A>を走る。", "kanji": "周り", "kana": "まわり" },
+      {
+        "question": "<A>２キロ走った。",
+        "kanji": "一周",
+        "kana": "いっしゅう"
+      },
+      {
+        "question": "<A>の居酒屋に行く。",
+        "kanji": "駅周辺",
+        "kana": "えきしゅうへん"
+      },
+      {
+        "question": "ヨーロッパ<A>を計画する。",
+        "kanji": "周遊旅行",
+        "kana": "しゅうゆうりょこう"
+      },
+      {
+        "question": "それは<A>の事実だ。",
+        "kanji": "周知",
+        "kana": "しゅうち"
+      },
+      {
+        "question": "<A>な計画を立てる。",
+        "kanji": "用意周到",
+        "kana": "よういしゅうとう"
+      },
+      {
+        "question": "みんなでテーブルを<A>座る。",
+        "kanji": "囲んで",
+        "kana": "かこんで"
+      },
+      {
+        "question": "森に<A>家に住む。",
+        "kanji": "囲まれた",
+        "kana": "かこまれた"
+      },
+      {
+        "question": "木の周りをフェンスで<A>。",
+        "kanji": "囲う",
+        "kana": "かこう"
+      },
+      { "question": "敵を<A>する。", "kanji": "包囲", "kana": "ほうい" },
+      {
+        "question": "議論の<A>を定める。",
+        "kanji": "周囲",
+        "kana": "しゅうい"
+      },
+      { "question": "友人の<A>に入る。", "kanji": "胸囲", "kana": "きょうい" },
+      { "question": "活動の<A>が広い。", "kanji": "範囲", "kana": "はんい" },
+      {
+        "question": "リーダーに<A>する。",
+        "kanji": "協力",
+        "kana": "きょうりょく"
+      },
+      {
+        "question": "イベントに<A>する。",
+        "kanji": "協賛",
+        "kana": "きょうさん"
+      },
+      {
+        "question": "地域の<A>に入る。",
+        "kanji": "協会",
+        "kana": "きょうかい"
+      },
+      {
+        "question": "<A>が進んでいる。",
+        "kanji": "産学協同",
+        "kana": "さんがくきょうどう"
+      },
+      {
+        "question": "両国が<A>を結ぶ。",
+        "kanji": "協定",
+        "kana": "きょうてい"
+      },
+      { "question": "<A>に歩み寄る。", "kanji": "互い", "kana": "たがい" },
+      {
+        "question": "<A>と言い合う。",
+        "kanji": "お互い様",
+        "kana": "おたがいさま"
+      },
+      {
+        "question": "ソフトの<A>を確認する。",
+        "kanji": "互換性",
+        "kana": "ごかんせい"
+      },
+      { "question": "<A>に発言する。", "kanji": "交互", "kana": "こうご" },
+      {
+        "question": "<A>を深める。",
+        "kanji": "相互理解",
+        "kana": "そうごりかい"
+      },
+      { "question": "<A>の戦いになった。", "kanji": "互角", "kana": "ごかく" },
+      { "question": "二人で<A>に生きる。", "kanji": "共", "kana": "とも" },
+      { "question": "苦楽を<A>にする。", "kanji": "共", "kana": "とも" },
+      { "question": "二人<A>合格した。", "kanji": "共", "kana": "とも" },
+      {
+        "question": "夫婦で<A>する。",
+        "kanji": "共働き",
+        "kana": "ともばたらき"
+      },
+      {
+        "question": "<A>で作業を進める。",
+        "kanji": "共同",
+        "kana": "きょうどう"
+      },
+      {
+        "question": "彼女への<A>を感じる。",
+        "kanji": "共感",
+        "kana": "きょうかん"
+      },
+      {
+        "question": "<A>の場を大切にする。",
+        "kanji": "公共",
+        "kana": "こうきょう"
+      },
+      {
+        "question": "<A>の友人に会う。",
+        "kanji": "共通",
+        "kana": "きょうつう"
+      },
+      { "question": "<A>で話し合う。", "kanji": "我々", "kana": "われわれ" },
+      {
+        "question": "<A>の未来を考える。",
+        "kanji": "我が国",
+        "kana": "わがくに"
+      },
+      {
+        "question": "夢中になって<A>。",
+        "kanji": "我を忘れる",
+        "kana": "われをわすれる"
+      },
+      { "question": "<A>が芽生える。", "kanji": "自我", "kana": "じが" },
+      {
+        "question": "彼女は<A>人だ。",
+        "kanji": "我が強い",
+        "kana": "がつよい"
+      },
+      {
+        "question": "自分の意見を<A>。",
+        "kanji": "我を通す",
+        "kana": "がをとおす"
+      },
+      {
+        "question": "<A>にお知らせする。",
+        "kanji": "皆様",
+        "kana": "みなさま"
+      },
+      {
+        "question": "<A>に聞いてみた。",
+        "kanji": "皆さん",
+        "kana": "みなさん"
+      },
+      {
+        "question": "<A>をもらった。",
+        "kanji": "皆勤賞",
+        "kana": "かいきんしょう"
+      },
+      {
+        "question": "<A>という技を使う。",
+        "kanji": "免許皆伝",
+        "kana": "めんきょかいでん"
+      },
+      { "question": "努力が<A>になった。", "kanji": "皆無", "kana": "かいむ" },
+      { "question": "<A>を切る。", "kanji": "へその緒", "kana": "へそのお" },
+      { "question": "友達と<A>に行く。", "kanji": "一緒", "kana": "いっしょ" },
+      {
+        "question": "二人だけで<A>にする。",
+        "kanji": "内緒",
+        "kana": "ないしょ"
+      },
+      { "question": "<A>ある家柄だ。", "kanji": "由緒", "kana": "ゆいしょ" },
+      {
+        "question": "<A>豊かな城下町を歩く。",
+        "kanji": "情緒",
+        "kana": "じょうちょ"
+      },
+      {
+        "question": "子どもの<A>が心配だ。",
+        "kanji": "情緒不安定",
+        "kana": "じょうちょふあんてい"
+      },
+      { "question": "友達に<A>。", "kanji": "謝る", "kana": "あやまる" },
+      {
+        "question": "助けてもらって<A>する。",
+        "kanji": "感謝",
+        "kana": "かんしゃ"
+      },
+      { "question": "被害者に<A>する。", "kanji": "謝罪", "kana": "しゃざい" },
+      { "question": "毎月<A>を払う。", "kanji": "月謝", "kana": "げっしゃ" },
+      {
+        "question": "その言葉は<A>がいい。",
+        "kanji": "代謝",
+        "kana": "たいしゃ"
+      },
+      { "question": "練習に<A>。", "kanji": "励む", "kana": "はげむ" },
+      { "question": "仲間を<A>。", "kanji": "励ます", "kana": "はげます" },
+      { "question": "声援が<A>になる。", "kanji": "励み", "kana": "はげみ" },
+      { "question": "留学をしようと<A>する。", "kanji": "励", "kana": "れい" },
+      { "question": "子どもを<A>母親。", "kanji": "抱いた", "kana": "だいた" },
+      {
+        "question": "離れないように<A>。",
+        "kanji": "抱きしめる",
+        "kana": "だきしめる"
+      },
+      { "question": "花束を<A>。", "kanji": "抱える", "kana": "かかえる" },
+      { "question": "胸に疑問を<A>。", "kanji": "抱く", "kana": "いだく" },
+      { "question": "将来の<A>を述べる。", "kanji": "抱負", "kana": "ほうふ" },
+      { "question": "病人を<A>する。", "kanji": "介抱", "kana": "かいほう" },
+      { "question": "毎日<A>が続く。", "kanji": "辛抱", "kana": "しんぼう" },
+      { "question": "手を<A>。", "kanji": "握る", "kana": "にぎる" },
+      {
+        "question": "<A>を食べる。",
+        "kanji": "握り寿司",
+        "kana": "にぎりずし"
+      },
+      { "question": "相手と<A>をする。", "kanji": "握手", "kana": "あくしゅ" },
+      { "question": "状況を<A>する。", "kanji": "把握", "kana": "はあく" },
+      {
+        "question": "<A>の選ばれた人たち。",
+        "kanji": "一握り",
+        "kana": "ひとにぎり"
+      },
+      { "question": "君と<A>は友達だ。", "kanji": "僕", "kana": "ぼく" },
+      { "question": "彼は社長の<A>だ。", "kanji": "下僕", "kana": "げぼく" },
+      { "question": "官僚は<A>である。", "kanji": "公僕", "kana": "こうぼく" },
+      {
+        "question": "部活の<A>にあいさつする。",
+        "kanji": "先輩",
+        "kana": "せんぱい"
+      },
+      { "question": "<A>の面倒を見る。", "kanji": "後輩", "kana": "こうはい" },
+      { "question": "<A>は猫である。", "kanji": "吾輩", "kana": "わがはい" },
+      {
+        "question": "多くの有名選手を<A>した高校。",
+        "kanji": "輩出",
+        "kana": "はいしゅつ"
+      },
+      {
+        "question": "<A>と仕事をする。",
+        "kanji": "同僚",
+        "kana": "どうりょう"
+      },
+      {
+        "question": "<A>制度を批判する。",
+        "kanji": "官僚",
+        "kana": "かんりょう"
+      },
+      {
+        "question": "<A>との関係が大切だ。",
+        "kanji": "閣僚",
+        "kana": "かくりょう"
+      },
+      {
+        "question": "<A>に名前を呼ばれた。",
+        "kanji": "誰か",
+        "kana": "だれか"
+      },
+      {
+        "question": "<A>部屋に入った。",
+        "kanji": "誰もいない",
+        "kana": "だれもいない"
+      },
+      { "question": "子どもと<A>。", "kanji": "遊ぶ", "kana": "あそぶ" },
+      { "question": "夜に<A>する。", "kanji": "夜遊び", "kana": "よあそび" },
+      {
+        "question": "<A>と公園に行く。",
+        "kanji": "遊び友達",
+        "kana": "あそびともだち"
+      },
+      { "question": "<A>に行く。", "kanji": "遊園地", "kana": "ゆうえんち" },
+      { "question": "海外に<A>する。", "kanji": "遊学", "kana": "ゆうがく" },
+      { "question": "<A>を言う。", "kanji": "冗談", "kana": "じょうだん" },
+      {
+        "question": "これは<A>じゃない。",
+        "kanji": "冗談",
+        "kana": "じょうだん"
+      },
+      {
+        "question": "彼の話は<A>だ。",
+        "kanji": "冗長",
+        "kana": "じょうちょう"
+      },
+      { "question": "平和を<A>。", "kanji": "尊ぶ", "kana": "とうとぶ" },
+      {
+        "question": "人の命は<A>ものだ。",
+        "kanji": "尊い",
+        "kana": "とうとい"
+      },
+      {
+        "question": "プライバシーを<A>する。",
+        "kanji": "尊重",
+        "kana": "そんちょう"
+      },
+      { "question": "人間の<A>を守る。", "kanji": "尊厳", "kana": "そんげん" },
+      { "question": "神仏を<A>。", "kanji": "尊ぶ", "kana": "たっとぶ" },
+      {
+        "question": "<A>を持って行動する。",
+        "kanji": "自尊心",
+        "kana": "じそんしん"
+      },
+      { "question": "目上の人を<A>。", "kanji": "敬う", "kana": "うやまう" },
+      { "question": "先生を<A>する。", "kanji": "尊敬", "kana": "そんけい" },
+      { "question": "相手に<A>を払う。", "kanji": "敬意", "kana": "けいい" },
+      { "question": "正しい<A>を使う。", "kanji": "敬語", "kana": "けいご" },
+      {
+        "question": "今日は<A>だ。",
+        "kanji": "敬老の日",
+        "kana": "けいろうのひ"
+      },
+      { "question": "仏壇に<A>を飾る。", "kanji": "敬具", "kana": "けいぐ" },
+      { "question": "田中と<A>。", "kanji": "申します", "kana": "もうします" },
+      {
+        "question": "お願い<A>。",
+        "kanji": "申し上げます",
+        "kana": "もうしあげます"
+      },
+      { "question": "講座に<A>。", "kanji": "申し込む", "kana": "もうしこむ" },
+      {
+        "question": "手続きの<A>を書く。",
+        "kanji": "申込書",
+        "kana": "もうしこみしょ"
+      },
+      { "question": "役所に<A>する。", "kanji": "申請", "kana": "しんせい" },
+      { "question": "税務署に<A>する。", "kanji": "申告", "kana": "しんこく" },
+      {
+        "question": "中国から<A>。",
+        "kanji": "参りました",
+        "kana": "まいりました"
+      },
+      {
+        "question": "お墓に<A>をする。",
+        "kanji": "はか参り",
+        "kana": "はかまいり"
+      },
+      { "question": "行事に<A>する。", "kanji": "参加", "kana": "さんか" },
+      {
+        "question": "先生の意見を<A>にする。",
+        "kanji": "参考",
+        "kana": "さんこう"
+      },
+      { "question": "資料を<A>する。", "kanji": "参照", "kana": "さんしょう" },
+      { "question": "荷物を<A>する。", "kanji": "持参", "kana": "じさん" },
+      {
+        "question": "私からお電話を<A>。",
+        "kanji": "致します",
+        "kana": "いたします"
+      },
+      { "question": "意見が<A>する。", "kanji": "一致", "kana": "いっち" },
+      {
+        "question": "<A>が起きた。",
+        "kanji": "傷害致死事件",
+        "kana": "しょうがいちしじけん"
+      },
+      {
+        "question": "<A>なミスを犯した。",
+        "kanji": "致命的な",
+        "kana": "ちめいてきな"
+      },
+      { "question": "<A>に勤める。", "kanji": "御社", "kana": "おんしゃ" },
+      { "question": "ARC株式会社<A>。", "kanji": "御中", "kana": "おんちゅう" },
+      { "question": "<A>と旅行する。", "kanji": "御家族", "kana": "ごかぞく" },
+      {
+        "question": "<A>をお知らせください。",
+        "kanji": "御住所",
+        "kana": "ごじゅうしょ"
+      },
+      { "question": "<A>申し上げます。", "kanji": "御礼", "kana": "おんれい" },
+      {
+        "question": "<A>をお送りします。",
+        "kanji": "御案内",
+        "kana": "ごあんない"
+      },
+      { "question": "機械を<A>する。", "kanji": "制御", "kana": "せいぎょ" },
+      { "question": "城を<A>する。", "kanji": "防御", "kana": "ぼうぎょ" },
+      {
+        "question": "料理を<A>。",
+        "kanji": "召し上がる",
+        "kana": "めしあがる"
+      },
+      {
+        "question": "国王に<A>登城する。",
+        "kanji": "召されて",
+        "kana": "めされて"
+      },
+      {
+        "question": "神に<A>。",
+        "kanji": "天に召される",
+        "kana": "てんにめされる"
+      },
+      {
+        "question": "議長が国会を<A>する。",
+        "kanji": "召集",
+        "kana": "しょうしゅう"
+      },
+      {
+        "question": "王様の<A>が来た。",
+        "kanji": "召し使い",
+        "kana": "めしつかい"
+      },
+      {
+        "question": "手を合わせて仏を<A>。",
+        "kanji": "拝む",
+        "kana": "おがむ"
+      },
+      {
+        "question": "近くに<A>がある。",
+        "kanji": "礼拝堂",
+        "kana": "れいはいどう"
+      },
+      {
+        "question": "<A>を集める。",
+        "kanji": "拝観料",
+        "kana": "はいかんりょう"
+      },
+      {
+        "question": "<A>が多い観光地だ。",
+        "kanji": "参拝客",
+        "kana": "さんぱいきゃく"
+      },
+      { "question": "資料を<A>する。", "kanji": "拝見", "kana": "はいけん" },
+      {
+        "question": "試合は<A>した。",
+        "kanji": "終了",
+        "kana": "しゅうりょう"
+      },
+      { "question": "任務を<A>する。", "kanji": "完了", "kana": "かんりょう" },
+      { "question": "内容を<A>した。", "kanji": "了解", "kana": "りょうかい" },
+      { "question": "注文を<A>。", "kanji": "承る", "kana": "うけたまわる" },
+      { "question": "内容を<A>する。", "kanji": "承知", "kana": "しょうち" },
+      {
+        "question": "変更を<A>する。",
+        "kanji": "了承",
+        "kana": "りょうしょう"
+      },
+      {
+        "question": "伝統を<A>する。",
+        "kanji": "けい承",
+        "kana": "けいしょう"
+      },
+      {
+        "question": "文章の<A>を考える。",
+        "kanji": "起承転結",
+        "kana": "きしょうてんけつ"
+      },
+      { "question": "お宅に<A>。", "kanji": "伺う", "kana": "うかがう" },
+      { "question": "都合を<A>。", "kanji": "伺う", "kana": "うかがう" },
+      {
+        "question": "どうするか<A>をする。",
+        "kanji": "進退伺い",
+        "kana": "しんたいうかがい"
+      },
+      { "question": "手紙で<A>を送る。", "kanji": "伺候", "kana": "しこう" },
+      {
+        "question": "先生に本を<A>。",
+        "kanji": "頂いた",
+        "kana": "いただいた"
+      },
+      {
+        "question": "贈り物の<A>をする。",
+        "kanji": "頂き物",
+        "kana": "いただきもの"
+      },
+      {
+        "question": "富士山の<A>に登る。",
+        "kanji": "山の頂",
+        "kana": "やまのいただき"
+      },
+      {
+        "question": "<A>からの眺めは最高だ。",
+        "kanji": "山頂",
+        "kana": "さんちょう"
+      },
+      {
+        "question": "人気の<A>を極める。",
+        "kanji": "頂点",
+        "kana": "ちょうてん"
+      },
+      { "question": "<A>に成功した。", "kanji": "登頂", "kana": "とうちょう" }
     ]
   }
 ]
