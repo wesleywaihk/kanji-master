@@ -7930,7 +7930,6 @@
         "kanji": "距離",
         "kana": "きょり"
       },
-
       { "question": "ランプに<A>をともす。", "kanji": "灯", "kana": "ひ" },
       { "question": "12時に<A>する。", "kanji": "消灯", "kana": "しょうとう" },
       {
@@ -8535,6 +8534,1609 @@
         "question": "<A>を着る。",
         "kanji": "舞台衣装",
         "kana": "ぶたいいしょう"
+      }
+    ]
+  },
+  {
+    "chapter": 13,
+    "questions": [
+      { "question": "<A>におそわれる。", "kanji": "睡魔", "kana": "すいま" },
+      { "question": "毎晩<A>する。", "kanji": "熟睡", "kana": "じゅくすい" },
+      {
+        "question": "昨夜は<A>もできなかった。",
+        "kanji": "一睡",
+        "kana": "いっすい"
+      },
+
+      {
+        "question": "<A>眠れた。",
+        "kanji": "ぐっすり眠る",
+        "kana": "ぐっすりねむる"
+      },
+      { "question": "<A>りが浅い。", "kanji": "深い眠", "kana": "ふかいねむ" },
+      {
+        "question": "朝<A>が鳴る。",
+        "kanji": "眠気覚まし",
+        "kana": "ねむけざまし"
+      },
+      { "question": "授業中に<A>。", "kanji": "眠い", "kana": "ねむい" },
+      { "question": "病院で<A>をとる。", "kanji": "睡眠", "kana": "すいみん" },
+      { "question": "疲れて<A>をとる。", "kanji": "仮眠", "kana": "かみん" },
+      { "question": "<A>に悩む。", "kanji": "不眠", "kana": "ふみん" },
+      {
+        "question": "医者に<A>を処方された。",
+        "kanji": "睡眠薬",
+        "kana": "すいみんやく"
+      },
+      { "question": "偉人が<A>した。", "kanji": "永眠", "kana": "えいみん" },
+
+      {
+        "question": "旅行の自由を<A>する。",
+        "kanji": "満喫",
+        "kana": "まんきつ"
+      },
+      {
+        "question": "友人と<A>でお茶を飲む。",
+        "kanji": "喫茶店",
+        "kana": "きっさてん"
+      },
+      {
+        "question": "試合で<A>する。",
+        "kanji": "敗北を喫",
+        "kana": "はいぼくをきっ"
+      },
+
+      {
+        "question": "隣の家から<A>が出ている。",
+        "kanji": "煙",
+        "kana": "けむり"
+      },
+      {
+        "question": "たばこの<A>が目にしみる。",
+        "kanji": "煙",
+        "kana": "けむり"
+      },
+      { "question": "部屋の中が<A>。", "kanji": "煙い", "kana": "けむい" },
+      {
+        "question": "ビルに<A>がある。",
+        "kanji": "喫煙所",
+        "kana": "きつえんじょ"
+      },
+      {
+        "question": "レストランは<A>だ。",
+        "kanji": "館内禁煙",
+        "kana": "かんないきんえん"
+      },
+      { "question": "工場の<A>が高い。", "kanji": "煙突", "kana": "えんとつ" },
+      {
+        "question": "<A>で山が見えない。",
+        "kanji": "雨に煙る",
+        "kana": "あめにけむる"
+      },
+
+      { "question": "<A>の多い肉は避ける。", "kanji": "脂", "kana": "あぶら" },
+      {
+        "question": "肌に<A>が乗っている。",
+        "kanji": "脂が乗っている",
+        "kana": "あぶらがのっている"
+      },
+      { "question": "<A>の多い料理だ。", "kanji": "脂身", "kana": "あぶらみ" },
+      { "question": "食事の<A>を調べる。", "kanji": "脂質", "kana": "ししつ" },
+      {
+        "question": "<A>の多い食品を控える。",
+        "kanji": "油脂",
+        "kana": "ゆし"
+      },
+      {
+        "question": "暑くて<A>をかく。",
+        "kanji": "脂汗",
+        "kana": "あぶらあせ"
+      },
+
+      { "question": "おなかに<A>がつく。", "kanji": "脂肪", "kana": "しぼう" },
+      {
+        "question": "<A>を測る。",
+        "kanji": "体脂肪率",
+        "kana": "たいしぼうりつ"
+      },
+      { "question": "<A>を控える。", "kanji": "脂肪分", "kana": "しぼうぶん" },
+      {
+        "question": "健康のために<A>を飲む。",
+        "kanji": "低脂肪牛乳",
+        "kana": "ていしぼうぎゅうにゅう"
+      },
+      {
+        "question": "<A>を減らす食事をする。",
+        "kanji": "植物性脂肪",
+        "kana": "しょくぶつせいしぼう"
+      },
+
+      { "question": "<A>に席をゆずる。", "kanji": "妊婦", "kana": "にんぷ" },
+      {
+        "question": "<A>を受ける。",
+        "kanji": "不妊治療",
+        "kana": "ふにんちりょう"
+      },
+
+      {
+        "question": "赤ちゃんが<A>する。",
+        "kanji": "妊娠",
+        "kana": "にんしん"
+      },
+      {
+        "question": "<A>の健診に行く。",
+        "kanji": "妊娠5か月",
+        "kana": "にんしんごかげつ"
+      },
+
+      { "question": "<A>の兄弟だ。", "kanji": "双子", "kana": "ふたご" },
+      {
+        "question": "<A>が生まれた。",
+        "kanji": "一卵性双生児",
+        "kana": "いちらんせいそうせいじ"
+      },
+      {
+        "question": "<A>で鳥を観察する。",
+        "kanji": "双眼鏡",
+        "kana": "そうがんきょう"
+      },
+      {
+        "question": "<A>を聞く。",
+        "kanji": "双方の言い分",
+        "kana": "そうほうのいいぶん"
+      },
+      {
+        "question": "<A>から攻める。",
+        "kanji": "双方向",
+        "kana": "そうほうこう"
+      },
+
+      {
+        "question": "<A>おめでとう。",
+        "kanji": "誕生日",
+        "kana": "たんじょうび"
+      },
+      {
+        "question": "新しい命が<A>する。",
+        "kanji": "誕生",
+        "kana": "たんじょう"
+      },
+      {
+        "question": "<A>を開く。",
+        "kanji": "誕生パーティー",
+        "kana": "たんじょうパーティー"
+      },
+      {
+        "question": "今年は創立<A>だ。",
+        "kanji": "生誕100年",
+        "kana": "せいたんひゃくねん"
+      },
+
+      { "question": "看護師が<A>を取る。", "kanji": "脈", "kana": "みゃく" },
+      {
+        "question": "心臓の<A>を調べる。",
+        "kanji": "動脈",
+        "kana": "どうみゃく"
+      },
+      {
+        "question": "<A>の手術をする。",
+        "kanji": "静脈",
+        "kana": "じょうみゃく"
+      },
+      {
+        "question": "山の<A>が連なる。",
+        "kanji": "山脈",
+        "kana": "さんみゃく"
+      },
+      {
+        "question": "広い<A>を持つ人だ。",
+        "kanji": "人脈",
+        "kana": "じんみゃく"
+      },
+      { "question": "話に<A>がない。", "kanji": "脈絡", "kana": "みゃくらく" },
+      {
+        "question": "文章の<A>から考えを予想する。",
+        "kanji": "文脈",
+        "kana": "ぶんみゃく"
+      },
+      {
+        "question": "この取引にはまだ<A>がある。",
+        "kanji": "脈",
+        "kana": "みゃく"
+      },
+
+      {
+        "question": "演奏後に<A>が起きた。",
+        "kanji": "盛大な拍手",
+        "kana": "せいだいなはくしゅ"
+      },
+      {
+        "question": "走ると<A>が速くなる。",
+        "kanji": "脈拍",
+        "kana": "みゃくはく"
+      },
+      { "question": "<A>を測る。", "kanji": "心拍数", "kana": "しんぱくすう" },
+      {
+        "question": "英語の<A>を意識する。",
+        "kanji": "拍とアクセント",
+        "kana": "はくとアクセント"
+      },
+      {
+        "question": "<A>のワルツを踊る。",
+        "kanji": "三拍子の曲",
+        "kana": "さんびょうしのきょく"
+      },
+      {
+        "question": "人気に<A>をかける。",
+        "kanji": "拍車",
+        "kana": "はくしゃ"
+      },
+
+      {
+        "question": "入院中の母の<A>をする。",
+        "kanji": "看病",
+        "kana": "かんびょう"
+      },
+      {
+        "question": "<A>な看護をする。",
+        "kanji": "けん身的な",
+        "kana": "けんしんてきな"
+      },
+      { "question": "<A>として働く。", "kanji": "看護師", "kana": "かんごし" },
+      { "question": "子どもを<A>する。", "kanji": "看守", "kana": "かんしゅ" },
+      { "question": "店の<A>を作る。", "kanji": "看板", "kana": "かんばん" },
+
+      { "question": "長く病を<A>。", "kanji": "患う", "kana": "わずらう" },
+      {
+        "question": "病院に<A>が多い。",
+        "kanji": "入院患者",
+        "kana": "にゅういんかんじゃ"
+      },
+      { "question": "<A>で運ばれた。", "kanji": "急患", "kana": "きゅうかん" },
+      { "question": "<A>を消毒する。", "kanji": "患部", "kana": "かんぶ" },
+      {
+        "question": "<A>の治療が難しい。",
+        "kanji": "内臓疾患",
+        "kana": "ないぞうしっかん"
+      },
+
+      {
+        "question": "<A>を受ける。",
+        "kanji": "視力検査",
+        "kana": "しりょくけんさ"
+      },
+      { "question": "<A>で眼鏡が必要だ。", "kanji": "近視", "kana": "きんし" },
+      { "question": "<A>で色を感じる。", "kanji": "視覚", "kana": "しかく" },
+      {
+        "question": "<A>として活動する。",
+        "kanji": "視ちょう者",
+        "kana": "しちょうしゃ"
+      },
+      { "question": "肌で<A>を感じる。", "kanji": "視線", "kana": "しせん" },
+      { "question": "<A>を広げる。", "kanji": "視野", "kana": "しや" },
+      { "question": "現地を<A>する。", "kanji": "視察", "kana": "しさつ" },
+      { "question": "安全を<A>する。", "kanji": "重視", "kana": "じゅうし" },
+      { "question": "権力を<A>する。", "kanji": "疑問視", "kana": "ぎもんし" },
+
+      { "question": "<A>で診てもらう。", "kanji": "眼科", "kana": "がんか" },
+      {
+        "question": "<A>で人を見る。",
+        "kanji": "鋭い眼光",
+        "kana": "するどいがんこう"
+      },
+      {
+        "question": "そんなことは<A>。",
+        "kanji": "眼中にない",
+        "kana": "がんちゅうにない"
+      },
+      {
+        "question": "<A>を定めて取り組む。",
+        "kanji": "着眼点",
+        "kana": "ちゃくがんてん"
+      },
+      { "question": "<A>が広がる海だ。", "kanji": "眼下", "kana": "がんか" },
+      { "question": "<A>になって探す。", "kanji": "血眼", "kana": "ちまなこ" },
+      {
+        "question": "<A>の式典に参加する。",
+        "kanji": "大仏の開眼",
+        "kana": "だいぶつのかいげん"
+      },
+
+      { "question": "子どもが<A>を出す。", "kanji": "舌", "kana": "した" },
+      {
+        "question": "失言して<A>する。",
+        "kanji": "舌打ち",
+        "kana": "したうち"
+      },
+      {
+        "question": "「<A>」で熱いものが飲めない。",
+        "kanji": "猫舌",
+        "kana": "ねこじた"
+      },
+      {
+        "question": "彼は<A>の持ち主だ。",
+        "kanji": "毒舌",
+        "kana": "どくぜつ"
+      },
+      { "question": "彼女の<A>は有名だ。", "kanji": "舌", "kana": "した" },
+
+      { "question": "バラのとげが<A>。", "kanji": "刺さる", "kana": "ささる" },
+      { "question": "蜂に<A>。", "kanji": "刺される", "kana": "さされる" },
+      { "question": "注射の針を<A>。", "kanji": "刺す", "kana": "さす" },
+      { "question": "事件で<A>された。", "kanji": "刺殺", "kana": "しさつ" },
+      { "question": "良い<A>を求める。", "kanji": "刺激", "kana": "しげき" },
+      {
+        "question": "社会への<A>となる作品だ。",
+        "kanji": "社会風刺",
+        "kana": "しゃかいふうし"
+      },
+      { "question": "交換会で<A>を渡す。", "kanji": "名刺", "kana": "めいし" },
+
+      { "question": "<A>をたずねる。", "kanji": "年齢", "kana": "ねんれい" },
+      {
+        "question": "<A>を設ける。",
+        "kanji": "年齢制限",
+        "kana": "ねんれいせいげん"
+      },
+      {
+        "question": "<A>の施設で働く。",
+        "kanji": "高齢者",
+        "kana": "こうれいしゃ"
+      },
+      {
+        "question": "<A>が進んでいる。",
+        "kanji": "少子高齢化",
+        "kana": "しょうしこうれいか"
+      },
+
+      { "question": "<A>あきらめる。", "kanji": "潔く", "kana": "いさぎよく" },
+      {
+        "question": "意見を<A>に述べる。",
+        "kanji": "簡潔",
+        "kana": "かんけつ"
+      },
+      {
+        "question": "身の回りを<A>に保つ。",
+        "kanji": "清潔",
+        "kana": "せいけつ"
+      },
+      {
+        "question": "トイレの後に手を洗わないのは<A>だ。",
+        "kanji": "不潔",
+        "kana": "ふけつ"
+      },
+      {
+        "question": "裁判で身の<A>を証明する。",
+        "kanji": "潔白",
+        "kana": "けっぱく"
+      },
+
+      { "question": "<A>が増殖する。", "kanji": "細菌", "kana": "さいきん" },
+      {
+        "question": "<A>が発見された。",
+        "kanji": "ばい菌",
+        "kana": "ばいきん"
+      },
+      {
+        "question": "<A>を発見する。",
+        "kanji": "病原菌",
+        "kana": "びょうげんきん"
+      },
+      {
+        "question": "手術室は<A>だ。",
+        "kanji": "無菌室",
+        "kana": "むきんしつ"
+      },
+      {
+        "question": "<A>で食品を保存する。",
+        "kanji": "殺菌",
+        "kana": "さっきん"
+      },
+      {
+        "question": "<A>をする。",
+        "kanji": "除菌スプレー",
+        "kana": "じょきんスプレー"
+      },
+
+      {
+        "question": "熱が出たので<A>を飲む。",
+        "kanji": "解熱剤",
+        "kana": "げねつざい"
+      },
+      {
+        "question": "医者に<A>を処方される。",
+        "kanji": "下剤",
+        "kana": "げざい"
+      },
+      {
+        "question": "毎日<A>を飲む。",
+        "kanji": "ビタミン剤",
+        "kana": "ビタミンざい"
+      },
+      {
+        "question": "<A>として病院で働く。",
+        "kanji": "薬剤師",
+        "kana": "やくざいし"
+      },
+      { "question": "手を<A>で洗う。", "kanji": "洗剤", "kana": "せんざい" },
+      {
+        "question": "<A>を撒く。",
+        "kanji": "殺虫剤",
+        "kana": "さっちゅうざい"
+      },
+
+      { "question": "のどが<A>。", "kanji": "渇く", "kana": "かわく" },
+      {
+        "question": "天候不順で<A>が発生している。",
+        "kanji": "渇水",
+        "kana": "かっすい"
+      },
+      { "question": "平和を<A>する。", "kanji": "渇望", "kana": "かつぼう" },
+
+      { "question": "深呼吸して息を<A>。", "kanji": "吐く", "kana": "はく" },
+      {
+        "question": "乗り物酔いで<A>がする。",
+        "kanji": "吐き気",
+        "kana": "はきけ"
+      },
+      {
+        "question": "「けがをして<A>した。",
+        "kanji": "吐血",
+        "kana": "とけつ"
+      },
+      {
+        "question": "驚いて<A>声を上げる。",
+        "kanji": "弱音を吐く",
+        "kana": "よわねをはく"
+      },
+
+      {
+        "question": "<A>の手入れをする。",
+        "kanji": "きれいな肌",
+        "kana": "きれいなはだ"
+      },
+      { "question": "<A>の人が羨ましい。", "kanji": "美肌", "kana": "びはだ" },
+      {
+        "question": "冬は<A>になりやすい。",
+        "kanji": "肌荒れ",
+        "kana": "はだあれ"
+      },
+      { "question": "<A>の服を着る。", "kanji": "肌着", "kana": "はだぎ" },
+      { "question": "寒くて<A>が立つ。", "kanji": "鳥肌", "kana": "とりはだ" },
+      {
+        "question": "この仕事は<A>。",
+        "kanji": "肌が合う",
+        "kana": "はだがあう"
+      },
+
+      { "question": "毎朝<A>をする。", "kanji": "化粧", "kana": "けしょう" },
+      {
+        "question": "今日は<A>だ。",
+        "kanji": "薄化粧",
+        "kana": "うすげしょう"
+      },
+      {
+        "question": "特別な日に<A>をする。",
+        "kanji": "厚化粧",
+        "kana": "あつげしょう"
+      },
+      {
+        "question": "雪をかぶった<A>の富士山。",
+        "kanji": "雪化粧",
+        "kana": "ゆきげしょう"
+      },
+
+      { "question": "<A>が長い。", "kanji": "髪", "kana": "かみ" },
+      { "question": "<A>を梳かす。", "kanji": "髪の毛", "kana": "かみのけ" },
+      { "question": "<A>を変える。", "kanji": "髪型", "kana": "かみがた" },
+      { "question": "<A>を切る。", "kanji": "前髪", "kana": "まえがみ" },
+      { "question": "<A>に染める。", "kanji": "金髪", "kana": "きんぱつ" },
+      {
+        "question": "<A>を伸ばしている。",
+        "kanji": "長髪",
+        "kana": "ちょうはつ"
+      },
+      {
+        "question": "<A>で危機を逃れた。",
+        "kanji": "間一髪",
+        "kana": "かんいっぱつ"
+      },
+
+      { "question": "あのモデルは<A>が長い。", "kanji": "脚", "kana": "あし" },
+      { "question": "机の<A>が壊れた。", "kanji": "脚", "kana": "あし" },
+      {
+        "question": "カメラに<A>をつける。",
+        "kanji": "三脚",
+        "kana": "さんきゃく"
+      },
+      {
+        "question": "<A>を使って高いところに登る。",
+        "kanji": "脚立",
+        "kana": "きゃたつ"
+      },
+      {
+        "question": "舞台で<A>を浴びる。",
+        "kanji": "脚光",
+        "kana": "きゃっこう"
+      },
+      {
+        "question": "映画の<A>を書く。",
+        "kanji": "脚本",
+        "kana": "きゃくほん"
+      },
+
+      { "question": "彼女には<A>がある。", "kanji": "華", "kana": "はな" },
+      { "question": "<A>な人だ。", "kanji": "華やかな", "kana": "はなやかな" },
+      {
+        "question": "<A>で活躍する。",
+        "kanji": "華々しい活躍",
+        "kana": "はなばなしいかつやく"
+      },
+      { "question": "<A>を歩む。", "kanji": "華道", "kana": "かどう" },
+      { "question": "<A>な服装をする。", "kanji": "華美な", "kana": "かびな" },
+      {
+        "question": "<A>の滝を見に行く。",
+        "kanji": "華厳の滝",
+        "kana": "けごんのたき"
+      },
+
+      { "question": "<A>を見る。", "kanji": "鏡", "kana": "かがみ" },
+      { "question": "<A>で確認する。", "kanji": "手鏡", "kana": "てかがみ" },
+      {
+        "question": "<A>をかける。",
+        "kanji": "老眼鏡",
+        "kana": "ろうがんきょう"
+      },
+      { "question": "<A>の上に置く。", "kanji": "鏡台", "kana": "きょうだい" }
+    ]
+  },
+  {
+    "chapter": 14,
+    "questions": [
+      {
+        "question": "<A>が見頃だ。",
+        "kanji": "桜が満開",
+        "kana": "さくらがまんかい"
+      },
+      {
+        "question": "今年も<A>を見に行く。",
+        "kanji": "夜桜",
+        "kana": "よざくら"
+      },
+      {
+        "question": "<A>を調べる。",
+        "kanji": "桜の開花予想",
+        "kana": "さくらのかいかよそう"
+      },
+      {
+        "question": "<A>のジャムを作る。",
+        "kanji": "桜桃",
+        "kana": "おうとう"
+      },
+
+      {
+        "question": "庭で<A>が咲いている。",
+        "kanji": "梅の花",
+        "kana": "うめのはな"
+      },
+      { "question": "<A>を作る。", "kanji": "梅干し", "kana": "うめぼし" },
+      { "question": "<A>を飲む。", "kanji": "梅酒", "kana": "うめしゅ" },
+      {
+        "question": "今年の<A>はいつ明けるか。",
+        "kanji": "梅雨前線",
+        "kana": "ばいうぜんせん"
+      },
+      {
+        "question": "ちょうど<A>だ。",
+        "kanji": "いい塩梅",
+        "kana": "いいあんばい"
+      },
+
+      {
+        "question": "神社に<A>がある。",
+        "kanji": "大きい松の木",
+        "kana": "おおきいまつのき"
+      },
+      {
+        "question": "子どもが<A>を拾う。",
+        "kanji": "松ぼっくり",
+        "kana": "まつぼっくり"
+      },
+      { "question": "玄関に<A>を飾る。", "kanji": "門松", "kana": "かどまつ" },
+      {
+        "question": "<A>の絵を描く。",
+        "kanji": "松竹梅",
+        "kana": "しょうちくばい"
+      },
+
+      {
+        "question": "山に<A>が生えている。",
+        "kanji": "杉の木",
+        "kana": "すぎのき"
+      },
+      {
+        "question": "世界遺産の<A>を見る。",
+        "kanji": "屋久島の縄文杉",
+        "kana": "やくしまのじょうもんすぎ"
+      },
+      {
+        "question": "春は<A>がひどい。",
+        "kanji": "杉の花粉",
+        "kana": "すぎのかふん"
+      },
+
+      {
+        "question": "秋に<A>を飾る。",
+        "kanji": "菊の花",
+        "kana": "きくのはな"
+      },
+      {
+        "question": "<A>を買う。",
+        "kanji": "菊人形",
+        "kana": "きくにんぎょう"
+      },
+      {
+        "question": "<A>を料理に使う。",
+        "kanji": "食用菊",
+        "kana": "しょくようぎく"
+      },
+      {
+        "question": "<A>のおひたしを作る。",
+        "kanji": "春菊",
+        "kana": "しゅんぎく"
+      },
+      { "question": "山で<A>を摘む。", "kanji": "野菊", "kana": "のぎく" },
+
+      { "question": "布団に<A>を入れる。", "kanji": "綿", "kana": "わた" },
+      {
+        "question": "<A>のシャツを着る。",
+        "kanji": "綿100%",
+        "kana": "めん100パーセント"
+      },
+      { "question": "<A>の布を使う。", "kanji": "綿花", "kana": "めんか" },
+      { "question": "<A>のシャツを買う。", "kanji": "木綿", "kana": "もめん" },
+      {
+        "question": "<A>の半てんを着る。",
+        "kanji": "綿入れ",
+        "kana": "わたいれ"
+      },
+      { "question": "<A>を食べる。", "kanji": "綿菓子", "kana": "わたがし" },
+      {
+        "question": "<A>に計画を立てる。",
+        "kanji": "綿みつに",
+        "kana": "めんみつに"
+      },
+
+      { "question": "公園で桜が<A>。", "kanji": "咲く", "kana": "さく" },
+      {
+        "question": "<A>の桜が美しい。",
+        "kanji": "五分咲き",
+        "kana": "ごぶざき"
+      },
+      { "question": "昔話に花が<A>。", "kanji": "咲く", "kana": "さく" },
+      {
+        "question": "舞台に<A>する。",
+        "kanji": "返り咲く",
+        "kana": "かえりざく"
+      },
+
+      {
+        "question": "水をやらずに花が<A>。",
+        "kanji": "枯れる",
+        "kana": "かれる"
+      },
+      { "question": "植木を<A>。", "kanji": "枯らす", "kana": "からす" },
+      {
+        "question": "秋になって<A>が増える。",
+        "kanji": "枯れ葉",
+        "kana": "かれは"
+      },
+      { "question": "<A>が吹く。", "kanji": "木枯らし", "kana": "こがらし" },
+      { "question": "資源が<A>する。", "kanji": "枯渇", "kana": "こかつ" },
+
+      { "question": "木の<A>を折る。", "kanji": "枝", "kana": "えだ" },
+      { "question": "<A>を切る。", "kanji": "小枝", "kana": "こえだ" },
+      {
+        "question": "強風で<A>が折れた。",
+        "kanji": "枝を折る",
+        "kana": "えだをおる"
+      },
+      {
+        "question": "道が<A>している。",
+        "kanji": "枝分かれ",
+        "kana": "えだわかれ"
+      },
+      {
+        "question": "<A>をつまみながら飲む。",
+        "kanji": "枝豆",
+        "kana": "えだまめ"
+      },
+      {
+        "question": "<A>にこだわらない。",
+        "kanji": "枝葉末節",
+        "kana": "しようまっせつ"
+      },
+
+      {
+        "question": "庭に<A>花が咲く。",
+        "kanji": "美しい",
+        "kana": "うつくしい"
+      },
+      {
+        "question": "夜空に<A>輝く星だ。",
+        "kanji": "美しく",
+        "kana": "うつくしく"
+      },
+      {
+        "question": "体と健康を<A>保つ。",
+        "kanji": "美と健康",
+        "kana": "びとけんこう"
+      },
+      {
+        "question": "<A>を持った人だ。",
+        "kanji": "美しい心",
+        "kana": "うつくしいこころ"
+      },
+      { "question": "<A>に通う。", "kanji": "美容室", "kana": "びようしつ" },
+      { "question": "映画の<A>だ。", "kanji": "美人", "kana": "びじん" },
+      {
+        "question": "博物館で<A>を鑑賞する。",
+        "kanji": "美術",
+        "kana": "びじゅつ"
+      },
+
+      { "question": "庭で梅が<A>。", "kanji": "香る", "kana": "かおる" },
+      { "question": "バラの<A>がする。", "kanji": "香り", "kana": "かおり" },
+      { "question": "仏壇に<A>をたく。", "kanji": "お香", "kana": "おこう" },
+      { "question": "<A>をつける。", "kanji": "香水", "kana": "こうすい" },
+      {
+        "question": "料理に<A>を入れる。",
+        "kanji": "香辛料",
+        "kana": "こうしんりょう"
+      },
+      { "question": "花の<A>にむせる。", "kanji": "香", "kana": "か" },
+      {
+        "question": "将棋の<A>を動かす。",
+        "kanji": "香車",
+        "kana": "きょうしゃ"
+      },
+
+      { "question": "玄関に花を<A>。", "kanji": "飾る", "kana": "かざる" },
+      {
+        "question": "クリスマスツリーに<A>をつける。",
+        "kanji": "飾り",
+        "kana": "かざり"
+      },
+      {
+        "question": "おしゃれに<A>る。",
+        "kanji": "着飾る",
+        "kana": "きかざる"
+      },
+      { "question": "店内を<A>する。", "kanji": "装飾", "kana": "そうしょく" },
+      {
+        "question": "<A>の仕事をする。",
+        "kanji": "服飾デザイナー",
+        "kana": "ふくしょくデザイナー"
+      },
+      {
+        "question": "名詞を<A>する。",
+        "kanji": "修飾",
+        "kana": "しゅうしょく"
+      },
+
+      { "question": "秋に<A>が咲く。", "kanji": "紅花", "kana": "べにばな" },
+      {
+        "question": "夕日で空が<A>になる。",
+        "kanji": "紅色",
+        "kana": "べにいろ"
+      },
+      { "question": "<A>をつける。", "kanji": "口紅", "kana": "くちべに" },
+      { "question": "着物に<A>を使う。", "kanji": "紅", "kana": "くれない" },
+      { "question": "<A>戦を見る。", "kanji": "紅白", "kana": "こうはく" },
+      {
+        "question": "秋に木々が<A>する。",
+        "kanji": "紅葉",
+        "kana": "こうよう"
+      },
+      { "question": "<A>を飲む。", "kanji": "紅茶", "kana": "こうちゃ" },
+      {
+        "question": "遠くに<A>が見える。",
+        "kanji": "紅一点",
+        "kana": "こういってん"
+      },
+      { "question": "<A>のバラを贈る。", "kanji": "深紅", "kana": "しんく" },
+
+      { "question": "<A>のスーツを着る。", "kanji": "紺", "kana": "こん" },
+      {
+        "question": "<A>のジャケットを買う。",
+        "kanji": "紺色",
+        "kana": "こんいろ"
+      },
+      {
+        "question": "<A>のスカートをはく。",
+        "kanji": "濃紺",
+        "kana": "のうこん"
+      },
+      {
+        "question": "<A>の空を見上げる。",
+        "kanji": "紺碧",
+        "kana": "こんぺき"
+      },
+
+      { "question": "火山から<A>が降る。", "kanji": "灰", "kana": "はい" },
+      { "question": "たばこの<A>を落とす。", "kanji": "灰", "kana": "はい" },
+      { "question": "<A>の空が続く。", "kanji": "灰色", "kana": "はいいろ" },
+      { "question": "<A>を集める。", "kanji": "火山灰", "kana": "かざんばい" },
+      { "question": "<A>に入れる。", "kanji": "灰皿", "kana": "はいざら" },
+      { "question": "壁に<A>を塗る。", "kanji": "石灰", "kana": "せっかい" },
+      {
+        "question": "<A>でできた地形だ。",
+        "kanji": "石灰岩",
+        "kana": "せっかいがん"
+      },
+
+      {
+        "question": "<A>のセーターを着る。",
+        "kanji": "紫",
+        "kana": "むらさき"
+      },
+      {
+        "question": "庭に<A>の花が咲く。",
+        "kanji": "紫色",
+        "kana": "むらさきいろ"
+      },
+      {
+        "question": "夏は<A>が強い。",
+        "kanji": "紫外線",
+        "kana": "しがいせん"
+      },
+
+      {
+        "question": "<A>青が映える。",
+        "kanji": "鮮やかな",
+        "kana": "あざやかな"
+      },
+      {
+        "question": "市場で<A>を買う。",
+        "kanji": "新鮮な野菜",
+        "kana": "しんせんなやさい"
+      },
+      {
+        "question": "港で<A>を仕入れる。",
+        "kanji": "鮮魚",
+        "kana": "せんぎょ"
+      },
+      {
+        "question": "<A>を冷蔵保存する。",
+        "kanji": "生鮮食品",
+        "kana": "せいせんしょくひん"
+      },
+      {
+        "question": "出来事を<A>記憶している。",
+        "kanji": "鮮明に",
+        "kana": "せんめいに"
+      },
+
+      {
+        "question": "秋に紅葉が山を<A>。",
+        "kanji": "彩る",
+        "kana": "いろどる"
+      },
+      { "question": "花火が夜空を<A>。", "kanji": "彩る", "kana": "いろどる" },
+      {
+        "question": "<A>がきれいな料理だ。",
+        "kanji": "彩り",
+        "kana": "いろどり"
+      },
+      {
+        "question": "作品の<A>が豊かだ。",
+        "kanji": "色彩",
+        "kana": "しきさい"
+      },
+      {
+        "question": "<A>な才能の持ち主だ。",
+        "kanji": "多彩な",
+        "kana": "たさいな"
+      },
+      { "question": "<A>を習う。", "kanji": "水彩画", "kana": "すいさいが" },
+
+      { "question": "家で犬を<A>。", "kanji": "飼う", "kana": "かう" },
+      {
+        "question": "<A>として知られる人だ。",
+        "kanji": "飼い主",
+        "kana": "かいぬし"
+      },
+      { "question": "農場で牛を<A>する。", "kanji": "飼育", "kana": "しいく" },
+      { "question": "馬に<A>をやる。", "kanji": "飼料", "kana": "しりょう" },
+
+      { "question": "犬にえさを<A>。", "kanji": "与える", "kana": "あたえる" },
+      {
+        "question": "部下にチャンスを<A>。",
+        "kanji": "与える",
+        "kana": "あたえる"
+      },
+      {
+        "question": "<A>な話し方をする。",
+        "kanji": "好印象を与える",
+        "kana": "こういんしょうをあたえる"
+      },
+      { "question": "毎月<A>をもらう。", "kanji": "給与", "kana": "きゅうよ" },
+      { "question": "賞を<A>する。", "kanji": "授与", "kana": "じゅよ" },
+      {
+        "question": "事件への<A>を否定する。",
+        "kanji": "関与",
+        "kana": "かんよ"
+      },
+
+      { "question": "桜が<A>。", "kanji": "散る", "kana": "ちる" },
+      { "question": "紙ふぶきを<A>。", "kanji": "散らす", "kana": "ちらす" },
+      {
+        "question": "ゴミが<A>ている道路だ。",
+        "kanji": "散らかっている",
+        "kana": "ちらかっている"
+      },
+      {
+        "question": "ペットが室内を<A>。",
+        "kanji": "散らかす",
+        "kana": "ちらかす"
+      },
+      {
+        "question": "ものが<A>した部屋だ。",
+        "kanji": "散乱",
+        "kana": "さんらん"
+      },
+      {
+        "question": "グループが<A>する。",
+        "kanji": "解散",
+        "kana": "かいさん"
+      },
+      { "question": "疲れて<A>。", "kanji": "気が散る", "kana": "きがちる" },
+      { "question": "公園を<A>する。", "kanji": "散歩", "kana": "さんぽ" },
+
+      { "question": "鳥が<A>を作る。", "kanji": "巣", "kana": "す" },
+      {
+        "question": "庭に<A>がある。",
+        "kanji": "ハチの巣",
+        "kana": "ハチのす"
+      },
+      {
+        "question": "春になって<A>に戻る。",
+        "kanji": "古巣",
+        "kana": "ふるす"
+      },
+      {
+        "question": "手術で<A>を切除する。",
+        "kanji": "病巣",
+        "kana": "びょうそう"
+      },
+
+      {
+        "question": "夜中に<A>がする。",
+        "kanji": "猫の鳴き声",
+        "kana": "ねこのなきごえ"
+      },
+      { "question": "<A>を拾った。", "kanji": "子猫", "kana": "こねこ" },
+      {
+        "question": "熱い飲み物が苦手な<A>だ。",
+        "kanji": "猫舌",
+        "kana": "ねこじた"
+      },
+      {
+        "question": "老人が<A>のように丸まって寝る。",
+        "kanji": "猫背",
+        "kana": "ねこぜ"
+      },
+      {
+        "question": "忙しくて<A>ほどありがたい。",
+        "kanji": "猫の手も借りたい",
+        "kana": "ねこのてもかりたい"
+      },
+      {
+        "question": "<A>として知られる人だ。",
+        "kanji": "愛猫家",
+        "kana": "あいびょうか"
+      },
+
+      { "question": "牧場で<A>を飼う。", "kanji": "羊", "kana": "ひつじ" },
+      {
+        "question": "農場で<A>を育てる。",
+        "kanji": "子羊",
+        "kana": "こひつじ"
+      },
+      {
+        "question": "牧場で<A>をする。",
+        "kanji": "羊飼い",
+        "kana": "ひつじかい"
+      },
+      {
+        "question": "<A>のセーターを着る。",
+        "kanji": "羊毛",
+        "kana": "ようもう"
+      },
+      {
+        "question": "<A>のステーキを食べる。",
+        "kanji": "羊の肉",
+        "kana": "ひつじのにく"
+      },
+
+      { "question": "農場で<A>を育てる。", "kanji": "豚", "kana": "ぶた" },
+      { "question": "農場で<A>を育てる。", "kanji": "子豚", "kana": "こぶた" },
+      {
+        "question": "<A>に住む動物だ。",
+        "kanji": "豚小屋",
+        "kana": "ぶたごや"
+      },
+      {
+        "question": "<A>を経営する。",
+        "kanji": "養豚場",
+        "kana": "ようとんじょう"
+      },
+      { "question": "<A>を食べる。", "kanji": "豚肉", "kana": "ぶたにく" },
+      { "question": "<A>を注文する。", "kanji": "豚カツ", "kana": "とんカツ" },
+
+      { "question": "農場で<A>を育てる。", "kanji": "家畜", "kana": "かちく" },
+      {
+        "question": "<A>を営む。",
+        "kanji": "畜産業",
+        "kana": "ちくさんぎょう"
+      },
+
+      { "question": "牛を草原に<A>。", "kanji": "放す", "kana": "はなす" },
+      {
+        "question": "バッターが<A>を打つ。",
+        "kanji": "ホームランを放つ",
+        "kana": "ホームランをはなつ"
+      },
+      {
+        "question": "犬が首輪から<A>。",
+        "kanji": "放たれる",
+        "kana": "はなたれる"
+      },
+      { "question": "秘密を<A>。", "kanji": "放り出す", "kana": "ほうりだす" },
+      { "question": "テレビで<A>する。", "kanji": "放送", "kana": "ほうそう" },
+      {
+        "question": "駅前に<A>がある。",
+        "kanji": "放置自転車",
+        "kana": "ほうちじてんしゃ"
+      },
+      { "question": "窓を<A>する。", "kanji": "開放", "kana": "かいほう" },
+
+      { "question": "<A>で働く。", "kanji": "牧場", "kana": "ぼくじょう" },
+      { "question": "牛を<A>する。", "kanji": "放牧", "kana": "ほうぼく" },
+      {
+        "question": "<A>を経営する。",
+        "kanji": "牧畜業",
+        "kana": "ぼくちくぎょう"
+      },
+      {
+        "question": "<A>の生活を描いた作品だ。",
+        "kanji": "遊牧民族",
+        "kana": "ゆうぼくみんぞく"
+      },
+      { "question": "<A>として働く。", "kanji": "牧師", "kana": "ぼくし" },
+      {
+        "question": "北海道の<A>を訪ねる。",
+        "kanji": "牧場",
+        "kana": "まきば"
+      },
+
+      { "question": "長年の交流が<A>。", "kanji": "絶える", "kana": "たえる" },
+      { "question": "家の血統が<A>。", "kanji": "絶える", "kana": "たえる" },
+      {
+        "question": "希少な種を<A>する。",
+        "kanji": "絶やす",
+        "kana": "たやす"
+      },
+      { "question": "消息を<A>。", "kanji": "絶つ", "kana": "たつ" },
+      { "question": "命を<A>。", "kanji": "絶つ", "kana": "たつ" },
+      {
+        "question": "試験に落ちて<A>する。",
+        "kanji": "絶望",
+        "kana": "ぜつぼう"
+      },
+      { "question": "要求を<A>する。", "kanji": "拒絶", "kana": "きょぜつ" },
+      { "question": "<A>に反対だ。", "kanji": "絶対", "kana": "ぜったい" },
+      {
+        "question": "<A>な信用を得る。",
+        "kanji": "絶大な",
+        "kana": "ぜつだいな"
+      },
+      {
+        "question": "笑顔を<A>ない。",
+        "kanji": "絶やさない",
+        "kana": "たやさない"
+      }
+    ]
+  },
+  {
+    "chapter": 15,
+    "questions": [
+      {
+        "question": "<A>の謎を解明する。",
+        "kanji": "宇宙",
+        "kana": "うちゅう"
+      },
+
+      {
+        "question": "<A>に取り組む。",
+        "kanji": "宇宙開発",
+        "kana": "うちゅうかいはつ"
+      },
+      {
+        "question": "<A>になる夢を持つ。",
+        "kanji": "宇宙飛行士",
+        "kana": "うちゅうひこうし"
+      },
+      {
+        "question": "手紙が<A>になった。",
+        "kanji": "宙返り",
+        "kana": "ちゅうがえり"
+      },
+      { "question": "ほこりが<A>に舞う。", "kanji": "宙", "kana": "ちゅう" },
+      { "question": "計画が<A>に浮く。", "kanji": "宙", "kana": "ちゅう" },
+
+      {
+        "question": "<A>を走る。",
+        "kanji": "環状道路",
+        "kana": "かんじょうどうろ"
+      },
+      {
+        "question": "血液が体内を<A>する。",
+        "kanji": "じゅん環",
+        "kana": "じゅんかん"
+      },
+
+      {
+        "question": "東京は四つの県と<A>を接する。",
+        "kanji": "境",
+        "kana": "さかい"
+      },
+      {
+        "question": "<A>の状態だ。",
+        "kanji": "生死の境",
+        "kana": "せいしのさかい"
+      },
+      { "question": "<A>を守る。", "kanji": "環境", "kana": "かんきょう" },
+      { "question": "<A>を越える。", "kanji": "国境", "kana": "こっきょう" },
+      {
+        "question": "<A>を引く。",
+        "kanji": "境界線",
+        "kana": "きょうかいせん"
+      },
+      {
+        "question": "<A>に強い人だ。",
+        "kanji": "逆境",
+        "kana": "ぎゃっきょう"
+      },
+      {
+        "question": "<A>を参拝する。",
+        "kanji": "寺の境内",
+        "kana": "てらのけいだい"
+      },
+
+      { "question": "困難を<A>。", "kanji": "極める", "kana": "きわめる" },
+      {
+        "question": "感動が<A>。",
+        "kanji": "感極まる",
+        "kana": "かんきわまる"
+      },
+      { "question": "無礼の<A>だ。", "kanji": "極み", "kana": "きわみ" },
+      { "question": "<A>探検に行く。", "kanji": "南極", "kana": "なんきょく" },
+      {
+        "question": "<A>な意見を言う。",
+        "kanji": "極端",
+        "kana": "きょくたん"
+      },
+      {
+        "question": "<A>の喜びを感じる。",
+        "kanji": "極楽",
+        "kana": "ごくらく"
+      },
+      {
+        "question": "<A>な姿勢で取り組む。",
+        "kanji": "積極的な",
+        "kana": "せっきょくてきな"
+      },
+      {
+        "question": "<A>の選択をする。",
+        "kanji": "究極",
+        "kana": "きゅうきょく"
+      },
+
+      { "question": "東の空から日が<A>。", "kanji": "昇る", "kana": "のぼる" },
+      {
+        "question": "夏に気温が<A>する。",
+        "kanji": "上昇",
+        "kana": "じょうしょう"
+      },
+      { "question": "課長に<A>する。", "kanji": "昇進", "kana": "しょうしん" },
+      {
+        "question": "今年から<A>になった。",
+        "kanji": "昇給",
+        "kana": "しょうきゅう"
+      },
+      {
+        "question": "試験に合格して<A>する。",
+        "kanji": "昇格",
+        "kana": "しょうかく"
+      },
+
+      { "question": "山から<A>がわき出る。", "kanji": "泉", "kana": "いずみ" },
+      { "question": "<A>に入る。", "kanji": "温泉", "kana": "おんせん" },
+      {
+        "question": "<A>に泊まる。",
+        "kanji": "温泉旅館",
+        "kana": "おんせんりょかん"
+      },
+
+      {
+        "question": "この川の<A>は山中湖だ。",
+        "kanji": "源",
+        "kana": "みなもと"
+      },
+      { "question": "単語の<A>を調べる。", "kanji": "語源", "kana": "ごげん" },
+      {
+        "question": "<A>を守る。",
+        "kanji": "天然資源",
+        "kana": "てんねんしげん"
+      },
+      {
+        "question": "<A>の場所を特定する。",
+        "kanji": "震源地",
+        "kana": "しんげんち"
+      },
+      { "question": "川の<A>を探る。", "kanji": "水源", "kana": "すいげん" },
+      {
+        "question": "<A>を研究する。",
+        "kanji": "人類の起源",
+        "kana": "じんるいのきげん"
+      },
+
+      {
+        "question": "貧しい人にお金を<A>。",
+        "kanji": "恵む",
+        "kana": "めぐむ"
+      },
+      {
+        "question": "<A>生活を送る。",
+        "kanji": "恵まれた",
+        "kana": "めぐまれた"
+      },
+      {
+        "question": "先人の<A>を学ぶ。",
+        "kanji": "生活の知恵",
+        "kana": "せいかつのちえ"
+      },
+      { "question": "<A>をうける。", "kanji": "恩恵", "kana": "おんけい" },
+
+      {
+        "question": "グラスに<A>が立つ。",
+        "kanji": "ビールの泡",
+        "kana": "ビールのあわ"
+      },
+      {
+        "question": "洗剤で<A>が立つ。",
+        "kanji": "泡が立つ",
+        "kana": "あわがたつ"
+      },
+      { "question": "<A>でくつろぐ。", "kanji": "泡風呂", "kana": "あわぶろ" },
+      { "question": "口から<A>を吹く。", "kanji": "泡", "kana": "あわ" },
+      { "question": "川面の<A>を見る。", "kanji": "水泡", "kana": "すいほう" },
+      {
+        "question": "飲み物の<A>を確認する。",
+        "kanji": "気泡",
+        "kana": "きほう"
+      },
+
+      {
+        "question": "昔の家には<A>があった。",
+        "kanji": "井戸",
+        "kana": "いど"
+      },
+      { "question": "<A>をくむ。", "kanji": "井戸水", "kana": "いどみず" },
+      {
+        "question": "<A>が高い家に住む。",
+        "kanji": "天井",
+        "kana": "てんじょう"
+      },
+      { "question": "<A>を描く。", "kanji": "天井画", "kana": "てんじょうが" },
+      {
+        "question": "<A>として生きる。",
+        "kanji": "市井の人",
+        "kana": "しせいのひと"
+      },
+
+      { "question": "子どもたちが<A>で遊ぶ。", "kanji": "沢", "kana": "さわ" },
+      {
+        "question": "山岳部が<A>をする。",
+        "kanji": "沢登り",
+        "kana": "さわのぼり"
+      },
+      {
+        "question": "<A>のある紙を使う。",
+        "kanji": "光沢",
+        "kana": "こうたく"
+      },
+      {
+        "question": "<A>な資金がある。",
+        "kanji": "じゅん沢な",
+        "kana": "じゅんたくな"
+      },
+      {
+        "question": "<A>な生活を送る。",
+        "kanji": "ぜい沢な",
+        "kana": "ぜいたくな"
+      },
+
+      {
+        "question": "<A>にうたれる修行をする。",
+        "kanji": "滝",
+        "kana": "たき"
+      },
+      { "question": "池に<A>がある。", "kanji": "滝つぼ", "kana": "たきつぼ" },
+      {
+        "question": "有名な<A>を見に行く。",
+        "kanji": "ナイアガラの滝",
+        "kana": "ナイアガラのたき"
+      },
+      { "question": "汗が<A>のように流れる。", "kanji": "滝", "kana": "たき" },
+
+      { "question": "<A>の周りを歩く。", "kanji": "沼地", "kana": "ぬまち" },
+      {
+        "question": "<A>にはまって抜け出せない。",
+        "kanji": "泥沼",
+        "kana": "どろぬま"
+      },
+      {
+        "question": "裁判が<A>する。",
+        "kanji": "泥沼化",
+        "kana": "どろぬまか"
+      },
+      { "question": "<A>を調査する。", "kanji": "湖沼", "kana": "こしょう" },
+
+      { "question": "額から汗が<A>。", "kanji": "滴る", "kana": "したたる" },
+      {
+        "question": "雨の<A>が窓を打つ。",
+        "kanji": "雨の滴",
+        "kana": "あめのしずく"
+      },
+      { "question": "葉に<A>が光る。", "kanji": "水滴", "kana": "すいてき" },
+      {
+        "question": "目から<A>の涙が出た。",
+        "kanji": "一滴の涙",
+        "kana": "ひとしずくのなみだ"
+      },
+      { "question": "病院で<A>をうつ。", "kanji": "点滴", "kana": "てんてき" },
+
+      { "question": "冬に湖が<A>。", "kanji": "凍る", "kana": "こおる" },
+      { "question": "<A>寒さが続く。", "kanji": "凍える", "kana": "こごえる" },
+      {
+        "question": "<A>を買う。",
+        "kanji": "冷凍食品",
+        "kana": "れいとうしょくひん"
+      },
+      {
+        "question": "料理に使うため肉を<A>する。",
+        "kanji": "解凍",
+        "kana": "かいとう"
+      },
+      {
+        "question": "冬に道路が<A>する。",
+        "kanji": "凍結",
+        "kana": "とうけつ"
+      },
+
+      { "question": "川の<A>を渡る。", "kanji": "浅瀬", "kana": "あさせ" },
+      {
+        "question": "<A>を船で渡る。",
+        "kanji": "瀬戸内海",
+        "kana": "せとないかい"
+      },
+      { "question": "<A>に立つ。", "kanji": "瀬戸際", "kana": "せとぎわ" },
+
+      { "question": "空気を<A>する。", "kanji": "浄化", "kana": "じょうか" },
+      {
+        "question": "<A>を買う。",
+        "kanji": "空気清浄機",
+        "kana": "くうきせいじょうき"
+      },
+      { "question": "胃を<A>する。", "kanji": "洗浄", "kana": "せんじょう" },
+      { "question": "政治を<A>する。", "kanji": "浄化", "kana": "じょうか" },
+
+      {
+        "question": "<A>で船釣りをする。",
+        "kanji": "東京湾",
+        "kana": "とうきょうわん"
+      },
+      {
+        "question": "フェリーが<A>に入った。",
+        "kanji": "湾内",
+        "kana": "わんない"
+      },
+      {
+        "question": "<A>を走る。",
+        "kanji": "湾岸道路",
+        "kana": "わんがんどうろ"
+      },
+      {
+        "question": "<A>に住む。",
+        "kanji": "湾岸都市",
+        "kana": "わんがんとし"
+      },
+      {
+        "question": "<A>の道路を走る。",
+        "kanji": "湾曲した",
+        "kana": "わんきょくした"
+      },
+
+      { "question": "漁師が<A>に出る。", "kanji": "沖", "kana": "おき" },
+      { "question": "<A>でつりをする。", "kanji": "沖", "kana": "おき" },
+      {
+        "question": "<A>が盛んな地域だ。",
+        "kanji": "沖合漁業",
+        "kana": "おきあいぎょぎょう"
+      },
+      { "question": "<A>に行く。", "kanji": "沖縄県", "kana": "おきなわけん" },
+      {
+        "question": "<A>を研究する。",
+        "kanji": "沖積層",
+        "kana": "ちゅうせきそう"
+      },
+
+      { "question": "<A>で貝を拾う。", "kanji": "浜辺", "kana": "はまべ" },
+      { "question": "<A>で遊ぶ。", "kanji": "砂浜", "kana": "すなはま" },
+      { "question": "<A>に住む。", "kanji": "横浜市", "kana": "よこはまし" },
+      {
+        "question": "<A>を散歩する。",
+        "kanji": "海浜公園",
+        "kana": "かいひんこうえん"
+      },
+
+      {
+        "question": "<A>にボートを泊める。",
+        "kanji": "入り江",
+        "kana": "いりえ"
+      },
+      {
+        "question": "<A>の文化を学ぶ。",
+        "kanji": "江戸時代",
+        "kana": "えどじだい"
+      },
+      { "question": "<A>を船で下る。", "kanji": "長江", "kana": "ちょうこう" },
+
+      { "question": "地下の<A>を調べる。", "kanji": "地層", "kana": "ちそう" },
+      {
+        "question": "地震で<A>がずれる。",
+        "kanji": "断層",
+        "kana": "だんそう"
+      },
+      {
+        "question": "チームの<A>が厚い。",
+        "kanji": "選手の層",
+        "kana": "せんしゅのそう"
+      },
+      {
+        "question": "<A>ごとに分析する。",
+        "kanji": "階層",
+        "kana": "かいそう"
+      },
+      {
+        "question": "<A>が増えている。",
+        "kanji": "高層ビル",
+        "kana": "こうそうビル"
+      },
+      {
+        "question": "冬になると<A>厳しくなる。",
+        "kanji": "一層",
+        "kana": "いっそう"
+      },
+
+      { "question": "目に<A>が入った。", "kanji": "砂", "kana": "すな" },
+      { "question": "<A>で遊ぶ。", "kanji": "砂浜", "kana": "すなはま" },
+      { "question": "<A>に登る。", "kanji": "砂丘", "kana": "さきゅう" },
+      { "question": "<A>が吹く。", "kanji": "砂嵐", "kana": "すなあらし" },
+      {
+        "question": "<A>が崩れる。",
+        "kanji": "土砂崩れ",
+        "kana": "どしゃくずれ"
+      },
+      {
+        "question": "コーヒーに<A>を入れる。",
+        "kanji": "砂糖",
+        "kana": "さとう"
+      },
+
+      { "question": "庭に<A>を掘る。", "kanji": "井戸", "kana": "いど" },
+      { "question": "石油を<A>する。", "kanji": "採掘", "kana": "さいくつ" },
+      {
+        "question": "<A>を行う。",
+        "kanji": "発掘調査",
+        "kana": "はっくつちょうさ"
+      },
+      { "question": "工事で<A>する。", "kanji": "掘削", "kana": "くっさく" },
+
+      { "question": "板に<A>をあける。", "kanji": "穴", "kana": "あな" },
+      { "question": "穴を<A>。", "kanji": "埋める", "kana": "うめる" },
+      { "question": "地面に<A>を掘る。", "kanji": "穴", "kana": "あな" },
+      {
+        "question": "ズボンに<A>が空いた。",
+        "kanji": "落とし穴",
+        "kana": "おとしあな"
+      },
+      {
+        "question": "格安の<A>を見つける。",
+        "kanji": "穴場",
+        "kana": "あなば"
+      },
+      { "question": "<A>を掘る。", "kanji": "墓穴", "kana": "ぼけつ" },
+
+      { "question": "<A>を探検する。", "kanji": "洞穴", "kana": "ほらあな" },
+      {
+        "question": "山の中の<A>を進む。",
+        "kanji": "空洞",
+        "kana": "くうどう"
+      },
+      {
+        "question": "<A>が鋭い人だ。",
+        "kanji": "洞察力",
+        "kana": "どうさつりょく"
+      },
+
+      { "question": "<A>で肉を焼く。", "kanji": "炭火", "kana": "すみび" },
+      {
+        "question": "暖炉に<A>を入れる。",
+        "kanji": "石炭",
+        "kana": "せきたん"
+      },
+      {
+        "question": "<A>を含む食品だ。",
+        "kanji": "炭水化物",
+        "kana": "たんすいかぶつ"
+      },
+      {
+        "question": "<A>を飲む。",
+        "kanji": "炭さん飲料",
+        "kana": "たんさんいんりょう"
+      },
+
+      {
+        "question": "<A>でダイヤを採る。",
+        "kanji": "鉱山",
+        "kana": "こうざん"
+      },
+      { "question": "<A>を営む。", "kanji": "鉱業", "kana": "こうぎょう" },
+      {
+        "question": "珍しい<A>を集める。",
+        "kanji": "鉱物",
+        "kana": "こうぶつ"
+      },
+      { "question": "<A>を発見した。", "kanji": "金鉱", "kana": "きんこう" },
+      {
+        "question": "<A>を採掘する。",
+        "kanji": "鉄鉱石",
+        "kana": "てっこうせき"
+      },
+
+      {
+        "question": "大会で<A>をかく得する。",
+        "kanji": "銅メダル",
+        "kana": "どうメダル"
+      },
+      {
+        "question": "博物館で<A>を見る。",
+        "kanji": "銅像",
+        "kana": "どうぞう"
+      },
+      {
+        "question": "貴重な<A>を鑑賞する。",
+        "kanji": "青銅",
+        "kana": "せいどう"
+      },
+      { "question": "昔の<A>を集める。", "kanji": "銅貨", "kana": "どうか" },
+      {
+        "question": "<A>を美術館で見る。",
+        "kanji": "銅版画",
+        "kana": "どうはんが"
       }
     ]
   }
